@@ -8,7 +8,7 @@ UD Mbya_Guarani-Dooley is the UD annotation of a corpus of narratives written by
 
 * Dooley, Robert A. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted. PID ailla:119734
 
-The narratives in Dooley's collection were interlinearized in SIL Fieldworks (Black and Simons 2006), and annotated in UD manually in Arborator (Gerdes 2013). Features were converted automatically from the morphological glosses added in SIL Fieldworks.
+The narratives in Dooley's collection were interlinearized in SIL FieldWorks Language Explorer (Black and Simons 2006), and manually annotated in UD in Arborator (Gerdes 2013). Features were converted automatically from the morphological glosses added in SIL FieldWorks Language Explorer.
 
 Due to copyright restrictions, the corpus that is distributed as part of UD only contains the annotation (tags, features, relations), while the FORM and LEMMA columns are empty. A password protected version of UD Mbya_Guarani-Dooley with FORM and LEMMA fields is archived on the Archive of the Indigenous Languages of Latin America, in the following collection:
 
