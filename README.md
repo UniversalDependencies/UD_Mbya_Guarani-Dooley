@@ -31,12 +31,12 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: no
-Genre: nonfiction news
+Genre: nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
-Relations: converted from manual
+Relations: manual
 Contributors: Thomas, Guillaume
 Contributing: elsewhere
 Contact: guillaume.thomas@utoronto.ca
