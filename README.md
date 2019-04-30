@@ -6,10 +6,6 @@ UD Mbya_Guarani-Dooley is a corpus of narratives written in Mbyá Guaraní (Tupi
 
 UD Mbya_Guarani-Dooley is the UD annotation of a corpus of narratives written by two Mbyá Guaraní speakers, Nelson Florentino and Darci Pires de Lima, between 1976 and 1990 in Brazil. The corpus was compiled by Robert A. Dooley (SIL), and is archived at the Archive of the Indigenous Languages of Latin America:
 
-Consider using the development version of the corpus, which contains the latest improvements, while the official release is updated every 6 months:
-
-	https://github.com/UniversalDependencies/UD_Mbya_Guarani-Dooley/tree/dev
-
 * Dooley, Robert A. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted. PID ailla:119734
 
 The narratives in Dooley's collection were interlinearized in SIL FieldWorks Language Explorer (Black and Simons 2006), and manually annotated in UD in Arborator (Gerdes 2013). Features were converted automatically from the morphological glosses added in SIL FieldWorks Language Explorer.
@@ -17,6 +13,10 @@ The narratives in Dooley's collection were interlinearized in SIL FieldWorks Lan
 Due to copyright restrictions, the corpus that is distributed as part of UD only contains the annotation (tags, features, relations), while the FORM and LEMMA columns are empty. A password protected version of UD Mbya_Guarani-Dooley with FORM and LEMMA fields is archived on the Archive of the Indigenous Languages of Latin America, in the following collection:
 
 * Guillaume, Thomas and Dooley, Robert A. Dependency Treebank derived from the Mbyá Guaraní collection of Robert Dooley. Access: 100% restricted. PID ailla:119734
+
+Consider using the development version of the corpus, which contains the latest improvements, while the official release is updated every 6 months:
+
+* https://github.com/UniversalDependencies/UD_Mbya_Guarani-Dooley/tree/dev
 
 # Acknowledgments
 
