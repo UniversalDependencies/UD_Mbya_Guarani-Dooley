@@ -31,7 +31,7 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: no
-Genre: nonfiction
+Genre: narratives
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
