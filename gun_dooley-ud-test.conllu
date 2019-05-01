@@ -6289,7 +6289,7 @@
 16	_	_	PUNCT	punct	_	19	punct	_	_
 17	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 18	_	_	PART	illocprt	_	17	amod	_	_
-19	_	_	VERB	vt	Person[subj]=12|Subcat=Tran	12	parataxis:rep	_	_
+19	_	_	VERB	vt	Person[obj]=2|Person[subj]=1|Subcat=Tran	12	parataxis:rep	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	19	parataxis	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
@@ -10219,7 +10219,7 @@
 10	_	_	PUNCT	punct	_	13	punct	_	_
 11	_	_	ADV	adv	_	13	advmod	_	_
 12	_	_	PART	discprt	_	11	advmod	_	_
-13	_	_	VERB	vt	Person[subj]=12|Polarity=Neg|Subcat=Tran	6	parataxis:rep	_	_
+13	_	_	VERB	vt	Person[obj]=2|Person[subj]=1|Polarity=Neg|Subcat=Tran	6	parataxis:rep	_	_
 14	_	_	PART	tensprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	17	punct	_	_
 16	mba'eta	mba'eta	CCONJ	coordconn	_	17	cc	_	because
