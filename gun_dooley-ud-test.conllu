@@ -30,7 +30,7 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NUM	num	_	6	nummod	_	_
 6	_	_	NOUN	n	_	7	obl	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -43,7 +43,7 @@
 17	_	_	NOUN	n	_	15	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	PUNCT	punct	_	15	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 4
@@ -52,7 +52,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	9	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -60,7 +60,7 @@
 10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	PART	focprt	_	9	advmod	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
-13	he'i	he'i	VERB	vt	Subcat=Tran	9	parataxis	_	say
+13	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	A3.say
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 5
@@ -69,7 +69,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	9	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
@@ -88,7 +88,7 @@
 8	_	_	VERB	vi	Person[subj]=1|Subcat=Int	2	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 7
@@ -774,7 +774,7 @@
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	10	parataxis:rep	_	_
 8	_	_	PART	illocprt	_	7	advmod	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	he'i	he'i	VERB	vt	Subcat=Tran	13	advcl	_	say
+10	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	13	advcl	_	A3.say
 11	_	_	SCONJ	subordconn	_	10	mark	_	_
 12	_	_	PRON	pro	Person=3|PronType=Prs	13	nsubj	_	_
 13	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
@@ -1094,14 +1094,14 @@
 15	_	_	NOUN	n	_	18	nsubj	_	_
 16	_	_	VERB	vi	Subcat=Int	15	acl	_	_
 17	_	_	SCONJ	rel	_	16	mark	_	_
-18	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 19	_	_	NOUN	n	_	18	obl	_	_
 20	_	_	ADP	post	_	19	case	_	_
 21	_	_	PUNCT	punct	_	18	punct	_	_
 22	“	“	PUNCT	punct	_	23	punct	_	_
 23	_	_	NOUN	n	_	18	parataxis:rep	_	_
 24	_	_	PUNCT	punct	_	23	punct	_	_
-25	_	_	VERB	vt	Subcat=Tran	23	parataxis	_	_
+25	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	23	parataxis	_	_
 26	_	_	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 83
@@ -1114,14 +1114,14 @@
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	5	compound:svc	_	_
 8	_	_	PRON	interpron	PronType=Int	12	nsubj	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	NOUN	n	Number[psor]=Sing	11	nmod	_	_
 11	_	_	NOUN	n	_	12	obj	_	_
 12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	ccomp	_	_
 13	_	_	ADV	adv	_	12	advmod	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 84
@@ -1214,7 +1214,7 @@
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	PART	illocprt	_	7	advmod	_	_
 11	_	_	PART	focprt	_	12	amod	_	_
-12	_	_	PRON	pro	PronType=Prs	15	nsubj	_	_
+12	_	_	PRON	indfpro	PronType=Ind	15	nsubj	_	_
 13	_	_	PART	discprt	_	12	amod	_	_
 14	_	_	PART	intprt	_	13	fixed	_	_
 15	_	_	VERB	vi	Person[subj]=3|Polarity=Neg|Subcat=Int	0	root	_	_
@@ -1244,13 +1244,13 @@
 5	_	_	PUNCT	punct	_	6	punct	_	_
 6	_	_	VERB	vt	Person[subj]=1|Polarity=Neg|Subcat=Tran	14	parataxis:rep	_	_
 7	_	_	PRON	interpron	PronType=Int	9	nsubj	_	_
-8	_	_	PART	illocprt	_	7	discourse:q	_	_
+8	_	_	PART	qprt	_	7	discourse:q	_	_
 9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	6	ccomp	_	_
 10	_	_	SCONJ	rel	_	9	mark	_	_
 11	_	_	NOUN	n	_	12	nmod	_	_
 12	_	_	NOUN	n	_	9	obj	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 94
@@ -1268,7 +1268,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	11	punct	_	_
 7	_	_	ADV	adv	_	11	advmod	_	_
@@ -1278,12 +1278,12 @@
 11	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	4	parataxis:rep	_	_
 12	_	_	PART	aspprt	_	11	advmod	_	_
 13	_	_	PRON	interpron	PronType=Int	15	nsubj	_	_
-14	_	_	PART	illocprt	_	13	discourse:q	_	_
+14	_	_	PART	qprt	_	13	discourse:q	_	_
 15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	ccomp	_	_
 16	_	_	NOUN	n	_	17	nmod	_	_
 17	_	_	NOUN	n	_	15	obj	_	_
 18	_	_	PUNCT	punct	_	11	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 20	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 96
@@ -1369,7 +1369,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	PART	focprt	_	6	amod	_	_
-6	_	_	PRON	pro	PronType=Prs	10	nsubj	_	_
+6	_	_	PRON	indfpro	PronType=Ind	10	nsubj	_	_
 7	_	_	PART	discprt	_	6	amod	_	_
 8	_	_	NOUN	n	_	6	acl	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
@@ -1395,12 +1395,12 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=1|Polarity=Neg|Subcat=Tran	5	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 11	_	_	PART	focprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -1416,7 +1416,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	PRON	pro	Person=3|PronType=Prs	11	obl	_	_
 10	_	_	PART	focprt	_	9	amod	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	NOUN	n	_	11	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	PUNCT	punct	_	11	punct	_	_
@@ -1434,7 +1434,7 @@
 26	_	_	NOUN	n	_	27	nmod	_	_
 27	_	_	NOUN	n	_	23	obj	_	_
 28	_	_	PUNCT	punct	_	21	punct	_	_
-29	_	_	VERB	vt	Subcat=Tran	21	parataxis	_	_
+29	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	21	parataxis	_	_
 30	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 107
@@ -1445,8 +1445,8 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PART	quantprt	_	5	clf	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-8	_	_	PRON	pro	PronType=Prs	7	obl	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+8	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
 10	_	_	PUNCT	punct	_	15	punct	_	_
 11	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
@@ -1455,7 +1455,7 @@
 14	_	_	PART	discprt	_	12	fixed	_	_
 15	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 18	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 108
@@ -1464,7 +1464,7 @@
 2	_	_	PRON	interpron	PronType=Int	5	parataxis:rep	_	_
 3	_	_	ADJ	vi	Subcat=Int	2	amod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	8	advcl	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	0	root	_	_
@@ -1557,7 +1557,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
-6	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+6	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	12	punct	_	_
 9	_	_	NOUN	n	Number[psor]=Sing	10	nmod	_	_
@@ -1565,7 +1565,7 @@
 11	_	_	NUM	num	_	10	nummod	_	_
 12	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 116
@@ -1584,7 +1584,7 @@
 12	_	_	VERB	vi	Person[subj]=1|Subcat=Int	15	parataxis:rep	_	_
 13	_	_	SCONJ	rel	_	12	mark	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = 117
@@ -1652,7 +1652,7 @@
 12	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 122
@@ -1662,7 +1662,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PROPN	nprop	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -1672,7 +1672,7 @@
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	VERB	vi	Person[subj]=1|Subcat=Int	6	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 123
@@ -1682,7 +1682,7 @@
 3	_	_	NUM	num	_	4	nummod	_	_
 4	_	_	NOUN	n	_	2	obj	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 124
@@ -1703,7 +1703,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	16	punct	_	_
 8	_	_	ADV	adv	_	16	advmod	_	_
@@ -1717,7 +1717,7 @@
 16	_	_	VERB	vi	Person[subj]=1|Subcat=Int	5	parataxis:rep	_	_
 17	_	_	PART	tensprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 126
@@ -1780,14 +1780,14 @@
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
-7	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+7	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 9	_	_	PUNCT	punct	_	12	punct	_	_
 10	_	_	PRON	interpron	PronType=Int	12	obj	_	_
 11	_	_	PART	illocprt	_	10	amod	_	_
 12	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 131
@@ -1796,7 +1796,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	kavaju	kavaju	NOUN	n	_	5	nsubj	_	horse
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	11	punct	_	_
 8	_	_	NOUN	n	Number[psor]=Sing	9	nmod	_	_
@@ -1811,7 +1811,7 @@
 2	_	_	NOUN	n	_	3	obj	_	_
 3	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 4	_	_	PUNCT	punct	_	3	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 133
@@ -1851,7 +1851,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
@@ -1865,7 +1865,7 @@
 16	_	_	VERB	vi	Person[subj]=1|Subcat=Int	5	parataxis:rep	_	_
 17	_	_	PART	tensprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 137
@@ -1894,12 +1894,12 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	NOUN	n	_	14	nmod	_	_
 14	_	_	NOUN	n	_	15	nmod	_	_
 15	_	_	NOUN	n	_	10	obj	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 139
@@ -1916,14 +1916,14 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	4	parataxis:rep	_	_
 10	,”	,”	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 141
@@ -1932,11 +1932,11 @@
 2	_	_	VERB	vt	Person[subj]=1|Polarity=Neg|Subcat=Tran	9	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	7	obj	_	_
-5	_	_	PART	illocprt	_	4	discourse:q	_	_
+5	_	_	PART	qprt	_	4	discourse:q	_	_
 6	_	_	PART	illocprt	_	4	amod	_	_
 7	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	2	ccomp	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 142
@@ -1947,7 +1947,7 @@
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	VERB	vd:a	_	2	compound:svc	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 143
@@ -2030,14 +2030,14 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	NOUN	n	_	4	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 149
@@ -2052,7 +2052,7 @@
 8	ikuai	kuai	VERB	vi	Person[subj]=3|Subcat=Int	5	acl	_	B3-be.PL
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 150
@@ -2063,18 +2063,18 @@
 4	_	_	PART	illocprt	_	3	advmod	_	_
 5	_	_	NOUN	n	_	3	obj	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 151
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	4	punct	_	_
-2	_	_	PRON	pro	PronType=Prs	4	dislocated	_	_
+2	_	_	PRON	indfpro	PronType=Ind	4	dislocated	_	_
 3	_	_	PART	illocprt	_	2	amod	_	_
 4	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 5	_	_	NOUN	n	_	4	obj	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -2091,7 +2091,7 @@
 8	_	_	SCONJ	nmlzer	_	7	case	_	_
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	PUNCT	punct	_	3	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 153
@@ -2103,7 +2103,7 @@
 5	_	_	PART	quantprt	_	4	clf	_	_
 6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PUNCT	punct	_	2	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 154
@@ -2239,7 +2239,7 @@
 7	_	_	SCONJ	subordconn	_	4	mark	_	_
 8	_	_	PART	discprt	_	4	advmod	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PROPN	nprop	_	10	obl	_	_
 12	pe	pe	ADP	post	_	11	case	_	DAT
 13	_	_	PUNCT	punct	_	10	punct	_	_
@@ -2247,12 +2247,12 @@
 15	_	_	VERB	vi	Person[subj]=3|Subcat=Int	10	parataxis:rep	_	_
 16	_	_	PART	intprt	_	15	advmod	_	_
 17	_	_	PART	illocprt	_	15	advmod	_	_
-18	_	_	PRON	pro	PronType=Prs	19	obl	_	_
+18	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	19	obl	_	_
 19	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	15	csubj	_	_
 20	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	19	obj	_	_
 21	_	_	SCONJ	rel	_	20	mark	_	_
 22	_	_	PUNCT	punct	_	15	punct	_	_
-23	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+23	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 24	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 164
@@ -2269,7 +2269,7 @@
 10	_	_	VERB	vi	Person[subj]=1|Subcat=Int	13	parataxis:rep	_	_
 11	_	_	PART	tensprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PART	illocprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
 
@@ -2399,7 +2399,7 @@
 3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	discprt	_	3	fixed	_	_
 5	_	_	PART	illocprt	_	1	advmod	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	nsubj	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -2418,7 +2418,7 @@
 22	_	_	VERB	vi	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Int	6	parataxis:rep	_	_
 23	_	_	PART	tensprt	_	22	advmod	_	_
 24	_	_	PUNCT	punct	_	22	punct	_	_
-25	_	_	VERB	vt	Subcat=Tran	22	parataxis	_	_
+25	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	22	parataxis	_	_
 26	_	_	PART	illocprt	_	25	advmod	_	_
 27	_	_	PROPN	nprop	_	25	obl	_	_
 28	_	_	ADP	post	_	27	case	_	_
@@ -2496,12 +2496,12 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	6	obj	_	_
+4	_	_	PRON	univpro	PronType=Tot	6	obj	_	_
 5	_	_	PART	discprt	_	4	amod	_	_
 6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	PART	illocprt	_	6	advmod	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	21	punct	_	_
 12	_	_	ADV	adv	_	21	advmod	_	_
@@ -2516,7 +2516,7 @@
 21	_	_	VERB	vi	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Int	9	parataxis:rep	_	_
 22	_	_	SCONJ	rel	_	21	mark	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	21	parataxis	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	21	parataxis	_	_
 25	_	_	PART	focprt	_	24	advmod	_	_
 26	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -2636,7 +2636,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PART	focprt	_	8	advmod	_	_
 10	_	_	PROPN	nprop	_	8	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
@@ -2650,7 +2650,7 @@
 19	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	18	ccomp	_	_
 20	_	_	SCONJ	rel	_	19	mark	_	_
 21	_	_	PUNCT	punct	_	14	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 23	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 192
@@ -2667,7 +2667,7 @@
 10	_	_	VERB	vi	Person[subj]=1|Subcat=Int	13	parataxis:rep	_	_
 11	_	_	PART	tensprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 193
@@ -2698,7 +2698,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	PART	quantprt	_	4	clf	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -2719,7 +2719,7 @@
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 197
@@ -2732,7 +2732,7 @@
 6	_	_	VERB	vt	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Tran	9	parataxis:rep	_	_
 7	_	_	VERB	vs	Clusivity=Ex|Person=1|VerbForm=Ser	6	compound:svc	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 198
@@ -3094,7 +3094,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -3107,7 +3107,7 @@
 14	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	11	conj	_	_
 15	_	_	NOUN	n	_	14	obj	_	_
 16	_	_	PUNCT	punct	_	11	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 18	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 225
@@ -3325,7 +3325,7 @@
 13	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 14	_	_	PART	illocprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 239
@@ -3333,7 +3333,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -3349,7 +3349,7 @@
 17	_	_	NOUN	n	_	14	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	PUNCT	punct	_	14	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 21	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 240
@@ -3383,7 +3383,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+6	_	_	PRON	univpro	PronType=Tot	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	ADP	post	_	6	case	_	_
 9	_	_	PUNCT	punct	_	4	punct	_	_
@@ -3400,7 +3400,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	6	dislocated	_	_
+4	_	_	PRON	univpro	PronType=Tot	6	dislocated	_	_
 5	_	_	PART	illocprt	_	4	amod	_	_
 6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	NOUN	n	_	6	obj	_	_
@@ -3436,12 +3436,12 @@
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	12	punct	_	_
 12	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	9	parataxis:rep	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	NOUN	n	Number[psor]=Plur	12	obj	_	_
 15	_	_	CCONJ	coordconn	_	16	cc	_	_
 16	_	_	NOUN	n	Number[psor]=Plur	14	conj	_	_
 17	”	”	PUNCT	punct	_	12	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 19	_	_	PART	focprt	_	18	advmod	_	_
 20	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -3451,7 +3451,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	12	punct	_	_
 8	_	_	VERB	vi	Person[subj]=3|Subcat=Int	12	advcl	_	_
@@ -3462,7 +3462,7 @@
 13	_	_	PART	intprt	_	12	advmod	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 248
@@ -3475,7 +3475,7 @@
 6	_	_	PART	tensprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 249
@@ -3484,13 +3484,13 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 9	_	_	PART	intprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 12	_	_	NOUN	n	_	11	nsubj	_	_
 13	_	_	ADJ	vi:i	_	12	amod	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
@@ -3523,7 +3523,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	10	punct	_	_
 7	_	_	VERB	vi	Person[subj]=2|Subcat=Int	10	advcl	_	_
@@ -3543,7 +3543,7 @@
 7	_	_	VERB	vs	Person=2|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	SCONJ	subordconn	_	5	cc	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 254
@@ -3577,7 +3577,7 @@
 4	_	_	PART	intprt	_	2	advmod	_	_
 5	_	_	PART	aspprt	_	2	advmod	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PART	intprt	_	7	advmod	_	_
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vs	Person=3|VerbForm=Ser	7	compound:svc	_	_
@@ -3629,7 +3629,7 @@
 25	ae	ae	PART	intprt	_	24	amod	_	INT
 26	_	_	PART	discprt	_	24	amod	_	_
 27	_	_	PUNCT	punct	_	24	punct	_	_
-28	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+28	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 29	_	_	PUNCT	punct	_	28	punct	_	_
 
 # sent_id = 259
@@ -3662,7 +3662,7 @@
 9	_	_	SCONJ	subordconn	_	7	mark	_	_
 10	_	_	PART	discprt	_	7	advmod	_	_
 11	_	_	PART	illocprt	_	7	advmod	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	_	_	PUNCT	punct	_	26	punct	_	_
 15	_	_	NOUN	n	Number[psor]=Sing	26	nsubj	_	_
@@ -3676,9 +3676,9 @@
 23	_	_	NOUN	n	Number[psor]=Sing	26	parataxis:rep	_	_
 24	_	_	SCONJ	rel	_	23	mark	_	_
 25	_	_	PUNCT	punct	_	23	punct	_	_
-26	_	_	VERB	vt	Subcat=Tran	12	parataxis:rep	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis:rep	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
-28	_	_	VERB	vt	Subcat=Tran	26	parataxis	_	_
+28	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	26	parataxis	_	_
 29	_	_	NOUN	n	_	28	nsubj	_	_
 30	_	_	PART	quantprt	_	29	clf	_	_
 31	_	_	PUNCT	punct	_	12	punct	_	_
@@ -3702,7 +3702,7 @@
 6	_	_	NOUN	n	Number[psor]=Sing	7	nmod	_	_
 7	_	_	NOUN	n	_	2	obl	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -3797,7 +3797,7 @@
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Person[subj]=2|Subcat=Int	10	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 271
@@ -3806,7 +3806,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	24	punct	_	_
 8	_	_	NOUN	n	_	17	nsubj	_	_
@@ -3827,7 +3827,7 @@
 23	_	_	SCONJ	subordconn	_	20	mark	_	_
 24	_	_	VERB	vi	Person[subj]=1|Subcat=Int	5	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Subcat=Tran	24	parataxis	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	24	parataxis	_	_
 27	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 272
@@ -3836,7 +3836,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
@@ -3844,7 +3844,7 @@
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	8	conj	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 273
@@ -3858,7 +3858,7 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	obj	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 274
@@ -3907,7 +3907,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PROPN	nprop	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -3923,7 +3923,7 @@
 19	_	_	PART	illocprt	_	17	advmod	_	_
 20	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	6	parataxis:rep	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	20	parataxis	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	20	parataxis	_	_
 23	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 278
@@ -4012,7 +4012,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 284
@@ -4020,7 +4020,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	20	punct	_	_
 7	_	_	NOUN	n	Clusivity=Ex	20	nsubj	_	_
@@ -4036,9 +4036,9 @@
 17	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	20	parataxis:rep	_	_
 18	_	_	SCONJ	rel	_	17	mark	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	4	parataxis:rep	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	4	parataxis:rep	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	20	parataxis	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	20	parataxis	_	_
 23	_	_	PART	focprt	_	22	advmod	_	_
 24	_	_	PART	illocprt	_	22	advmod	_	_
 25	_	_	PUNCT	punct	_	4	punct	_	_
@@ -4113,7 +4113,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 290
@@ -4123,7 +4123,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	6	advcl	_	_
 5	vy	vy	SCONJ	subordconn	_	4	mark	_	SS
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	32	punct	_	_
 9	_	_	NOUN	n	_	27	nsubj	_	_
@@ -4144,14 +4144,14 @@
 24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	27	parataxis:rep	_	_
 25	_	_	SCONJ	rel	_	24	mark	_	_
 26	_	_	PUNCT	punct	_	24	punct	_	_
-27	_	_	VERB	vt	Subcat=Tran	30	advcl	_	_
+27	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	30	advcl	_	_
 28	_	_	SCONJ	subordconn	_	27	mark	_	_
 29	_	_	NOUN	n	Number[psor]=Sing	30	nsubj	_	_
 30	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	32	advcl	_	_
 31	_	_	SCONJ	subordconn	_	30	mark	_	_
 32	_	_	VERB	vt	Person[obj]=1|Subcat=Tran	6	parataxis:rep	_	_
 33	_	_	PUNCT	punct	_	32	punct	_	_
-34	_	_	VERB	vt	Subcat=Tran	32	parataxis	_	_
+34	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	32	parataxis	_	_
 35	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 291
@@ -4160,7 +4160,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PROPN	nprop	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -4182,7 +4182,7 @@
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 293
@@ -4198,7 +4198,7 @@
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vd:a	_	12	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 294
@@ -4240,7 +4240,7 @@
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
-9	_	_	PRON	pro	PronType=Prs	11	obj	_	_
+9	_	_	PRON	univpro	PronType=Tot	11	obj	_	_
 10	_	_	PART	illocprt	_	9	amod	_	_
 11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	.	.	PUNCT	punct	_	11	punct	_	_
@@ -4268,10 +4268,10 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vi	Person[subj]=3|Subcat=Int	7	parataxis:rep	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	10	csubj	_	_
 14	_	_	PUNCT	punct	_	10	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 16	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 300
@@ -4279,13 +4279,13 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	4	parataxis:rep	_	_
 8	_	_	PART	aspprt	_	7	advmod	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 301
@@ -4326,10 +4326,10 @@
 10	_	_	PUNCT	punct	_	8	punct	_	_
 11	_	_	PUNCT	punct	_	14	punct	_	_
 12	_	_	PRON	interpron	PronType=Int	14	obj	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	8	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 304
@@ -4337,7 +4337,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	22	punct	_	_
 7	_	_	NOUN	n	Number[psor]=Sing	22	nsubj	_	_
@@ -4355,9 +4355,9 @@
 19	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	22	parataxis:rep	_	_
 20	_	_	SCONJ	rel	_	19	mark	_	_
 21	_	_	PUNCT	punct	_	19	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	4	parataxis:rep	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	4	parataxis:rep	_	_
 23	_	_	PUNCT	punct	_	22	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	22	parataxis	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	22	parataxis	_	_
 25	_	_	PART	illocprt	_	24	advmod	_	_
 26	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -4465,7 +4465,7 @@
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vi	Person[subj]=2|Subcat=Int	4	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 314
@@ -4474,7 +4474,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	16	punct	_	_
 8	_	_	NOUN	n	_	16	nsubj	_	_
@@ -4487,7 +4487,7 @@
 15	_	_	ADP	post	_	12	case	_	_
 16	_	_	VERB	vt	Person[obj]=1|Subcat=Tran	5	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 315
@@ -4501,9 +4501,9 @@
 7	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	10	parataxis:rep	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	12	parataxis:rep	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	12	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	16	advcl	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	advcl	_	_
 13	_	_	PART	illocprt	_	12	advmod	_	_
 14	_	_	SCONJ	subordconn	_	12	mark	_	_
 15	_	_	NOUN	n	Number[psor]=Sing	16	nsubj	_	_
@@ -4517,7 +4517,7 @@
 23	_	_	SCONJ	subordconn	_	21	mark	_	_
 24	_	_	VERB	vi	Person[subj]=1|Subcat=Int	26	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
 
 # sent_id = 316
@@ -4526,7 +4526,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
@@ -4535,7 +4535,7 @@
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	8	conj	_	_
 12	_	_	PART	intprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 317
@@ -4543,7 +4543,7 @@
 1	_	_	PUNCT	punct	_	2	punct	_	_
 2	_	_	VERB	vi	Person[subj]=2|Subcat=Int	4	parataxis:rep	_	_
 3	_	_	PUNCT	punct	_	2	punct	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 318
@@ -4558,7 +4558,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	ema'ẽ	ma'ẽ	VERB	vd:a	_	11	parataxis:rep	_	2.SG.IMP-look
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 319
@@ -4620,9 +4620,9 @@
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	Ereru	ru	VERB	vt	Person[subj]=2|Subcat=Tran	13	parataxis:rep	_	A2.SG-COM-come
 10	_	_	PART	discprt	_	9	advmod	_	_
-11	_	_	PART	illocprt	_	9	discourse:q	_	_
+11	_	_	PART	qprt	_	9	discourse:q	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 323
@@ -4631,14 +4631,14 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	demadv	_	10	advmod	_	_
 9	_	_	PART	discprt	_	8	advmod	_	_
 10	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	5	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 324
@@ -4697,7 +4697,7 @@
 13	_	_	PART	illocprt	_	12	amod	_	_
 14	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 17	_	_	PART	focprt	_	16	advmod	_	_
 18	_	_	PART	aspprt	_	16	advmod	_	_
 19	_	_	NOUN	n	_	16	nsubj	_	_
@@ -4708,7 +4708,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	30	punct	_	_
 7	_	_	NOUN	n	Number[psor]=Sing	30	dislocated	_	_
@@ -4734,11 +4734,11 @@
 27	_	_	PART	aspprt	_	25	advmod	_	_
 28	_	_	SCONJ	rel	_	25	mark	_	_
 29	_	_	PUNCT	punct	_	25	punct	_	_
-30	_	_	VERB	vt	Subcat=Tran	4	parataxis:rep	_	_
+30	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	4	parataxis:rep	_	_
 31	_	_	PART	illocprt	_	30	advmod	_	_
 32	xeryvy	yvy	NOUN	n	Number[psor]=Sing	30	nsubj	_	B1.SG-R-younger.brother
 33	_	_	PUNCT	punct	_	30	punct	_	_
-34	_	_	VERB	vt	Subcat=Tran	30	parataxis	_	_
+34	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	30	parataxis	_	_
 35	_	_	PART	focprt	_	34	advmod	_	_
 36	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -4922,7 +4922,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	NOUN	n	_	6	compound	_	_
 8	_	_	PROPN	nprop	_	5	obl	_	_
@@ -4933,7 +4933,7 @@
 13	_	_	NOUN	n	Number[psor]=Sing	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 343
@@ -4942,7 +4942,7 @@
 2	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 344
@@ -4953,7 +4953,7 @@
 4	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	7	parataxis:rep	_	_
 5	_	_	PART	tensprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 345
@@ -4968,7 +4968,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vd:a	_	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	11	nsubj	_	_
 14	_	_	NOUN	n	_	13	compound	_	_
@@ -4990,7 +4990,7 @@
 10	_	_	PART	intprt	_	9	advmod	_	_
 11	_	_	VERB	vd:a	_	13	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	he'i	he'i	VERB	vt	Subcat=Tran	0	root	_	say
+13	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	A3.say
 14	_	_	PROPN	nprop	_	13	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
@@ -5000,7 +5000,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	nsubj	_	_
 6	_	_	PROPN	nprop	_	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
@@ -5019,7 +5019,7 @@
 20	_	_	PART	focprt	_	19	amod	_	_
 21	_	_	PART	intprt	_	19	amod	_	_
 22	_	_	PUNCT	punct	_	19	punct	_	_
-23	_	_	VERB	vt	Subcat=Tran	36	advcl	_	_
+23	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	36	advcl	_	_
 24	_	_	PART	aspprt	_	23	advmod	_	_
 25	_	_	SCONJ	subordconn	_	23	mark	_	_
 26	_	_	PART	illocprt	_	23	advmod	_	_
@@ -5034,7 +5034,7 @@
 35	_	_	PUNCT	punct	_	31	punct	_	_
 36	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
 37	_	_	PUNCT	punct	_	36	punct	_	_
-38	_	_	VERB	vt	Subcat=Tran	36	parataxis	_	_
+38	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	36	parataxis	_	_
 39	_	_	PART	illocprt	_	38	advmod	_	_
 40	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -5055,7 +5055,7 @@
 13	_	_	PART	discprt	_	12	advmod	_	_
 14	_	_	PART	tensprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PART	illocprt	_	16	advmod	_	_
 18	_	_	PROPN	nprop	_	16	obl	_	_
 19	_	_	ADP	post	_	18	case	_	_
@@ -5129,14 +5129,14 @@
 6	_	_	PART	focprt	_	5	amod	_	_
 7	_	_	PART	intprt	_	5	amod	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	16	advcl	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	advcl	_	_
 10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PROPN	nprop	_	16	nsubj	_	_
 13	_	_	PRON	pro	Person=3|PronType=Prs	12	appos	_	_
 14	_	_	ADV	adv	_	13	amod	_	_
 15	_	_	PART	illocprt	_	12	amod	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 18	_	_	PUNCT	punct	_	41	punct	_	_
 19	_	_	NOUN	n	_	41	nsubj	_	_
@@ -5161,10 +5161,10 @@
 38	_	_	VERB	vi	Person[subj]=3|Subcat=Int	41	parataxis:rep	_	_
 39	_	_	SCONJ	rel	_	38	mark	_	_
 40	_	_	PUNCT	punct	_	38	punct	_	_
-41	_	_	VERB	vt	Subcat=Tran	16	parataxis:rep	_	_
+41	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis:rep	_	_
 42	_	_	ADV	adv	_	41	advmod	_	_
 43	_	_	PUNCT	punct	_	41	punct	_	_
-44	he'i	he'i	VERB	vt	Subcat=Tran	41	parataxis	_	say
+44	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	41	parataxis	_	A3.say
 45	_	_	PART	illocprt	_	44	advmod	_	_
 46	_	_	PUNCT	punct	_	16	punct	_	_
 
@@ -5293,7 +5293,7 @@
 5	_	_	NUM	num	_	6	nummod	_	_
 6	_	_	NOUN	n	_	8	obl	_	_
 7	_	_	NOUN	n	_	8	nsubj	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 10	_	_	PUNCT	punct	_	14	punct	_	_
 11	_	_	ADV	adv	_	14	advmod	_	_
@@ -5309,7 +5309,7 @@
 3	_	_	NOUN	n	Number[psor]=Sing	2	obl	_	_
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 367
@@ -5333,7 +5333,7 @@
 17	_	_	PART	modprt	_	16	advmod	_	_
 18	_	_	PART	tensprt	_	16	advmod	_	_
 19	_	_	PUNCT	punct	_	13	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = 368
@@ -5353,7 +5353,7 @@
 13	_	_	SCONJ	rel	_	12	mark	_	_
 14	_	_	PART	focprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 369
@@ -5365,7 +5365,7 @@
 5	_	_	VERB	vi	Person[subj]=2|Subcat=Int	8	parataxis:rep	_	_
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 370
@@ -5379,7 +5379,7 @@
 7	_	_	VERB	vd:a	_	10	parataxis:rep	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 371
@@ -5394,7 +5394,7 @@
 8	_	_	PART	focprt	_	7	amod	_	_
 9	_	_	VERB	vt	Subcat=Tran	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 372
@@ -5407,7 +5407,7 @@
 6	_	_	PART	discprt	_	3	advmod	_	_
 7	_	_	PART	illocprt	_	3	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
@@ -5417,7 +5417,7 @@
 16	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	14	compound:svc	_	_
 17	_	_	VERB	vs	Person=3|VerbForm=Ser	16	compound:svc	_	_
 18	_	_	PUNCT	punct	_	14	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 20	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 373
@@ -5433,7 +5433,7 @@
 9	_	_	VERB	vi	Person[subj]=3|Subcat=Int	8	compound:svc	_	_
 10	_	_	SCONJ	subordconn	_	8	mark	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 374
@@ -5442,7 +5442,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	18	punct	_	_
@@ -5457,7 +5457,7 @@
 17	_	_	PART	focprt	_	16	amod	_	_
 18	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	18	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	18	parataxis	_	_
 21	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 375
@@ -5485,7 +5485,7 @@
 10	oma'ẽmba	ma'ẽ	VERB	vd:a	_	4	compound:svc	_	A3-look-COMPL
 11	_	_	SCONJ	subordconn	_	4	mark	_	_
 12	_	_	PART	illocprt	_	4	advmod	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PRON	pro	PronType=Prs	13	obl	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
 16	_	_	PUNCT	punct	_	18	punct	_	_
@@ -5493,7 +5493,7 @@
 18	_	_	VERB	vi	Person[subj]=3|Subcat=Int	13	parataxis:rep	_	_
 19	_	_	PART	aspprt	_	18	advmod	_	_
 20	_	_	PUNCT	punct	_	18	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	18	parataxis	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	18	parataxis	_	_
 22	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 377
@@ -5506,7 +5506,7 @@
 6	_	_	NOUN	n	_	3	conj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PRON	pro	PronType=Prs	9	obl	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -5516,7 +5516,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	SCONJ	rel	_	6	mark	_	_
 8	_	_	NOUN	n	_	5	obl	_	_
@@ -5540,7 +5540,7 @@
 5	_	_	ADV	demadv	_	6	advmod	_	_
 6	_	_	VERB	vi	Person[subj]=1|Subcat=Int	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 380
@@ -5548,7 +5548,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -5564,7 +5564,7 @@
 17	_	_	VERB	vi	Person[subj]=1|Subcat=Int	4	parataxis:rep	_	_
 18	_	_	PART	tensprt	_	17	advmod	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 381
@@ -5582,16 +5582,16 @@
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PART	focprt	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 382
 # text =_ _ _ _ _ _
 1	_	_	PUNCT	punct	_	2	punct	_	_
 2	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
-3	_	_	PRON	pro	PronType=Prs	2	obl	_	_
+3	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 383
@@ -5639,7 +5639,7 @@
 12	_	_	PART	discprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	6	parataxis:rep	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 16	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 386
@@ -5649,13 +5649,13 @@
 3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vi	Person[subj]=2|Subcat=Int	6	parataxis:rep	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 13	_	_	VERB	vpos	VerbForm=Post	12	compound:svc	_	_
 14	_	_	NOUN	n	_	12	nsubj	_	_
 15	_	_	PUNCT	punct	_	6	punct	_	_
@@ -5786,7 +5786,7 @@
 11	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 397
@@ -5795,7 +5795,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	aipoe'i	aipoe'i	VERB	vt	Subcat=Tran	0	root	_	ATN-say
+5	aipoe'i	aipoe'i	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	ATN-A3.say
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	11	punct	_	_
 8	_	_	NOUN	n	_	11	obj	_	_
@@ -5804,7 +5804,7 @@
 11	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	5	parataxis:rep	_	_
 12	_	_	ADV	adv	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
@@ -5827,7 +5827,7 @@
 3	_	_	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	0	root	_	_
 4	_	_	PRON	interpron	PronType=Int	5	det	_	_
 5	_	_	NOUN	n	_	3	ccomp	_	_
-6	_	_	PART	illocprt	_	5	discourse:q	_	_
+6	_	_	PART	qprt	_	5	discourse:q	_	_
 7	_	_	NOUN	n	_	5	nsubj	_	_
 8	_	_	PUNCT	punct	_	3	punct	_	_
 9	_	_	PART	focprt	_	10	amod	_	_
@@ -5897,7 +5897,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	5	obj	_	_
+4	_	_	PRON	univpro	PronType=Tot	5	obj	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -5906,7 +5906,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -5918,7 +5918,7 @@
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	9	conj	_	_
 15	_	_	PUNCT	punct	_	9	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 406
@@ -5984,7 +5984,7 @@
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	advcl	_	_
 14	e'ỹ	e'ỹ	PART	negprt	_	13	advmod	_	NEG
 15	_	_	SCONJ	subordconn	_	13	mark	_	_
@@ -6003,7 +6003,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -6015,7 +6015,7 @@
 14	_	_	PUNCT	punct	_	15	punct	_	_
 15	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	10	conj	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 413
@@ -6030,7 +6030,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	2	conj	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PART	focprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	11	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
@@ -6046,9 +6046,9 @@
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	5	obj	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
-9	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+9	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	he'i	he'i	VERB	vt	Subcat=Tran	15	acl	_	say
+11	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	15	acl	_	A3.say
 12	_	_	SCONJ	nmlzer	_	11	mark	_	_
 13	_	_	PART	discprt	_	11	advmod	_	_
 14	_	_	PRON	pro	Person=3|PronType=Prs	15	det	_	_
@@ -6056,9 +6056,9 @@
 16	_	_	PART	focprt	_	15	amod	_	_
 17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	21	parataxis:rep	_	_
 18	_	_	PART	illocprt	_	17	advmod	_	_
-19	_	_	PRON	pro	PronType=Prs	17	obl	_	_
+19	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	obl	_	_
 20	_	_	PUNCT	punct	_	17	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
 
 # document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
@@ -6213,7 +6213,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	PRON	pro	PronType=Prs	7	obl	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 6	_	_	PART	illocprt	_	5	amod	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
 8	_	_	VERB	vs	Person=3|VerbForm=Ser	7	compound:svc	_	_
@@ -6224,8 +6224,8 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	adv	_	10	advmod	_	_
@@ -6237,10 +6237,10 @@
 14	_	_	PART	focprt	_	12	advmod	_	_
 15	_	_	VERB	vd:a	_	10	compound:svc	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 18	_	_	PART	illocprt	_	17	advmod	_	_
 19	_	_	VERB	vs	Person=3|VerbForm=Ser	17	compound:svc	_	_
-20	_	_	PRON	pro	PronType=Prs	17	obl	_	_
+20	_	_	PRON	pro	Person=3|PronType=Prs	17	obl	_	_
 21	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 430
@@ -6249,9 +6249,9 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	je	je	PART	illocprt	_	1	advmod	_	HSY
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
-7	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+7	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 9	_	_	PUNCT	punct	_	16	punct	_	_
 10	_	_	ADV	adv	_	13	advmod	_	_
@@ -6259,12 +6259,12 @@
 12	_	_	SCONJ	subordconn	_	10	mark	_	_
 13	_	_	VERB	vi	Person[subj]=1|Subcat=Int	16	advcl	_	_
 14	_	_	SCONJ	subordconn	_	13	mark	_	_
-15	_	_	PART	illocprt	_	13	discourse:q	_	_
+15	_	_	PART	qprt	_	13	discourse:q	_	_
 16	_	_	NOUN	n	Number[psor]=Sing	5	parataxis:rep	_	_
 17	_	_	PART	discprt	_	16	amod	_	_
-18	_	_	PART	illocprt	_	16	discourse:q	_	_
+18	_	_	PART	qprt	_	16	discourse:q	_	_
 19	_	_	PUNCT	punct	_	16	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 21	_	_	PART	illocprt	_	20	advmod	_	_
 22	_	_	VERB	vs	Person=3|VerbForm=Ser	20	compound:svc	_	_
 23	_	_	PUNCT	punct	_	20	punct	_	_
@@ -6282,7 +6282,7 @@
 9	_	_	ADV	adv	_	12	advmod	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PART	illocprt	_	9	advmod	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	NOUN	n	_	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
@@ -6291,7 +6291,7 @@
 18	_	_	PART	illocprt	_	17	amod	_	_
 19	_	_	VERB	vt	Person[subj]=12|Subcat=Tran	12	parataxis:rep	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	19	parataxis	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	19	parataxis	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 432
@@ -6328,12 +6328,12 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	10	punct	_	_
 7	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	_	_	ADV	demadv	_	10	advmod	_	_
-9	_	_	PRON	pro	PronType=Prs	10	obl	_	_
+9	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
 10	_	_	VERB	vi	Person[subj]=1|Subcat=Int	16	advcl	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
 12	_	_	PART	modprt	_	10	advmod	_	_
@@ -6345,7 +6345,7 @@
 18	_	_	PART	illocprt	_	17	fixed	_	_
 19	_	_	PART	illocprt	_	16	advmod	_	_
 20	_	_	PUNCT	punct	_	16	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 22	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 435
@@ -6375,7 +6375,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	4	parataxis:rep	_	_
@@ -6390,7 +6390,7 @@
 3	_	_	PART	aspprt	_	2	advmod	_	_
 4	_	_	PART	aspprt	_	2	advmod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PART	illocprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
@@ -6446,7 +6446,7 @@
 2	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	1	compound:svc	_	_
 3	_	_	SCONJ	subordconn	_	1	advcl	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -6457,7 +6457,7 @@
 13	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 14	_	_	ADV	adv	Polarity=Neg	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 442
@@ -6482,12 +6482,12 @@
 1	_	_	PUNCT	punct	_	6	punct	_	_
 2	_	_	PRON	interpron	PronType=Int	6	obl	_	_
 3	_	_	ADP	post	_	2	case	_	_
-4	_	_	PART	illocprt	_	2	discourse:q	_	_
+4	_	_	PART	qprt	_	2	discourse:q	_	_
 5	_	_	NOUN	n	Number[psor]=Sing	6	nsubj	_	_
 6	_	_	PRON	dem	PronType=Dem	9	parataxis:rep	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 445
@@ -6610,7 +6610,7 @@
 23	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
 24	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	16	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Subcat=Tran	24	parataxis	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	24	parataxis	_	_
 27	_	_	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = 453
@@ -6625,7 +6625,7 @@
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	VERB	vi	Person[subj]=1|Subcat=Int	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 454
@@ -6637,7 +6637,7 @@
 5	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	8	parataxis:rep	_	_
 6	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	5	compound:svc	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	NOUN	n	_	8	nsubj	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -6744,7 +6744,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	adv	_	10	advmod	_	_
@@ -6753,7 +6753,7 @@
 11	_	_	PART	tensprt	_	10	advmod	_	_
 12	_	_	ADV	adv	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 464
@@ -6764,7 +6764,7 @@
 4	_	_	NOUN	n	_	2	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 465
@@ -6783,7 +6783,7 @@
 12	_	_	PART	illocprt	_	13	advmod	_	_
 13	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	6	conj	_	_
 14	_	_	PUNCT	punct	_	6	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 16	_	_	PART	illocprt	_	15	advmod	_	_
 17	_	_	NOUN	n	_	15	nsubj	_	_
 18	_	_	PUNCT	punct	_	15	punct	_	_
@@ -6915,7 +6915,7 @@
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	0	root	_	_
 8	_	_	ADV	interadv	PronType=Int	11	obl	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	NOUN	n	_	11	obj	_	_
 11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	ccomp	_	_
 12	_	_	PART	tensprt	_	11	advmod	_	_
@@ -6941,7 +6941,7 @@
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Person[subj]=3|Subcat=Int	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	7	parataxis:rep	_	_
@@ -6953,7 +6953,7 @@
 16	_	_	SCONJ	nmlzer	_	15	mark	_	_
 17	_	_	NOUN	n	_	10	obj	_	_
 18	_	_	PUNCT	punct	_	10	punct	_	_
-19	he'i	he'i	VERB	vt	Subcat=Tran	10	parataxis	_	say
+19	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	A3.say
 20	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 482
@@ -6985,7 +6985,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	5	parataxis:rep	_	_
@@ -6995,7 +6995,7 @@
 12	_	_	VERB	vs	VerbForm=Ser	11	compound:svc	_	_
 13	_	_	SCONJ	nmlzer	_	11	mark	_	_
 14	_	_	PUNCT	punct	_	8	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 485
@@ -7030,14 +7030,14 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 10	_	_	NOUN	n	Number[psor]=Sing	9	obj	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 13	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 489
@@ -7065,13 +7065,13 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	5	parataxis:rep	_	_
 9	_	_	NOUN	n	Number[psor]=Sing	8	obj	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 492
@@ -7196,7 +7196,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi:i	_	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vi	Person[subj]=2|Subcat=Int	6	parataxis:rep	_	_
@@ -7213,7 +7213,7 @@
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
 5	_	_	NOUN	n	Number=Plur	8	nsubj	_	_
 6	_	_	NOUN	n	_	8	obj	_	_
-7	ndere	e	PRON	pro	PronType=Prs	8	obl	_	B2.SG-R-ABL
+7	ndere	e	PRON	pro	Number=Sing|Person=2|PronType=Prs	8	obl	_	B2.SG-R-ABL
 8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	advcl	_	_
 9	_	_	PART	negprt	_	8	advmod	_	_
 10	_	_	SCONJ	rel	_	8	mark	_	_
@@ -7222,7 +7222,7 @@
 13	_	_	VERB	vi	Person[subj]=2|Subcat=Int	16	parataxis:rep	_	_
 14	_	_	VERB	vi	Person[subj]=2|Subcat=Int	13	compound:svc	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 502
@@ -7276,7 +7276,7 @@
 7	_	_	SCONJ	rel	_	5	mark	_	_
 8	_	_	PART	illocprt	_	1	advmod	_	_
 9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
-10	_	_	PRON	pro	PronType=Prs	9	obl	_	_
+10	_	_	PRON	pro	Person=3|PronType=Prs	9	obl	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 508
@@ -7303,7 +7303,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	13	punct	_	_
 13	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	parataxis	_	_
 14	_	_	NOUN	n	_	11	obl	_	_
@@ -7316,7 +7316,7 @@
 21	_	_	ADV	adv	_	20	advmod	_	_
 22	_	_	ADV	demadv	_	20	advmod	_	_
 23	_	_	PUNCT	punct	_	20	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	20	parataxis	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	20	parataxis	_	_
 25	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 510
@@ -7327,9 +7327,9 @@
 4	_	_	VERB	vi	Person[subj]=3|Subcat=Int	7	parataxis:rep	_	_
 5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 10	_	_	NOUN	n	_	7	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
@@ -7351,7 +7351,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	iobj	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
 9	_	_	PRON	dem	PronType=Dem	16	obl	_	_
@@ -7363,7 +7363,7 @@
 15	_	_	NOUN	n	_	16	obj	_	_
 16	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	6	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 513
@@ -7375,7 +7375,7 @@
 5	_	_	VERB	prov	VerbForm=Prov	8	parataxis:rep	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 514
@@ -7383,7 +7383,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	6	obl	_	_
+4	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
 6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	VERB	vs	Person=3|VerbForm=Ser	6	compound:svc	_	_
@@ -7461,7 +7461,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	intprt	_	6	advmod	_	_
 5	_	_	ADJ	vi	Subcat=Int	4	amod	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
 9	_	_	ADP	post	_	7	case	_	_
@@ -7478,7 +7478,7 @@
 20	_	_	ADP	post	_	17	case	_	_
 21	_	_	PART	intprt	_	17	advmod	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
-23	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+23	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 24	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 522
@@ -7496,7 +7496,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi:i	_	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	obl	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
@@ -7512,7 +7512,7 @@
 19	_	_	ADP	post	_	18	case	_	_
 20	_	_	PUNCT	punct	_	24	punct	_	_
 21	_	_	NOUN	n	Number=Plur	24	nsubj	_	_
-22	_	_	PRON	pro	PronType=Prs	24	obl	_	_
+22	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	24	obl	_	_
 23	_	_	NOUN	n	_	24	obj	_	_
 24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	advcl	_	_
 25	_	_	SCONJ	rel	_	24	mark	_	_
@@ -7520,7 +7520,7 @@
 27	_	_	SCONJ	subordconn	_	24	mark	_	_
 28	_	_	ADV	adv	_	24	advmod	_	_
 29	_	_	PUNCT	punct	_	13	punct	_	_
-30	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+30	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 31	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 524
@@ -7588,7 +7588,7 @@
 6	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	9	parataxis:rep	_	_
 7	_	_	PART	tensprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	VERB	vs	Person=3|VerbForm=Ser	9	compound:svc	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -7640,7 +7640,7 @@
 25	_	_	NOUN	n	_	26	obj	_	_
 26	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	20	compound:svc	_	_
 27	_	_	PUNCT	punct	_	20	punct	_	_
-28	_	_	VERB	vt	Subcat=Tran	20	parataxis	_	_
+28	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	20	parataxis	_	_
 29	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 532
@@ -7673,7 +7673,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
@@ -7682,7 +7682,7 @@
 10	_	_	SCONJ	rel	_	9	mark	_	_
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 14	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 535
@@ -7695,7 +7695,7 @@
 6	_	_	NOUN	n	_	4	obj	_	_
 7	_	_	SCONJ	subordconn	_	4	mark	_	_
 8	_	_	PART	illocprt	_	4	advmod	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	19	punct	_	_
 12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
@@ -7707,7 +7707,7 @@
 18	_	_	PART	tensprt	_	14	advmod	_	_
 19	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	9	parataxis:rep	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	28	advcl	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	28	advcl	_	_
 22	_	_	SCONJ	subordconn	_	21	mark	_	_
 23	_	_	PART	illocprt	_	21	advmod	_	_
 24	_	_	NOUN	n	_	28	obl	_	_
@@ -7748,7 +7748,7 @@
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	SCONJ	subordconn	_	6	mark	_	_
 10	_	_	PART	illocprt	_	6	advmod	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	parataxis:rep	_	_
@@ -7761,7 +7761,7 @@
 21	_	_	NOUN	n	_	22	obj	_	_
 22	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	14	conj	_	_
 23	_	_	PUNCT	punct	_	14	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 25	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 538
@@ -7771,7 +7771,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	Tereo	o	VERB	vi	Person[subj]=2|Subcat=Int	6	parataxis:rep	_	OPT-A2.SG-go
@@ -7787,7 +7787,7 @@
 19	_	_	NOUN	n	Number[psor]=Plur	20	obj	_	_
 20	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	11	conj	_	_
 21	_	_	PUNCT	punct	_	9	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 23	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 539
@@ -7798,7 +7798,7 @@
 4	_	_	NOUN	n	_	7	nsubj	_	_
 5	_	_	VERB	vi	Subcat=Int	4	acl	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -7819,7 +7819,7 @@
 3	_	_	NOUN	n	Clusivity=In	4	obj	_	_
 4	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	6	parataxis:rep	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 541
@@ -7863,7 +7863,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -7875,7 +7875,7 @@
 13	_	_	NOUN	n	Clusivity=In	14	obj	_	_
 14	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	4	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 545
@@ -8081,7 +8081,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	13	punct	_	_
 9	_	_	NOUN	n	_	13	obl	_	_
@@ -8094,7 +8094,7 @@
 16	_	_	ADP	post	_	14	mark	_	_
 17	_	_	VERB	vi	Clusivity[subj]=In|Person[subj]=1|Subcat=Int	13	compound:svc	_	_
 18	,”	,”	PUNCT	punct	_	13	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 20	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 562
@@ -8104,7 +8104,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Person[subj]=3|Subcat=Int	10	advcl	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	VERB	vt	Subcat=Tran	4	nsubj	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	4	nsubj	_	_
 7	_	_	SCONJ	nmlzer	_	6	mark	_	_
 8	_	_	SCONJ	subordconn	_	4	mark	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
@@ -8138,7 +8138,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	9	punct	_	_
 2	_	_	PRON	interpron	PronType=Int	9	nsubj	_	_
-3	_	_	PART	illocprt	_	2	discourse:q	_	_
+3	_	_	PART	qprt	_	2	discourse:q	_	_
 4	_	_	PRON	dem	PronType=Dem	5	nsubj	_	_
 5	_	_	VERB	vi	Person[subj]=3|Subcat=Int	2	acl	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
@@ -8146,7 +8146,7 @@
 8	_	_	SCONJ	rel	_	5	mark	_	_
 9	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 566
@@ -8159,7 +8159,7 @@
 6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	ri	ri	PART	discprt	_	6	advmod	_	DM
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	16	punct	_	_
 12	_	_	VERB	vt	Person[obj]=3|Subcat=Tran	16	nsubj	_	_
@@ -8168,7 +8168,7 @@
 15	_	_	PART	discprt	_	12	advmod	_	_
 16	_	_	VERB	vi	Person[subj]=3|Subcat=Int	9	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 567
@@ -8232,7 +8232,7 @@
 15	_	_	SCONJ	subordconn	_	12	mark	_	_
 16	_	_	PART	illocprt	_	12	advmod	_	_
 17	_	_	NOUN	n	_	18	nsubj	_	_
-18	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
 20	_	_	PUNCT	punct	_	25	punct	_	_
 21	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
@@ -8248,7 +8248,7 @@
 31	_	_	VERB	vd	_	25	parataxis	_	_
 32	_	_	SCONJ	rel	_	31	mark	_	_
 33	_	_	PUNCT	punct	_	25	punct	_	_
-34	_	_	VERB	vt	Subcat=Tran	25	parataxis	_	_
+34	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	25	parataxis	_	_
 35	_	_	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 572
@@ -8292,7 +8292,7 @@
 16	_	_	NOUN	n	_	15	obj	_	_
 17	_	_	ADJ	vi	Subcat=Int	16	amod	_	_
 18	_	_	PUNCT	punct	_	12	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = 575
@@ -8333,7 +8333,7 @@
 3	_	_	NOUN	n	_	2	obj	_	_
 4	_	_	ADJ	vi:i	_	3	amod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 579
@@ -8346,7 +8346,7 @@
 6	_	_	VERB	vi	Clusivity[subj]=Ex|Person[subj]=1|Subcat=Int	9	parataxis:rep	_	_
 7	_	_	PART	tensprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 580
@@ -8456,7 +8456,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	8	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	VERB	vi	Person[subj]=3|Subcat=Int	5	advcl	_	_
@@ -8474,7 +8474,7 @@
 20	_	_	VERB	vi	Person[subj]=3|Subcat=Int	12	conj	_	_
 21	_	_	ADV	demadv	_	20	advmod	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
-23	he'i	he'i	VERB	vt	Subcat=Tran	12	parataxis	_	say
+23	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	A3.say
 24	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 589
@@ -8506,7 +8506,7 @@
 4	_	_	NUM	num	_	5	nummod	_	_
 5	_	_	NOUN	n	_	7	obl	_	_
 6	_	_	NOUN	n	_	7	nsubj	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -8519,7 +8519,7 @@
 17	_	_	ADV	adv	_	12	advmod	_	_
 18	_	_	VERB	vd:a	_	12	compound:svc	_	_
 19	_	_	PUNCT	punct	_	12	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 592
@@ -8772,7 +8772,7 @@
 6	_	_	SCONJ	subordconn	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	NOUN	n	_	10	appos	_	_
 12	_	_	ADP	post	_	10	case	_	_
@@ -8789,7 +8789,7 @@
 23	tovaja	ovaja	NOUN	n	_	19	vocative	_	3-brother.in.law
 24	_	_	NOUN	n	_	23	appos	_	_
 25	_	_	PUNCT	punct	_	19	punct	_	_
-26	_	_	VERB	vt	Subcat=Tran	19	parataxis	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	19	parataxis	_	_
 27	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 609
@@ -8821,7 +8821,7 @@
 11	_	_	PART	discprt	_	6	advmod	_	_
 12	_	_	PART	illocprt	_	6	advmod	_	_
 13	_	_	NOUN	n	_	14	nsubj	_	_
-14	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 15	_	_	NOUN	n	_	14	obl	_	_
 16	_	_	NOUN	n	_	15	appos	_	_
 17	_	_	ADP	post	_	15	case	_	_
@@ -8839,7 +8839,7 @@
 29	_	_	VERB	vi	Person[subj]=1|Subcat=Int	24	conj	_	_
 30	_	_	ADV	demadv	_	29	advmod	_	_
 31	_	_	PUNCT	punct	_	24	punct	_	_
-32	_	_	VERB	vt	Subcat=Tran	24	parataxis	_	_
+32	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	24	parataxis	_	_
 33	_	_	NOUN	n	_	32	nsubj	_	_
 34	_	_	NOUN	n	_	33	appos	_	_
 35	jeruxi	jeruxi	NOUN	n	_	32	obl	_	dove
@@ -8884,7 +8884,7 @@
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	INTJ	onom	_	9	conj	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PART	aspprt	_	13	advmod	_	_
 15	_	_	VERB	vs	Person=3|VerbForm=Ser	13	compound:svc	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
@@ -8934,7 +8934,7 @@
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	SCONJ	subordconn	_	4	mark	_	_
 11	_	_	PART	illocprt	_	4	advmod	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	_	_	PUNCT	punct	_	17	punct	_	_
 15	_	_	ADV	adv	_	17	advcl	_	_
@@ -8944,7 +8944,7 @@
 19	_	_	PART	aspprt	_	17	advmod	_	_
 20	_	_	PART	aspprt	_	17	advmod	_	_
 21	_	_	PUNCT	punct	_	17	punct	_	_
-22	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+22	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 23	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 617
@@ -9225,7 +9225,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	PROPN	nprop	_	6	appos	_	_
 8	_	_	ADP	post	_	6	case	_	_
@@ -9238,7 +9238,7 @@
 15	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	13	advcl	_	_
 16	_	_	SCONJ	subordconn	_	15	mark	_	_
 17	_	_	PUNCT	punct	_	13	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 637
@@ -9343,7 +9343,7 @@
 5	_	_	PART	discprt	_	1	advmod	_	_
 6	_	_	PART	illocprt	_	1	advmod	_	_
 7	_	_	PROPN	nprop	_	8	nsubj	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	NOUN	n	_	8	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
@@ -9355,7 +9355,7 @@
 17	_	_	VERB	vi	Person[subj]=1|Subcat=Int	8	parataxis:rep	_	_
 18	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	17	compound:svc	_	_
 19	”	”	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 645
@@ -9366,7 +9366,7 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PROPN	nprop	_	5	appos	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	PROPN	nprop	_	8	appos	_	_
 10	_	_	ADP	post	_	8	case	_	_
@@ -9379,7 +9379,7 @@
 17	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 18	_	_	NOUN	n	_	17	obj	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 646
@@ -9390,7 +9390,7 @@
 4	_	_	ADV	adv	Polarity=Neg	2	advmod	_	_
 5	_	_	PART	illocprt	_	2	advmod	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -9468,7 +9468,7 @@
 16	_	_	PUNCT	punct	_	17	punct	_	_
 17	_	_	INTJ	interj	_	15	conj	_	_
 18	_	_	PUNCT	punct	_	13	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = 652
@@ -9555,7 +9555,7 @@
 2	_	_	SCONJ	subordconn	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -9567,7 +9567,7 @@
 14	_	_	PART	intprt	_	13	advmod	_	_
 15	_	_	SCONJ	subordconn	_	13	mark	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 18	_	_	PART	illocprt	_	17	advmod	_	_
 19	_	_	NOUN	n	_	20	nsubj	_	_
 20	_	_	VERB	vi	Person[subj]=3|Subcat=Int	17	advcl	_	_
@@ -9691,7 +9691,7 @@
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	SCONJ	subordconn	_	5	mark	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
@@ -9713,7 +9713,7 @@
 5	_	_	PUNCT	punct	_	6	punct	_	_
 6	_	_	VERB	prov	VerbForm=Prov	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 668
@@ -9799,7 +9799,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	nsubj	_	_
 2	_	_	PART	discprt	_	1	amod	_	_
 3	_	_	PART	illocprt	_	1	amod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	6	nmod	_	_
 6	_	_	NOUN	n	_	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
@@ -9815,10 +9815,10 @@
 17	_	_	VERB	vi	Person[subj]=3|Subcat=Int	21	nsubj	_	_
 18	_	_	VERB	vpos	VerbForm=Post	17	compound:svc	_	_
 19	_	_	SCONJ	rel	_	17	mark	_	_
-20	_	_	PART	illocprt	_	17	discourse:q	_	_
+20	_	_	PART	qprt	_	17	discourse:q	_	_
 21	_	_	VERB	vi	Person[subj]=3|Polarity=Neg|Subcat=Int	23	parataxis:rep	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
-23	_	_	VERB	vt	Subcat=Tran	29	advcl	_	_
+23	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	29	advcl	_	_
 24	_	_	SCONJ	subordconn	_	23	mark	_	_
 25	_	_	PART	illocprt	_	23	advmod	_	_
 26	_	_	PUNCT	punct	_	27	punct	_	_
@@ -9826,7 +9826,7 @@
 28	_	_	PUNCT	punct	_	27	punct	_	_
 29	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
 30	_	_	PUNCT	punct	_	29	punct	_	_
-31	_	_	VERB	vt	Subcat=Tran	29	parataxis	_	_
+31	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	29	parataxis	_	_
 32	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 674
@@ -9871,7 +9871,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
 6	_	_	PART	aspprt	_	4	advmod	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -9881,10 +9881,10 @@
 11	_	_	VERB	vi	Person[subj]=3|Subcat=Int	15	nsubj	_	_
 12	_	_	VERB	vpos	VerbForm=Post	11	compound:svc	_	_
 13	_	_	SCONJ	rel	_	11	mark	_	_
-14	_	_	PART	illocprt	_	11	discourse:q	_	_
+14	_	_	PART	qprt	_	11	discourse:q	_	_
 15	_	_	VERB	vi	Person[subj]=3|Subcat=Int	4	parataxis:rep	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 18	_	_	PART	focprt	_	17	advmod	_	_
 19	_	_	PART	aspprt	_	17	advmod	_	_
 20	_	_	NOUN	n	_	17	obl	_	_
@@ -9897,7 +9897,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Person[subj]=3|Subcat=Int	5	parataxis:rep	_	_
@@ -9908,7 +9908,7 @@
 13	_	_	VERB	vpos	VerbForm=Post	12	compound:svc	_	_
 14	_	_	SCONJ	rel	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	8	punct	_	_
-16	he'i	he'i	VERB	vt	Subcat=Tran	8	parataxis	_	say
+16	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	A3.say
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 679
@@ -9987,7 +9987,7 @@
 17	_	_	PART	illocprt	_	16	advmod	_	_
 18	_	_	VERB	vi	Person[subj]=2|Subcat=Int	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	14	punct	_	_
-20	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+20	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 21	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 684
@@ -10027,7 +10027,7 @@
 8	_	_	PART	illocprt	_	7	advmod	_	_
 9	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	NOUN	n	_	14	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	advcl	_	_
@@ -10088,12 +10088,12 @@
 18	_	_	PART	illocprt	_	16	amod	_	_
 19	_	_	VERB	vi	Person[subj]=1|Subcat=Int	14	parataxis	_	_
 20	_	_	PUNCT	punct	_	8	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
 
 # sent_id = 690
 # text =_ _ _ je _ _ _ _ _
-1	_	_	VERB	vt	Subcat=Tran	5	advcl	_	_
+1	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	5	advcl	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	je	je	PART	illocprt	_	1	advmod	_	HSY
@@ -10192,7 +10192,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	NOUN	n	_	4	nsubj	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PROPN	nprop	_	4	obl	_	_
 6	_	_	PROPN	nprop	_	5	flat	_	_
 7	_	_	ADP	post	_	5	case	_	_
@@ -10202,7 +10202,7 @@
 11	_	_	PART	focprt	_	10	amod	_	_
 12	_	_	VERB	vt	Person[obj]=1|Subcat=Tran	4	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 698
@@ -10212,7 +10212,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	6	nsubj	_	_
 5	_	_	PROPN	nprop	_	4	flat	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -10227,7 +10227,7 @@
 18	_	_	NOUN	n	_	19	nmod	_	_
 19	_	_	NOUN	n	_	17	obj	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	13	parataxis	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	13	parataxis	_	_
 22	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 699
@@ -10236,7 +10236,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PROPN	nprop	_	5	obl	_	_
 7	_	_	PROPN	nprop	_	6	flat	_	_
 8	_	_	ADP	post	_	6	case	_	_
@@ -10261,7 +10261,7 @@
 5	_	_	NOUN	n	Number[psor]=Sing	6	nmod	_	_
 6	_	_	NOUN	n	_	3	obj	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 701
@@ -10270,13 +10270,13 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PROPN	nprop	_	5	nsubj	_	_
 4	_	_	PROPN	nprop	_	3	flat	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Person[subj]=1|Subcat=Int	5	parataxis:rep	_	_
 9	_	_	PART	tensprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 702
@@ -10403,7 +10403,7 @@
 5	_	_	PART	illocprt	_	4	amod	_	_
 6	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
 7	_	_	VERB	vs	Person=3|VerbForm=Ser	6	compound:svc	_	_
-8	_	_	PRON	pro	PronType=Prs	6	obl	_	_
+8	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 712
@@ -10418,7 +10418,7 @@
 8	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	obj	_	_
 9	va'erã	va'e	SCONJ	rel	_	8	mark	_	REL-FUT
 10	_	_	PUNCT	punct	_	7	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 713
@@ -10446,7 +10446,7 @@
 
 # sent_id = 715
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+1	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 2	_	_	NOUN	n	_	1	obl	_	_
 3	_	_	ADP	post	_	2	case	_	_
 4	_	_	PUNCT	punct	_	1	punct	_	_
@@ -10457,7 +10457,7 @@
 9	_	_	ADV	demadv	_	7	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 13	_	_	NOUN	n	_	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	1	punct	_	_
@@ -10472,7 +10472,7 @@
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	NOUN	n	_	5	obj	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	PART	quantprt	_	10	clf	_	_
 12	_	_	ADP	post	_	10	case	_	_
@@ -10522,7 +10522,7 @@
 4	_	_	SCONJ	rel	_	3	mark	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADV	adv	_	8	advmod	_	_
 10	_	_	SCONJ	rel	_	8	mark	_	_
@@ -10530,10 +10530,10 @@
 12	_	_	PUNCT	punct	_	7	punct	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	7	parataxis:rep	_	_
-15	_	_	PART	illocprt	_	14	discourse:q	_	_
-16	_	_	PRON	pro	PronType=Prs	14	obl	_	_
+15	_	_	PART	qprt	_	14	discourse:q	_	_
+16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 721
@@ -10547,7 +10547,7 @@
 7	_	_	NOUN	n	_	6	acl	_	_
 8	_	_	ADV	adv	_	7	advmod	_	_
 9	_	_	SCONJ	rel	_	7	mark	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 12	_	_	PUNCT	punct	_	16	punct	_	_
 13	_	_	NOUN	n	_	14	obj	_	_
@@ -10556,7 +10556,7 @@
 16	_	_	VERB	vi	Person[subj]=1|Subcat=Int	10	parataxis:rep	_	_
 17	_	_	PART	tensprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 722
@@ -10567,7 +10567,7 @@
 4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NUM	num	_	6	nummod	_	_
 6	_	_	NOUN	n	_	4	obj	_	_
-7	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+7	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
 9	_	_	VERB	vi	Person[subj]=3|Subcat=Int	4	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
@@ -10649,7 +10649,7 @@
 9	_	_	ADV	interadv	PronType=Int	10	advmod	_	_
 10	_	_	VERB	vi	Person[subj]=2|Subcat=Int	6	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 729
@@ -10660,14 +10660,14 @@
 4	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vi	Person[subj]=1|Subcat=Int	7	parataxis:rep	_	_
 11	_	_	VERB	vi	Person[subj]=1|Subcat=Int	10	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	he'i	he'i	VERB	vt	Subcat=Tran	10	parataxis	_	say
+14	he'i	he'i	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	A3.say
 15	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 730
@@ -10679,7 +10679,7 @@
 5	_	_	AUX	v	_	6	aux	_	_
 6	_	_	VERB	vi	Person[subj]=1|Subcat=Int	3	parataxis	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 731
@@ -10696,7 +10696,7 @@
 10	_	_	NOUN	n	_	8	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 732
@@ -10707,7 +10707,7 @@
 4	_	_	SCONJ	rel	_	3	mark	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	14	punct	_	_
 10	_	_	ADV	adv	_	11	advmod	_	_
@@ -10718,7 +10718,7 @@
 15	_	_	PART	illocprt	_	14	advmod	_	_
 16	_	_	VERB	vs	Person=2|VerbForm=Ser	14	compound:svc	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 733
@@ -10732,7 +10732,7 @@
 7	ke	ke	PART	illocprt	_	2	advmod	_	IMP
 8	_	_	VERB	vi	Person[subj]=2|Subcat=Int	10	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 734
@@ -10747,7 +10747,7 @@
 8	_	_	NOUN	n	_	5	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 735
@@ -10758,11 +10758,11 @@
 4	_	_	VERB	vi	Person[subj]=2|Subcat=Int	8	advcl	_	_
 5	_	_	SCONJ	subordconn	_	4	mark	_	_
 6	_	_	PART	discprt	_	4	advmod	_	_
-7	_	_	PRON	pro	PronType=Prs	8	obl	_	_
+7	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	8	obl	_	_
 8	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	parataxis:rep	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 736
@@ -10773,7 +10773,7 @@
 4	_	_	PART	illocprt	_	2	advmod	_	_
 5	_	_	VERB	vi	Person[subj]=2|Subcat=Int	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 737
@@ -10790,7 +10790,7 @@
 10	_	_	PART	negprt	_	9	advmod	_	_
 11	_	_	SCONJ	rel	_	9	mark	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 738
@@ -10801,7 +10801,7 @@
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 739
@@ -10851,7 +10851,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	4	obl	_	_
 7	_	_	VERB	vi:a	_	6	compound	_	_
-8	_	_	VERB	vt	Subcat=Tran	6	acl	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	6	acl	_	_
 9	_	_	SCONJ	nmlzer	_	8	mark	_	_
 10	_	_	ADP	post	_	6	case	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
@@ -10876,7 +10876,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	7	nmod	_	_
 7	_	_	NOUN	n	_	4	obl	_	_
-8	_	_	VERB	vt	Subcat=Tran	7	acl	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	acl	_	_
 9	_	_	SCONJ	nmlzer	_	8	mark	_	_
 10	_	_	ADP	post	_	7	case	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
@@ -10900,7 +10900,7 @@
 5	_	_	NOUN	n	_	6	obj	_	_
 6	_	_	VERB	vt	Subcat=Tran	3	parataxis	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PART	illocprt	_	8	advmod	_	_
 10	_	_	VERB	vs	Person=3|VerbForm=Ser	8	compound:svc	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
@@ -10941,7 +10941,7 @@
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	15	punct	_	_
 12	_	_	NOUN	n	_	15	vocative	_	_
@@ -10950,7 +10950,7 @@
 15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis:rep	_	_
 16	_	_	PART	aspprt	_	15	advmod	_	_
 17	_	_	PUNCT	punct	_	15	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 750
@@ -10985,7 +10985,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	17	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	6	obj	_	_
+4	_	_	PRON	defpro	_	6	obj	_	_
 5	je	je	PART	illocprt	_	4	amod	_	HSY
 6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
@@ -11037,7 +11037,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	PRON	interpron	PronType=Int	4	parataxis:rep	_	_
@@ -11048,7 +11048,7 @@
 13	rei	rei	PART	intprt	_	12	advmod	_	INT
 14	_	_	SCONJ	subordconn	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	8	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 756
@@ -11058,7 +11058,7 @@
 3	_	_	SCONJ	rel	_	2	mark	_	_
 4	_	_	PART	discprt	_	2	advmod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 757
@@ -11066,8 +11066,8 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	17	punct	_	_
 8	_	_	PRON	dem	PronType=Dem	10	nmod	_	_
@@ -11081,7 +11081,7 @@
 16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	_	_	VERB	vi	Person[subj]=1|Subcat=Int	4	parataxis:rep	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 20	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 758
@@ -11093,7 +11093,7 @@
 5	_	_	VERB	vi	Person[subj]=3|Subcat=Int	8	parataxis:rep	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 759
@@ -11106,7 +11106,7 @@
 6	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	9	parataxis:rep	_	_
 7	_	_	NOUN	n	_	6	obj	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 760
@@ -11121,7 +11121,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	VERB	vs	Person=3|VerbForm=Ser	7	compound:svc	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
 
@@ -11133,7 +11133,7 @@
 4	_	_	PART	discprt	_	3	amod	_	_
 5	_	_	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 762
@@ -11146,7 +11146,7 @@
 6	_	_	NOUN	n	Clusivity=In	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	4	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 763
@@ -11167,7 +11167,7 @@
 14	_	_	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	17	parataxis:rep	_	_
 15	_	_	NOUN	n	Clusivity=In	14	obj	_	_
 16	_	_	PUNCT	punct	_	14	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
 
 # sent_id = 764
@@ -11177,7 +11177,7 @@
 3	_	_	NOUN	n	Clusivity=In	6	parataxis:rep	_	_
 4	_	_	PART	focprt	_	3	amod	_	_
 5	_	_	PUNCT	punct	_	3	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 765
@@ -11187,7 +11187,7 @@
 3	_	_	PART	intprt	_	2	amod	_	_
 4	_	_	SCONJ	rel	_	2	mark	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 766
@@ -11199,7 +11199,7 @@
 5	_	_	PART	tensprt	_	2	advmod	_	_
 6	_	_	VERB	vi	Person[subj]=3|Subcat=Int	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 767
@@ -11246,7 +11246,7 @@
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	15	punct	_	_
 12	_	_	NOUN	n	_	15	vocative	_	_
@@ -11255,7 +11255,7 @@
 15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis:rep	_	_
 16	_	_	PART	aspprt	_	15	advmod	_	_
 17	_	_	PUNCT	punct	_	15	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 771
@@ -11282,13 +11282,13 @@
 4	_	_	PART	aspprt	_	3	advmod	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
 6	_	_	PART	illocprt	_	3	advmod	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	7	parataxis:rep	_	_
 11	_	_	ADV	adv	Polarity=Neg	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 14	_	_	NOUN	n	_	13	obl	_	_
 15	_	_	PART	quantprt	_	14	clf	_	_
 16	_	_	ADP	post	_	14	case	_	_
@@ -11331,7 +11331,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	6	obl	_	_
+4	_	_	PRON	defpro	_	6	obl	_	_
 5	_	_	PART	focprt	_	4	amod	_	_
 6	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
 7	_	_	PART	illocprt	_	6	advmod	_	_
@@ -11667,7 +11667,7 @@
 1	_	_	NOUN	n	_	2	nsubj	_	_
 2	_	_	VERB	vi	Person[subj]=3|Subcat=Int	11	advcl	_	_
 3	_	_	SCONJ	subordconn	_	2	mark	_	_
-4	_	_	PRON	pro	PronType=Prs	2	obl	_	_
+4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 5	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	11	advcl	_	_
 6	_	_	PART	negprt	_	5	advmod	_	_
 7	_	_	SCONJ	subordconn	_	5	mark	_	_
@@ -11695,16 +11695,16 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	5	nsubj	_	_
-4	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 11	avei	avei	PART	focprt	_	10	advmod	_	also
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 807
@@ -11735,15 +11735,15 @@
 5	_	_	ADP	post	_	6	obj	_	_
 6	_	_	VERB	vd:a	_	8	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
-8	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+8	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 9	_	_	PART	focprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 11	_	_	PUNCT	punct	_	14	punct	_	_
 12	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	VERB	vt	Person[subj]=2|Polarity=Neg|Subcat=Tran	8	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 809
@@ -11752,7 +11752,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
@@ -11836,7 +11836,7 @@
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obj	_	_
-7	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+7	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 816
@@ -12080,7 +12080,7 @@
 3	_	_	PUNCT	punct	_	4	punct	_	_
 4	_	_	INTJ	onom	_	2	parataxis	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	VERB	vpos	VerbForm=Post	6	compound:svc	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -12169,8 +12169,8 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	17	obl:sentcon	_	_
 2	gui	gui	ADP	post	_	1	case	_	from
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	17	advcl	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	advcl	_	_
+5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	demadv	_	10	nsubj	_	_
@@ -12179,7 +12179,7 @@
 11	_	_	VERB	vt	Person[obj]=2|Subcat=Tran	10	acl	_	_
 12	_	_	SCONJ	rel	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 15	_	_	SCONJ	subordconn	_	4	mark	_	_
 16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	_	_	VERB	vi	Person[subj]=1|Subcat=Int	0	root	_	_
@@ -12312,7 +12312,7 @@
 2	_	_	SCONJ	subordconn	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
@@ -12321,7 +12321,7 @@
 11	_	_	PUNCT	punct	_	12	punct	_	_
 12	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	8	parataxis	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 853
@@ -12339,7 +12339,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	6	advcl	_	_
 5	_	_	SCONJ	subordconn	_	4	mark	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
 9	_	_	ADV	interadv	PronType=Int	11	obl	_	_
@@ -12347,7 +12347,7 @@
 11	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	6	parataxis:rep	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 855
@@ -12356,7 +12356,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	xee	xee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	12	punct	_	_
@@ -12375,7 +12375,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	12	punct	_	_
@@ -12385,7 +12385,7 @@
 12	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 13	_	_	PART	illocprt	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	12	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 857
@@ -12394,7 +12394,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
@@ -12412,7 +12412,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	“	“	PUNCT	punct	_	14	punct	_	_
 8	_	_	ADV	adv	_	9	advmod	_	_
@@ -12424,7 +12424,7 @@
 14	_	_	NOUN	n	_	5	parataxis:rep	_	_
 15	_	_	PART	aspprt	_	14	amod	_	_
 16	_	_	PUNCT	punct	_	14	punct	_	_
-17	_	_	VERB	vt	Subcat=Tran	14	parataxis	_	_
+17	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	14	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 859
@@ -12584,14 +12584,14 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 9	_	_	ADV	adv	Polarity=Neg	8	advmod	_	_
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	16	advcl	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	advcl	_	_
 13	_	_	SCONJ	subordconn	_	12	mark	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -12629,15 +12629,15 @@
 4	_	_	VERB	vs	Person=3|VerbForm=Ser	3	compound:svc	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
 6	_	_	PART	illocprt	_	3	advmod	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	11	punct	_	_
 10	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	7	parataxis:rep	_	_
 12	_	_	ADV	adv	_	11	advmod	_	_
-13	_	_	PART	illocprt	_	11	discourse:q	_	_
+13	_	_	PART	qprt	_	11	discourse:q	_	_
 14	_	_	PUNCT	punct	_	11	punct	_	_
-15	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 16	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 877
@@ -12647,12 +12647,12 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+6	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	prov	VerbForm=Prov	6	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	6	punct	_	_
 
 # document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
@@ -12737,7 +12737,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 884
@@ -12875,7 +12875,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	aipoa'e	aipoa'e	VERB	vt	Subcat=Tran	0	root	_	ATN-say
+5	aipoa'e	aipoa'e	VERB	vt	Person[subj]=1|Subcat=Tran	0	root	_	ATN-A1.SG.say
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -12909,7 +12909,7 @@
 2	_	_	ADV	interadv	PronType=Int	5	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 896
@@ -12955,15 +12955,15 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Person[subj]=2|Subcat=Int	4	parataxis:rep	_	_
 9	_	_	ADV	adv	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	8	parataxis	_	_
-12	_	_	PRON	pro	PronType=Prs	11	obl	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	8	parataxis	_	_
+12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 900
@@ -13240,7 +13240,7 @@
 7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	NUM	num	_	9	nummod	_	_
 9	_	_	NOUN	n	_	7	obj	_	_
-10	_	_	PRON	pro	PronType=Prs	7	obl	_	_
+10	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 922
@@ -13266,7 +13266,7 @@
 6	_	_	ADV	adv	_	5	amod	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
 8	_	_	PART	illocprt	_	7	advmod	_	_
-9	_	_	PRON	pro	PronType=Prs	10	obl	_	_
+9	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
 10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	obl	_	_
 11	_	_	PART	negprt	_	10	advmod	_	_
 12	re	e	ADP	post	_	10	case	_	R-ABL
@@ -13291,8 +13291,8 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-6	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+6	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vi	Person[subj]=3|Subcat=Int	5	parataxis:rep	_	_
@@ -13300,7 +13300,7 @@
 11	_	_	VERB	vt	Subcat=Tran	9	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	9	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 926
@@ -13470,15 +13470,15 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	“	“	PUNCT	punct	_	10	punct	_	_
 8	_	_	PRON	interpron	PronType=Int	10	obj	_	_
 9	_	_	PART	illocprt	_	8	amod	_	_
 10	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	10	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 942
@@ -13659,7 +13659,7 @@
 2	_	_	PART	illocprt	_	1	amod	_	_
 3	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	_	_	VERB	vi	Person[subj]=1|Subcat=Int	0	root	_	_
-5	_	_	PRON	pro	PronType=Prs	4	obl	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 956
@@ -13736,8 +13736,8 @@
 9	_	_	PRON	dem	PronType=Dem	7	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
-13	_	_	PRON	pro	PronType=Prs	12	obl	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
+13	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 961
@@ -13810,21 +13810,21 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-6	_	_	PRON	pro	PronType=Prs	5	obl	_	_
+4	_	_	PRON	indfpro	PronType=Ind	5	nsubj	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+6	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
 9	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
 10	_	_	PRON	interpron	PronType=Int	16	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	PRON	dem	PronType=Dem	16	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PART	intprt	_	13	advmod	_	_
 16	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	16	parataxis	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 967
@@ -13832,7 +13832,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	4	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13844,7 +13844,7 @@
 13	_	_	PART	intprt	_	11	advmod	_	_
 14	_	_	PART	focprt	_	11	advmod	_	_
 15	_	_	PUNCT	punct	_	11	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	11	parataxis	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	11	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 968
@@ -13852,7 +13852,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13860,31 +13860,31 @@
 9	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	4	parataxis:rep	_	_
 10	peva'e	peva'e	PRON	dem	PronType=Dem	11	det	_	DEM-REL
 11	_	_	NOUN	n	_	9	obj	_	_
-12	_	_	PRON	pro	PronType=Prs	9	obl	_	_
+12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
 13	_	_	PUNCT	punct	_	9	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 969
 # text =_ _ _ _ _ _
 1	_	_	PUNCT	punct	_	2	punct	_	_
 2	_	_	VERB	vd	_	5	parataxis:rep	_	_
-3	_	_	PRON	pro	PronType=Prs	2	obl	_	_
+3	_	_	PRON	pro	Number=Plur|Person=2|PronType=Prs	2	obl	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 970
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
-3	_	_	PRON	pro	PronType=Prs	4	nsubj	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+3	_	_	PRON	defpro	_	4	nsubj	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Polarity=Neg|Subcat=Int	4	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 971
@@ -13893,7 +13893,7 @@
 2	_	_	VERB	vi	Person[subj]=2|Subcat=Int	5	parataxis:rep	_	_
 3	_	_	PART	tensprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 972
@@ -13904,9 +13904,9 @@
 4	_	_	PRON	pro	Person=3|PronType=Prs	0	root	_	_
 5	_	_	PUNCT	punct	_	7	punct	_	_
 6	_	_	SCONJ	rel	_	7	mark	_	_
-7	_	_	PRON	pro	PronType=Prs	4	parataxis:rep	_	_
+7	_	_	PRON	negpro	PronType=Neg	4	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	7	parataxis	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	7	parataxis	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 973
@@ -13915,7 +13915,7 @@
 2	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	5	parataxis:rep	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 974
@@ -13924,7 +13924,7 @@
 2	_	_	VERB	vt	Person[obj]=1|Polarity=Neg|Subcat=Tran	5	parataxis:rep	_	_
 3	_	_	ADV	adv	Polarity=Neg	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 975
@@ -13932,7 +13932,7 @@
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	3
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	PRON	pro	PronType=Prs	5	nsubj	_	_
+4	_	_	PRON	defpro	_	5	nsubj	_	_
 5	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	VERB	vs	Person=3|VerbForm=Ser	5	compound:svc	_	_
@@ -13943,7 +13943,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+4	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13951,7 +13951,7 @@
 9	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	4	parataxis:rep	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 977
@@ -14033,23 +14033,23 @@
 9	_	_	PART	intprt	_	6	advmod	_	_
 10	_	_	PART	aspprt	_	6	advmod	_	_
 11	_	_	NOUN	n	_	12	nsubj	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
-13	_	_	PRON	pro	PronType=Prs	12	obl	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
+13	_	_	PRON	pro	Person=3|PronType=Prs	12	obl	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
 15	_	_	PUNCT	punct	_	16	punct	_	_
 16	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	12	parataxis:rep	_	_
-17	_	_	PART	illocprt	_	16	discourse:q	_	_
+17	_	_	PART	qprt	_	16	discourse:q	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 984
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	2	punct	_	_
-2	_	_	VERB	vt	Subcat=Tran	7	parataxis:rep	_	_
+2	_	_	VERB	vt	Person[subj]=1|Subcat=Tran	7	parataxis:rep	_	_
 3	_	_	ADV	adv	_	2	advmod	_	_
 4	_	_	PART	aspprt	_	2	advmod	_	_
-5	_	_	PRON	pro	PronType=Prs	2	obl	_	_
+5	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+7	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 985
@@ -14063,7 +14063,7 @@
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	VERB	vi	Person[subj]=3|Subcat=Int	10	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
-10	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 12	_	_	PUNCT	punct	_	21	punct	_	_
 13	_	_	VERB	vd	_	21	advcl	_	_
@@ -14077,7 +14077,7 @@
 21	_	_	VERB	vi	Person[subj]=1|Subcat=Int	10	parataxis:rep	_	_
 22	_	_	PART	intprt	_	21	advmod	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	21	parataxis	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	21	parataxis	_	_
 25	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 986
@@ -14097,7 +14097,7 @@
 13	_	_	PART	aspprt	_	12	advmod	_	_
 14	_	_	SCONJ	rel	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 987
@@ -14430,7 +14430,7 @@
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	SCONJ	subordconn	_	5	mark	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	13	punct	_	_
 12	_	_	ADV	demadv	_	13	advmod	_	_
@@ -14442,19 +14442,19 @@
 18	_	_	VERB	vi	Person[subj]=3|Subcat=Int	13	nsubj	_	_
 19	_	_	SCONJ	rel	_	18	mark	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
-21	_	_	VERB	vt	Subcat=Tran	26	advcl	_	_
+21	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	26	advcl	_	_
 22	_	_	SCONJ	subordconn	_	21	mark	_	_
 23	_	_	NOUN	n	_	24	nsubj	_	_
 24	_	_	VERB	vd:a	_	26	advcl	_	_
 25	_	_	SCONJ	subordconn	_	24	mark	_	_
-26	_	_	VERB	vt	Subcat=Tran	9	parataxis	_	_
+26	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	9	parataxis	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
 28	_	_	PUNCT	punct	_	29	punct	_	_
 29	Ha'e'ỹ	ha'ee'ỹ	PRON	pro	Person=3|Polarity=Neg|PronType=Prs	26	parataxis:rep	_	3-NEG
 30	_	_	PART	intprt	_	29	amod	_	_
 31	_	_	PART	illocprt	_	29	amod	_	_
 32	_	_	PUNCT	punct	_	29	punct	_	_
-33	_	_	VERB	vt	Subcat=Tran	35	advcl	_	_
+33	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	35	advcl	_	_
 34	_	_	SCONJ	subordconn	_	33	mark	_	_
 35	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	26	parataxis	_	_
 36	_	_	PART	focprt	_	35	advmod	_	_
@@ -14476,7 +14476,7 @@
 12	_	_	NOUN	n	_	13	nmod	_	_
 13	_	_	NOUN	n	_	15	nsubj	_	_
 14	_	_	SCONJ	rel	_	13	mark	_	_
-15	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+15	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
 17	_	_	PUNCT	punct	_	18	punct	_	_
 18	_	_	VERB	vt	Person[subj]=2|Subcat=Tran	15	parataxis:rep	_	_
@@ -14484,7 +14484,7 @@
 20	_	_	VERB	vi	Person[subj]=2|Subcat=Int	18	parataxis	_	_
 21	_	_	PART	illocprt	_	20	advmod	_	_
 22	_	_	PUNCT	punct	_	18	punct	_	_
-23	_	_	VERB	vt	Subcat=Tran	27	advcl	_	_
+23	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	27	advcl	_	_
 24	_	_	SCONJ	subordconn	_	23	mark	_	_
 25	_	_	PRON	pro	Person=3|PronType=Prs	27	nsubj	_	_
 26	_	_	SCONJ	rel	_	25	mark	_	_
@@ -14548,12 +14548,12 @@
 11	_	_	VERB	vi:i	Polarity=Neg	10	compound	_	_
 12	_	_	ADP	post	_	10	case	_	_
 13	_	_	SCONJ	subordconn	_	7	mark	_	_
-14	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 16	_	_	PUNCT	punct	_	17	punct	_	_
 17	_	_	VERB	vi	Person[subj]=2|Subcat=Int	14	parataxis:rep	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	17	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	17	parataxis	_	_
 20	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 1020
@@ -14575,7 +14575,7 @@
 15	_	_	PART	aspprt	_	14	advmod	_	_
 16	_	_	PART	tensprt	_	14	advmod	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 19	_	_	VERB	vs	Person=3|VerbForm=Ser	18	compound:svc	_	_
 20	_	_	PUNCT	punct	_	18	punct	_	_
 
@@ -14598,13 +14598,13 @@
 15	_	_	SCONJ	subordconn	_	12	mark	_	_
 16	_	_	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	18	advcl	_	_
 17	_	_	SCONJ	subordconn	_	16	mark	_	_
-18	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+18	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
 20	_	_	PUNCT	punct	_	21	punct	_	_
 21	_	_	VERB	vi	Person[subj]=2|Subcat=Int	18	parataxis:rep	_	_
 22	_	_	ADV	adv	Polarity=Neg	21	advmod	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Subcat=Tran	26	advcl	_	_
+24	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	26	advcl	_	_
 25	_	_	SCONJ	subordconn	_	24	mark	_	_
 26	_	_	VERB	vt	Person[subj]=3|Polarity=Neg|Subcat=Tran	18	parataxis	_	_
 27	_	_	PUNCT	punct	_	18	punct	_	_
@@ -14622,14 +14622,14 @@
 9	_	_	NOUN	n	_	10	nsubj	_	_
 10	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	12	advcl	_	_
 11	_	_	SCONJ	subordconn	_	10	mark	_	_
-12	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+12	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	"	"	PUNCT	punct	_	15	punct	_	_
 15	_	_	VERB	vt	Clusivity[subj]=In|Person[subj]=1|Subcat=Tran	12	parataxis:rep	_	_
 16	_	_	VERB	vi	Clusivity[subj]=In|Person[subj]=1|Subcat=Int	15	advcl	_	_
 17	_	_	SCONJ	subordconn	_	16	mark	_	_
 18	_	_	PUNCT	punct	_	15	punct	_	_
-19	_	_	VERB	vt	Subcat=Tran	15	parataxis	_	_
+19	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	15	parataxis	_	_
 20	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 1023
@@ -14691,7 +14691,7 @@
 11	_	_	INTJ	onom	_	10	flat	_	_
 12	toko	toko	INTJ	onom	_	10	flat	_	owl.noise
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Subcat=Tran	16	obj	_	_
+14	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	16	obj	_	_
 15	_	_	SCONJ	rel	_	14	mark	_	_
 16	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 17	_	_	ADV	adv	_	16	advmod	_	_
@@ -14711,7 +14711,7 @@
 10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Person[subj]=3|Subcat=Int	13	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	NOUN	n	_	13	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
@@ -14726,7 +14726,7 @@
 6	_	_	VERB	vi	Subcat=Int	9	parataxis:rep	_	_
 7	_	_	PART	illocprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 1030
@@ -14798,7 +14798,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	3	nsubj	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
-3	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+3	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 4	_	_	NOUN	n	_	3	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
@@ -14828,7 +14828,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vi	Person[subj]=2|Subcat=Int	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+11	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 12	_	_	NOUN	n	_	11	nsubj	_	_
 13	_	_	NOUN	n	_	11	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
@@ -14848,7 +14848,7 @@
 10	_	_	VERB	vi	Person[subj]=1|Subcat=Int	13	parataxis:rep	_	_
 11	_	_	PART	tensprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+13	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 1038
@@ -14871,7 +14871,7 @@
 6	_	_	PART	illocprt	_	5	fixed	_	_
 7	_	_	VERB	vi	Person[subj]=3|Subcat=Int	9	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Subcat=Tran	0	root	_	_
+9	_	_	VERB	vt	Person[subj]=3|Subcat=Tran	0	root	_	_
 10	_	_	NOUN	n	_	9	nsubj	_	_
 11	_	_	NOUN	n	_	9	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
@@ -14946,7 +14946,7 @@
 4	_	_	PART	discprt	_	3	amod	_	_
 5	_	_	PART	illocprt	_	3	amod	_	_
 6	_	_	VERB	vi	Person[subj]=3|Subcat=Int	0	root	_	_
-7	_	_	PRON	pro	PronType=Prs	8	obl	_	_
+7	_	_	PRON	pro	Person=3|PronType=Prs	8	obl	_	_
 8	oma'ẽ	ma'ẽ	VERB	vd:a	_	6	advcl	_	A3-look
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	6	punct	_	_
