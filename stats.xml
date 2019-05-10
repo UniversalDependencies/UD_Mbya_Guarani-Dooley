@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1046</sentences><tokens>11771</tokens><words>11771</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1046</sentences><tokens>11771</tokens><words>11771</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="103" /><!-- ., ha'e, je, gui, he'i, “, rã, ma, ma'ẽ, vy, e, jevy, o, peteĩ, py -->
+  <forms unique="114" /><!-- ., ha'e, je, gui, he'i, “, rã, ma, vy, jevy, oma'ẽ, py, xee, aguã, ava -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">46</tag><!-- _ -->
+    <tag name="ADP">875</tag><!-- _, gui, py, e, katy, pe, rami, upi -->
+    <tag name="ADV">364</tag><!-- _, peteĩ, aje'i -->
+    <tag name="AUX">2</tag><!-- _ -->
+    <tag name="CCONJ">25</tag><!-- _, ha'e, mba'eta -->
+    <tag name="DET">8</tag><!-- _, opa -->
+    <tag name="INTJ">16</tag><!-- _, toko -->
+    <tag name="NOUN">1323</tag><!-- _, ava, me, yke'y, a'y, a'yxy, akã, bicicleta, couve, enda -->
+    <tag name="NUM">109</tag><!-- _, peteĩ, cinqo, três -->
+    <tag name="PART">2324</tag><!-- _, je, ma, jevy, ae, anho, avei, ju, ke, kuery -->
+    <tag name="PRON">1119</tag><!-- _, ha'e, xee, e, ha'ee'ỹ, peva'e -->
+    <tag name="PROPN">100</tag><!-- _, Pyxaĩ -->
+    <tag name="PUNCT">1878</tag><!-- _, ., “, ,”, ”, ", , -->
+    <tag name="SCONJ">1228</tag><!-- _, rã, vy, va'e, aguã, a, jave, ramove, rire -->
+    <tag name="VERB">2346</tag><!-- _, he'i, ma'ẽ, o, u, a, a'eve, aipoa'e, aipoe'i, ayvu -->
+    <tag name="X">8</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="32">
+    <feat name="Clusivity" value="Ex" upos="NOUN,PRON,VERB">13</feat><!-- _ -->
+    <feat name="Clusivity" value="In" upos="NOUN,PRON">27</feat><!-- _ -->
+    <feat name="Clusivity[obj]" value="Ex" upos="VERB">2</feat><!-- _ -->
+    <feat name="Clusivity[obj]" value="In" upos="VERB">1</feat><!-- _ -->
+    <feat name="Clusivity[subj]" value="Ex" upos="VERB">21</feat><!-- _ -->
+    <feat name="Clusivity[subj]" value="In" upos="VERB">18</feat><!-- _ -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">45</feat><!-- _ -->
+    <feat name="Number" value="Sing" upos="PRON">125</feat><!-- _, xee, ndere -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN">3</feat><!-- _ -->
+    <feat name="Number[psor]" value="Sing" upos="NOUN">59</feat><!-- _, Neme, xera'y, xeryvy -->
+    <feat name="Person" value="1" upos="PRON,VERB">152</feat><!-- _, xee, aikovy -->
+    <feat name="Person" value="2" upos="PRON,VERB">28</feat><!-- _, ejupy, ndere -->
+    <feat name="Person" value="3" upos="PRON,VERB">1048</feat><!-- _, ha'e, ouvy, Ha'e'ỹ -->
+    <feat name="Person[obj]" value="1" upos="VERB">19</feat><!-- _ -->
+    <feat name="Person[obj]" value="2" upos="VERB">3</feat><!-- _ -->
+    <feat name="Person[obj]" value="3" upos="VERB">5</feat><!-- _ -->
+    <feat name="Person[subj]" value="1" upos="AUX,VERB">324</feat><!-- _, aa, aipoa'e, aity, ndaikuaavei -->
+    <feat name="Person[subj]" value="2" upos="VERB">158</feat><!-- _, tereo, Ereru, ereo, peipotave -->
+    <feat name="Person[subj]" value="3" upos="ADJ,VERB">1468</feat><!-- _, he'i, aipoe'i, huũ, ikuai, oguenoẽ'i, oguerovia, oi, ojae'o, ojapyxaka -->
+    <feat name="Polarity" value="Neg" upos="ADV,PRON,VERB">121</feat><!-- _, Ha'e'ỹ, nda'eveive, ndaikuaavei -->
+    <feat name="PronType" value="Dem" upos="PRON">29</feat><!-- _, peva'e -->
+    <feat name="PronType" value="Ind" upos="PRON">4</feat><!-- _ -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">32</feat><!-- _ -->
+    <feat name="PronType" value="Neg" upos="PRON">1</feat><!-- _ -->
+    <feat name="PronType" value="Prs" upos="PRON">1051</feat><!-- _, ha'e, xee, Ha'e'ỹ, ndere -->
+    <feat name="PronType" value="Tot" upos="PRON">5</feat><!-- _ -->
+    <feat name="Subcat" value="Int" upos="ADJ,AUX,VERB">1002</feat><!-- _, tereo, aa, ereo, huũ, ikuai, nda'eveive, oi, ojae'o, ojapyxaka -->
+    <feat name="Subcat" value="Tran" upos="VERB">1022</feat><!-- _, he'i, Ereru, aipoa'e, aipoe'i, aity, ndaikuaavei, oguenoẽ'i, oguerovia, omondoropa -->
+    <feat name="VerbForm" value="Part" upos="ADJ,VERB">6</feat><!-- _ -->
+    <feat name="VerbForm" value="Post" upos="VERB">51</feat><!-- _, jekuaa -->
+    <feat name="VerbForm" value="Prov" upos="VERB">6</feat><!-- _ -->
+    <feat name="VerbForm" value="Ser" upos="VERB">187</feat><!-- _, ouvy, aikovy, ejupy -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="37">
+    <dep name="acl">69</dep>
+    <dep name="advcl">472</dep>
+    <dep name="advmod">2226</dep>
+    <dep name="advmod:sentcon">1</dep>
+    <dep name="amod">371</dep>
+    <dep name="appos">18</dep>
+    <dep name="aux">1</dep>
+    <dep name="case">970</dep>
+    <dep name="cc">33</dep>
+    <dep name="ccomp">17</dep>
+    <dep name="clf">60</dep>
+    <dep name="compound">25</dep>
+    <dep name="compound:svc">263</dep>
+    <dep name="conj">67</dep>
+    <dep name="cop">1</dep>
+    <dep name="csubj">3</dep>
+    <dep name="dep">7</dep>
+    <dep name="det">41</dep>
+    <dep name="discourse">4</dep>
+    <dep name="discourse:q">23</dep>
+    <dep name="dislocated">5</dep>
+    <dep name="fixed">43</dep>
+    <dep name="flat">12</dep>
+    <dep name="goeswith">5</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">1119</dep>
+    <dep name="nmod">152</dep>
+    <dep name="nsubj">668</dep>
+    <dep name="nummod">94</dep>
+    <dep name="obj">308</dep>
+    <dep name="obl">605</dep>
+    <dep name="obl:sentcon">694</dep>
+    <dep name="parataxis">168</dep>
+    <dep name="parataxis:rep">293</dep>
+    <dep name="punct">1878</dep>
+    <dep name="root">1046</dep>
+    <dep name="vocative">7</dep>
+  </deps>
+</treebank>
