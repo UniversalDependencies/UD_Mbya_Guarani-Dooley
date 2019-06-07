@@ -1,5 +1,7 @@
 # document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ava poapẽ kunha rami ojekuaa ague
+# document_title = Ka'aguy rupigua ndovy'aiague
+# document_authorship = Nelson Florentino; January 1990, Coronel Vivida, Course for Training Bilingual Instructors
+# document_reference = GUN001R033I001
 # sent_id = 1
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -30,7 +32,7 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NUM	num	NumType=Card	6	nummod	_	_
 6	_	_	NOUN	n	_	7	obl	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -43,7 +45,7 @@
 17	_	_	NOUN	n	_	15	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	PUNCT	punct	_	15	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 4
@@ -52,7 +54,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	9	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
@@ -60,7 +62,7 @@
 10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	PART	focprt	_	9	advmod	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
-13	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	say
+13	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	A3.say
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 5
@@ -69,7 +71,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	9	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
@@ -82,13 +84,13 @@
 2	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	parataxis:rep	_	_
 3	_	_	NOUN	n	_	2	obj	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	ADV	temprt	_	6	advmod	_	_
+5	_	_	PART	temprt	_	6	advmod	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	8	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	2	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 7
@@ -205,9 +207,9 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	NOUN	n	_	8	obl	_	_
-6	_	_	ADJ	n	_	5	amod	_	_
-7	_	_	PART	focprt	_	5	amod	_	_
+5	_	_	NOUN	n	_	6	nmod	_	_
+6	_	_	NOUN	n	_	8	obl	_	_
+7	_	_	PART	focprt	_	6	amod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
@@ -218,9 +220,9 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	7	nsubj	_	_
-5	_	_	ADJ	n	_	4	amod	_	_
-6	_	_	PART	focprt	_	4	amod	_	_
+4	_	_	NOUN	n	_	5	nmod	_	_
+5	_	_	NOUN	n	_	7	nsubj	_	_
+6	_	_	PART	focprt	_	5	amod	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -251,9 +253,9 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	NOUN	n	_	8	obj	_	_
-6	_	_	ADJ	n	_	5	amod	_	_
-7	_	_	PART	focprt	_	5	amod	_	_
+5	_	_	NOUN	n	_	6	nmod	_	_
+6	_	_	NOUN	n	_	8	obj	_	_
+7	_	_	PART	focprt	_	6	amod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -503,8 +505,6 @@
 11	_	_	NOUN	n	_	8	obl	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ava poxy xi'y ruguai re omoatãague
 # sent_id = 40
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -550,7 +550,7 @@
 4	_	_	NUM	num	NumType=Card	5	nummod	_	_
 5	_	_	NOUN	n	_	6	obl	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	temprt	_	6	advmod	_	_
+7	_	_	PART	temprt	_	6	advmod	_	_
 8	_	_	PART	focprt	_	6	advmod	_	_
 9	_	_	NOUN	n	_	6	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
@@ -731,7 +731,7 @@
 7	_	_	PART	illocprt	_	6	fixed	_	_
 8	_	_	PART	illocprt	_	5	amod	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-10	_	_	ADV	aspprt	_	9	advmod	_	_
+10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	NOUN	n	_	12	nmod	_	_
 12	_	_	NOUN	n	_	9	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
@@ -774,7 +774,7 @@
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	parataxis:rep	_	_
 8	_	_	PART	illocprt	_	7	advmod	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	advcl	_	say
+10	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	advcl	_	A3.say
 11	_	_	SCONJ	subordconn	_	10	mark	_	_
 12	_	_	PRON	pro	Person=3|PronType=Prs	13	nsubj	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -912,7 +912,7 @@
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	NOUN	n	_	13	nsubj	_	_
 11	_	_	ADJ	vi	_	10	amod	_	_
-12	_	_	ADV	aspprt	_	13	advmod	_	_
+12	_	_	PART	aspprt	_	13	advmod	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 14	_	_	PART	aspprt	_	13	advmod	_	_
 15	_	_	PART	focprt	_	13	advmod	_	_
@@ -922,8 +922,6 @@
 19	_	_	ADP	post	_	18	case	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Pyxaĩ couve oarõ rã guare
 # sent_id = 69
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -1029,7 +1027,7 @@
 6	_	_	PART	illocprt	_	3	advmod	_	_
 7	_	_	PROPN	nprop	_	8	nsubj	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-9	_	_	ADV	intprt	_	8	advmod	_	_
+9	_	_	PART	intprt	_	8	advmod	_	_
 10	_	_	PART	intprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -1062,7 +1060,7 @@
 
 # sent_id = 81
 # text =_ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	CCONJ	coordconn	_	9	cc	_	_
+1	_	_	CCONJ	subordconn	_	9	cc	_	_
 2	_	_	PART	illocprt	_	9	advmod	_	_
 3	_	_	ADV	mod	_	9	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	advcl	_	_
@@ -1072,19 +1070,19 @@
 8	_	_	NOUN	n	_	9	obj	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
-11	_	_	ADV	aspprt	_	9	advmod	_	_
+11	_	_	PART	aspprt	_	9	advmod	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 82
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ “ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	18	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	ADV	aspprt	_	1	advmod	_	_
+3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	PUNCT	punct	_	18	punct	_	_
 6	_	_	PRON	pro	Person=3|PronType=Prs	18	obl:sentcon	_	_
 7	_	_	ADP	post	_	6	case	_	_
-8	_	_	ADV	aspprt	_	6	advmod	_	_
+8	_	_	PART	aspprt	_	6	advmod	_	_
 9	_	_	PART	aspprt	_	6	advmod	_	_
 10	_	_	SCONJ	subordconn	_	6	mark	_	_
 11	_	_	PART	illocprt	_	6	advmod	_	_
@@ -1094,14 +1092,14 @@
 15	_	_	NOUN	n	_	18	nsubj	_	_
 16	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	15	acl	_	_
 17	_	_	SCONJ	rel	_	16	mark	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 19	_	_	NOUN	n	_	18	obl	_	_
 20	_	_	ADP	post	_	19	case	_	_
 21	_	_	PUNCT	punct	_	18	punct	_	_
 22	“	“	PUNCT	punct	_	23	punct	_	_
 23	_	_	NOUN	n	_	18	parataxis:rep	_	_
 24	_	_	PUNCT	punct	_	23	punct	_	_
-25	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	23	parataxis	_	_
+25	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	23	parataxis	_	_
 26	_	_	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 83
@@ -1114,14 +1112,14 @@
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	compound:svc	_	_
 8	_	_	PRON	interpron	PronType=Int	12	nsubj	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	NOUN	n	Number[psor]=Sing	11	nmod	_	_
 11	_	_	NOUN	n	_	12	obj	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	ccomp	_	_
-13	_	_	ADV	aspprt	_	12	advmod	_	_
+13	_	_	PART	aspprt	_	12	advmod	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 84
@@ -1180,7 +1178,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	intprt	_	4	advmod	_	_
+5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	PART	intprt	_	4	advmod	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -1244,13 +1242,13 @@
 5	_	_	PUNCT	punct	_	6	punct	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Tran|VerbForm=Fin	14	parataxis:rep	_	_
 7	_	_	PRON	interpron	PronType=Int	9	nsubj	_	_
-8	_	_	PART	illocprt	_	7	discourse:q	_	_
+8	_	_	PART	qprt	_	7	discourse:q	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	ccomp	_	_
 10	_	_	SCONJ	rel	_	9	mark	_	_
 11	_	_	NOUN	n	_	12	nmod	_	_
 12	_	_	NOUN	n	_	9	obj	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 94
@@ -1268,7 +1266,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	11	punct	_	_
 7	_	_	ADV	mod	_	11	advmod	_	_
@@ -1278,12 +1276,12 @@
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 12	_	_	PART	aspprt	_	11	advmod	_	_
 13	_	_	PRON	interpron	PronType=Int	15	nsubj	_	_
-14	_	_	PART	illocprt	_	13	discourse:q	_	_
+14	_	_	PART	qprt	_	13	discourse:q	_	_
 15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	ccomp	_	_
 16	_	_	NOUN	n	_	17	nmod	_	_
 17	_	_	NOUN	n	_	15	obj	_	_
 18	_	_	PUNCT	punct	_	11	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 20	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 96
@@ -1338,7 +1336,7 @@
 9	_	_	PART	illocprt	_	6	advmod	_	_
 10	_	_	PART	illocprt	_	6	advmod	_	_
 11	_	_	PRON	pro	Person=3|PronType=Prs	13	nsubj	_	_
-12	_	_	ADV	aspprt	_	13	advmod	_	_
+12	_	_	PART	aspprt	_	13	advmod	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
@@ -1395,12 +1393,12 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 11	_	_	PART	focprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -1416,7 +1414,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	PRON	pro	Person=3|PronType=Prs	11	obl	_	_
 10	_	_	PART	focprt	_	9	amod	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	NOUN	n	_	11	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	PUNCT	punct	_	11	punct	_	_
@@ -1434,7 +1432,7 @@
 26	_	_	NOUN	n	_	27	nmod	_	_
 27	_	_	NOUN	n	_	23	obj	_	_
 28	_	_	PUNCT	punct	_	21	punct	_	_
-29	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	21	parataxis	_	_
+29	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	21	parataxis	_	_
 30	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 107
@@ -1445,7 +1443,7 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PART	quantprt	_	5	clf	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
 10	_	_	PUNCT	punct	_	15	punct	_	_
@@ -1455,7 +1453,7 @@
 14	_	_	PART	discprt	_	12	fixed	_	_
 15	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 18	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 108
@@ -1464,7 +1462,7 @@
 2	_	_	PRON	interpron	PronType=Int	5	parataxis:rep	_	_
 3	_	_	ADJ	vi	_	2	amod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	advcl	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -1565,7 +1563,7 @@
 11	_	_	NUM	num	NumType=Card	10	nummod	_	_
 12	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 116
@@ -1584,7 +1582,7 @@
 12	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	15	parataxis:rep	_	_
 13	_	_	SCONJ	rel	_	12	mark	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = 117
@@ -1652,7 +1650,7 @@
 12	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 122
@@ -1662,7 +1660,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PROPN	nprop	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -1672,7 +1670,7 @@
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 123
@@ -1682,7 +1680,7 @@
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	2	obj	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 124
@@ -1703,7 +1701,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	16	punct	_	_
 8	_	_	ADV	mod	_	16	advmod	_	_
@@ -1717,7 +1715,7 @@
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 17	_	_	PART	temprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 126
@@ -1787,7 +1785,7 @@
 11	_	_	PART	illocprt	_	10	amod	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 131
@@ -1796,7 +1794,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	kavaju	kavaju	NOUN	n	_	5	nsubj	_	horse
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	11	punct	_	_
 8	_	_	NOUN	n	Number[psor]=Sing	9	nmod	_	_
@@ -1811,7 +1809,7 @@
 2	_	_	NOUN	n	_	3	obj	_	_
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 4	_	_	PUNCT	punct	_	3	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 133
@@ -1851,7 +1849,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
@@ -1865,7 +1863,7 @@
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 17	_	_	PART	temprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 137
@@ -1894,12 +1892,12 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	NOUN	n	_	14	nmod	_	_
 14	_	_	NOUN	n	_	15	nmod	_	_
 15	_	_	NOUN	n	_	10	obj	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 139
@@ -1916,14 +1914,14 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 10	,”	,”	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 141
@@ -1932,11 +1930,11 @@
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	7	obj	_	_
-5	_	_	PART	illocprt	_	4	discourse:q	_	_
+5	_	_	PART	qprt	_	4	discourse:q	_	_
 6	_	_	PART	illocprt	_	4	amod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	ccomp	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 142
@@ -1947,7 +1945,7 @@
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	2	compound:svc	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 143
@@ -1981,7 +1979,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	advcl	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	SCONJ	subordconn	_	5	mark	_	_
 9	_	_	PART	discprt	_	5	advmod	_	_
@@ -2030,14 +2028,14 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	NOUN	n	_	4	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 149
@@ -2052,7 +2050,7 @@
 8	ikuai	kuai	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	acl	_	B3-be.PL
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 150
@@ -2063,7 +2061,7 @@
 4	_	_	PART	illocprt	_	3	advmod	_	_
 5	_	_	NOUN	n	_	3	obj	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 151
@@ -2074,7 +2072,7 @@
 4	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 5	_	_	NOUN	n	_	4	obj	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -2091,7 +2089,7 @@
 8	_	_	SCONJ	nmlzer	_	7	case	_	_
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	PUNCT	punct	_	3	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 153
@@ -2103,7 +2101,7 @@
 5	_	_	PART	quantprt	_	4	clf	_	_
 6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PUNCT	punct	_	2	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 154
@@ -2239,7 +2237,7 @@
 7	_	_	SCONJ	subordconn	_	4	mark	_	_
 8	_	_	PART	discprt	_	4	advmod	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PROPN	nprop	_	10	obl	_	_
 12	pe	pe	ADP	post	_	11	case	_	DAT
 13	_	_	PUNCT	punct	_	10	punct	_	_
@@ -2252,7 +2250,7 @@
 20	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	19	obj	_	_
 21	_	_	SCONJ	rel	_	20	mark	_	_
 22	_	_	PUNCT	punct	_	15	punct	_	_
-23	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+23	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 24	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 164
@@ -2269,7 +2267,7 @@
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 11	_	_	PART	temprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PART	illocprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
 
@@ -2376,7 +2374,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	intprt	_	5	advmod	_	_
 8	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
@@ -2399,7 +2397,7 @@
 3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	discprt	_	3	fixed	_	_
 5	_	_	PART	illocprt	_	1	advmod	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	nsubj	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -2418,7 +2416,7 @@
 22	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
 23	_	_	PART	temprt	_	22	advmod	_	_
 24	_	_	PUNCT	punct	_	22	punct	_	_
-25	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	22	parataxis	_	_
+25	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	22	parataxis	_	_
 26	_	_	PART	illocprt	_	25	advmod	_	_
 27	_	_	PROPN	nprop	_	25	obl	_	_
 28	_	_	ADP	post	_	27	case	_	_
@@ -2501,7 +2499,7 @@
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	PART	illocprt	_	6	advmod	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	21	punct	_	_
 12	_	_	ADV	mod	_	21	advmod	_	_
@@ -2516,7 +2514,7 @@
 21	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	9	parataxis:rep	_	_
 22	_	_	SCONJ	rel	_	21	mark	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	21	parataxis	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	21	parataxis	_	_
 25	_	_	PART	focprt	_	24	advmod	_	_
 26	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -2525,7 +2523,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	ADV	aspprt	_	5	advmod	_	_
+4	_	_	PART	aspprt	_	5	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
@@ -2636,7 +2634,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PART	focprt	_	8	advmod	_	_
 10	_	_	PROPN	nprop	_	8	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
@@ -2650,13 +2648,13 @@
 19	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	18	ccomp	_	_
 20	_	_	SCONJ	rel	_	19	mark	_	_
 21	_	_	PUNCT	punct	_	14	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 23	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 192
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	10	punct	_	_
-2	_	_	ADV	temprt	_	4	advmod	_	_
+2	_	_	PART	temprt	_	4	advmod	_	_
 3	_	_	SCONJ	subordconn	_	2	mark	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 5	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -2667,7 +2665,7 @@
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 11	_	_	PART	temprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 193
@@ -2698,7 +2696,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	PART	quantprt	_	4	clf	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -2719,7 +2717,7 @@
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 197
@@ -2732,7 +2730,7 @@
 6	_	_	VERB	vt	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 7	_	_	VERB	vs	Clusivity=Ex|Mood=Ind|Person=1|VerbForm=Ser	6	compound:svc	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 198
@@ -2760,7 +2758,7 @@
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-10	_	_	ADV	temprt	_	9	advmod	_	_
+10	_	_	PART	temprt	_	9	advmod	_	_
 11	_	_	PART	focprt	_	9	advmod	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -3094,7 +3092,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -3102,12 +3100,12 @@
 9	_	_	ADV	mod	_	11	advmod	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
-12	_	_	ADV	temprt	_	11	advmod	_	_
+12	_	_	PART	temprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	conj	_	_
 15	_	_	NOUN	n	_	14	obj	_	_
 16	_	_	PUNCT	punct	_	11	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 18	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 225
@@ -3118,7 +3116,7 @@
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	PROPN	nprop	_	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	temprt	_	6	advmod	_	_
+7	_	_	PART	temprt	_	6	advmod	_	_
 8	_	_	PART	focprt	_	6	advmod	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
@@ -3275,7 +3273,7 @@
 
 # sent_id = 236
 # text =_ _ _ _ _ _
-1	_	_	ADV	aspprt	_	2	advmod	_	_
+1	_	_	PART	aspprt	_	2	advmod	_	_
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	_	_	PART	discprt	_	2	advmod	_	_
 4	_	_	PART	intprt	_	3	fixed	_	_
@@ -3325,7 +3323,7 @@
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 14	_	_	PART	illocprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 239
@@ -3333,7 +3331,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -3344,12 +3342,12 @@
 12	_	_	ADP	post	_	11	case	_	_
 13	_	_	PART	aspprt	_	11	advmod	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
-15	_	_	ADV	temprt	_	14	advmod	_	_
+15	_	_	PART	temprt	_	14	advmod	_	_
 16	_	_	NOUN	n	_	17	nmod	_	_
 17	_	_	NOUN	n	_	14	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	PUNCT	punct	_	14	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 21	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 240
@@ -3367,7 +3365,7 @@
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	NOUN	n	_	8	nsubj	_	_
 6	_	_	ADJ	vi:i	_	5	amod	_	_
-7	_	_	ADV	aspprt	_	8	advmod	_	_
+7	_	_	PART	aspprt	_	8	advmod	_	_
 8	_	_	VERB	vd	Mood=Ind|Person[subj]=3|Subcat=Ditran|VerbForm=Fin	0	root	_	_
 9	_	_	PART	illocprt	_	8	advmod	_	_
 10	_	_	NOUN	n	Number=Plur	8	obj	_	_
@@ -3436,12 +3434,12 @@
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	12	punct	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	NOUN	n	Number[psor]=Plur	12	obj	_	_
 15	_	_	CCONJ	coordconn	_	16	cc	_	_
 16	_	_	NOUN	n	Number[psor]=Plur	14	conj	_	_
 17	”	”	PUNCT	punct	_	12	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 19	_	_	PART	focprt	_	18	advmod	_	_
 20	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -3451,7 +3449,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	12	punct	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	advcl	_	_
@@ -3462,7 +3460,7 @@
 13	_	_	PART	intprt	_	12	advmod	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 248
@@ -3475,7 +3473,7 @@
 6	_	_	PART	temprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 249
@@ -3484,13 +3482,13 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 9	_	_	PART	intprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 12	_	_	NOUN	n	_	11	nsubj	_	_
 13	_	_	ADJ	vi:i	_	12	amod	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
@@ -3523,7 +3521,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	10	punct	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	10	advcl	_	_
@@ -3543,7 +3541,7 @@
 7	_	_	VERB	vs	Mood=Ind|Person=2|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	SCONJ	subordconn	_	5	mark	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 254
@@ -3564,7 +3562,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	7	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	ADV	aspprt	_	7	advmod	_	_
+6	_	_	PART	aspprt	_	7	advmod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PART	intprt	_	7	advmod	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
@@ -3577,7 +3575,7 @@
 4	_	_	PART	intprt	_	2	advmod	_	_
 5	_	_	PART	aspprt	_	2	advmod	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PART	intprt	_	7	advmod	_	_
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	7	compound:svc	_	_
@@ -3629,7 +3627,7 @@
 25	ae	ae	PART	intprt	_	24	amod	_	INT
 26	_	_	PART	discprt	_	24	amod	_	_
 27	_	_	PUNCT	punct	_	24	punct	_	_
-28	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+28	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 29	_	_	PUNCT	punct	_	28	punct	_	_
 
 # sent_id = 259
@@ -3643,7 +3641,7 @@
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	NOUN	n	_	13	advcl	_	_
 9	_	_	ADJ	vi:i	_	8	amod	_	_
-10	_	_	ADV	intprt	_	9	advmod	_	_
+10	_	_	PART	intprt	_	9	advmod	_	_
 11	_	_	PART	intprt	_	10	advmod	_	_
 12	_	_	SCONJ	subordconn	_	8	mark	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -3658,11 +3656,11 @@
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PART	quantprt	_	5	clf	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	advcl	_	_
-8	_	_	ADV	temprt	_	7	advmod	_	_
+8	_	_	PART	temprt	_	7	advmod	_	_
 9	_	_	SCONJ	subordconn	_	7	mark	_	_
 10	_	_	PART	discprt	_	7	advmod	_	_
 11	_	_	PART	illocprt	_	7	advmod	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	_	_	PUNCT	punct	_	26	punct	_	_
 15	_	_	NOUN	n	Number[psor]=Sing	26	nsubj	_	_
@@ -3672,13 +3670,13 @@
 19	_	_	PUNCT	punct	_	23	punct	_	_
 20	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	23	advcl	_	_
 21	_	_	SCONJ	subordconn	_	20	mark	_	_
-22	_	_	ADV	adv	_	23	advmod	_	_
+22	_	_	NOUN	n	_	23	obl	_	_
 23	_	_	NOUN	n	Number[psor]=Sing	26	parataxis:rep	_	_
 24	_	_	SCONJ	rel	_	23	mark	_	_
 25	_	_	PUNCT	punct	_	23	punct	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis:rep	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis:rep	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
-28	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	26	parataxis	_	_
+28	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	26	parataxis	_	_
 29	_	_	NOUN	n	_	28	nsubj	_	_
 30	_	_	PART	quantprt	_	29	clf	_	_
 31	_	_	PUNCT	punct	_	12	punct	_	_
@@ -3702,7 +3700,7 @@
 6	_	_	NOUN	n	Number[psor]=Sing	7	nmod	_	_
 7	_	_	NOUN	n	_	2	obl	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -3797,7 +3795,7 @@
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	10	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 271
@@ -3806,7 +3804,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	24	punct	_	_
 8	_	_	NOUN	n	_	17	nsubj	_	_
@@ -3814,7 +3812,7 @@
 10	_	_	PART	discprt	_	8	amod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	14	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
-13	_	_	ADV	adv	_	14	advmod	_	_
+13	_	_	NOUN	n	_	14	obl	_	_
 14	xera'y	a'y	NOUN	n	Number[psor]=Sing	17	advcl	_	B1.SG-R-son
 15	_	_	SCONJ	subordconn	_	14	mark	_	_
 16	_	_	ADP	post	_	14	case	_	_
@@ -3827,7 +3825,7 @@
 23	_	_	SCONJ	subordconn	_	20	mark	_	_
 24	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	24	parataxis	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	24	parataxis	_	_
 27	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 272
@@ -3836,7 +3834,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
@@ -3844,13 +3842,13 @@
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	8	conj	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 273
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	6	punct	_	_
-2	_	_	ADV	temprt	_	3	advmod	_	_
+2	_	_	PART	temprt	_	3	advmod	_	_
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
 5	_	_	PART	illocprt	_	3	advmod	_	_
@@ -3858,7 +3856,7 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	obj	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 274
@@ -3907,7 +3905,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PROPN	nprop	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -3923,7 +3921,7 @@
 19	_	_	PART	illocprt	_	17	advmod	_	_
 20	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	20	parataxis	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	20	parataxis	_	_
 23	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 278
@@ -3953,7 +3951,7 @@
 4	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	intprt	_	6	advmod	_	_
+7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 280
@@ -3982,7 +3980,7 @@
 7	_	_	SCONJ	subordconn	_	4	mark	_	_
 8	_	_	PART	illocprt	_	4	advmod	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-10	_	_	ADV	intprt	_	9	advmod	_	_
+10	_	_	PART	intprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 282
@@ -3994,7 +3992,7 @@
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PART	quantprt	_	5	clf	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-8	_	_	ADV	temprt	_	7	advmod	_	_
+8	_	_	PART	temprt	_	7	advmod	_	_
 9	_	_	PART	focprt	_	7	advmod	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -4012,7 +4010,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 284
@@ -4020,7 +4018,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	20	punct	_	_
 7	_	_	NOUN	n	Clusivity=Ex	20	nsubj	_	_
@@ -4036,9 +4034,9 @@
 17	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	20	parataxis:rep	_	_
 18	_	_	SCONJ	rel	_	17	mark	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	4	parataxis:rep	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	20	parataxis	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	20	parataxis	_	_
 23	_	_	PART	focprt	_	22	advmod	_	_
 24	_	_	PART	illocprt	_	22	advmod	_	_
 25	_	_	PUNCT	punct	_	4	punct	_	_
@@ -4113,7 +4111,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 290
@@ -4123,7 +4121,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 5	vy	vy	SCONJ	subordconn	_	4	mark	_	SS
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	32	punct	_	_
 9	_	_	NOUN	n	_	27	nsubj	_	_
@@ -4144,14 +4142,14 @@
 24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	27	parataxis:rep	_	_
 25	_	_	SCONJ	rel	_	24	mark	_	_
 26	_	_	PUNCT	punct	_	24	punct	_	_
-27	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	30	advcl	_	_
+27	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	30	advcl	_	_
 28	_	_	SCONJ	subordconn	_	27	mark	_	_
 29	_	_	NOUN	n	Number[psor]=Sing	30	nsubj	_	_
 30	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	32	advcl	_	_
 31	_	_	SCONJ	subordconn	_	30	mark	_	_
 32	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 33	_	_	PUNCT	punct	_	32	punct	_	_
-34	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	32	parataxis	_	_
+34	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	32	parataxis	_	_
 35	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 291
@@ -4160,13 +4158,13 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PROPN	nprop	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
-11	_	_	ADV	negprt	Polarity=Neg	10	advmod	_	_
+11	_	_	PART	negprt	_	10	advmod	_	_
 12	_	_	PART	illocprt	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
 
@@ -4182,7 +4180,7 @@
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 293
@@ -4190,7 +4188,7 @@
 1	_	_	PUNCT	punct	_	10	punct	_	_
 2	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
 3	_	_	ADP	post	_	2	case	_	_
-4	_	_	ADV	temprt	_	7	advmod	_	_
+4	_	_	PART	temprt	_	7	advmod	_	_
 5	_	_	NOUN	n	Number[psor]=Sing	7	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	10	advcl	_	_
@@ -4198,7 +4196,7 @@
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	12	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 294
@@ -4268,10 +4266,10 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	parataxis:rep	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	10	csubj	_	_
 14	_	_	PUNCT	punct	_	10	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 16	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 300
@@ -4279,13 +4277,13 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 8	_	_	PART	aspprt	_	7	advmod	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 301
@@ -4295,7 +4293,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 302
@@ -4326,10 +4324,10 @@
 10	_	_	PUNCT	punct	_	8	punct	_	_
 11	_	_	PUNCT	punct	_	14	punct	_	_
 12	_	_	PRON	interpron	PronType=Int	14	obj	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 304
@@ -4337,7 +4335,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	22	punct	_	_
 7	_	_	NOUN	n	Number[psor]=Sing	22	nsubj	_	_
@@ -4355,9 +4353,9 @@
 19	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	22	parataxis:rep	_	_
 20	_	_	SCONJ	rel	_	19	mark	_	_
 21	_	_	PUNCT	punct	_	19	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	4	parataxis:rep	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 23	_	_	PUNCT	punct	_	22	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	22	parataxis	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	22	parataxis	_	_
 25	_	_	PART	illocprt	_	24	advmod	_	_
 26	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -4465,7 +4463,7 @@
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 314
@@ -4474,7 +4472,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	16	punct	_	_
 8	_	_	NOUN	n	_	16	nsubj	_	_
@@ -4487,7 +4485,7 @@
 15	_	_	ADP	post	_	12	case	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 315
@@ -4501,23 +4499,23 @@
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	10	parataxis:rep	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis:rep	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	12	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	advcl	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	advcl	_	_
 13	_	_	PART	illocprt	_	12	advmod	_	_
 14	_	_	SCONJ	subordconn	_	12	mark	_	_
 15	_	_	NOUN	n	Number[psor]=Sing	16	nsubj	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	18	advcl	_	_
 17	_	_	SCONJ	subordconn	_	16	mark	_	_
 18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	21	advcl	_	_
-19	_	_	ADV	temprt	_	18	advmod	_	_
+19	_	_	PART	temprt	_	18	advmod	_	_
 20	_	_	SCONJ	subordconn	_	18	mark	_	_
 21	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Tran|VerbForm=Fin	24	advcl	_	_
 22	_	_	VERB	vpos	Polarity=Neg|VerbForm=Post	21	compound:svc	_	_
 23	_	_	SCONJ	subordconn	_	21	mark	_	_
 24	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	26	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
 
 # sent_id = 316
@@ -4526,16 +4524,16 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
-9	_	_	ADV	negprt	Polarity=Neg	8	advmod	_	_
+9	_	_	PART	negprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	8	conj	_	_
 12	_	_	PART	intprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 317
@@ -4543,13 +4541,13 @@
 1	_	_	PUNCT	punct	_	2	punct	_	_
 2	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 3	_	_	PUNCT	punct	_	2	punct	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 318
 # text =_ _ _ _ _ _ _ _ ema'ẽ _ _ _
 1	_	_	PUNCT	punct	_	9	punct	_	_
-2	_	_	ADV	temprt	_	9	advmod	_	_
+2	_	_	PART	temprt	_	9	advmod	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	NOUN	n	Number[psor]=Sing	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -4558,7 +4556,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	ema'ẽ	ma'ẽ	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	11	parataxis:rep	_	2.SG.IMP-look
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 319
@@ -4620,9 +4618,9 @@
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	Ereru	ru	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	13	parataxis:rep	_	A2.SG-COM-come
 10	_	_	PART	discprt	_	9	advmod	_	_
-11	_	_	PART	illocprt	_	9	discourse:q	_	_
+11	_	_	PART	qprt	_	9	discourse:q	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 323
@@ -4631,14 +4629,14 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	dem	_	10	advmod	_	_
 9	_	_	PART	discprt	_	8	advmod	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 324
@@ -4648,7 +4646,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
@@ -4662,7 +4660,7 @@
 5	_	_	PART	illocprt	_	3	advmod	_	_
 6	_	_	NOUN	n	_	7	nsubj	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-8	_	_	ADV	temprt	_	7	advmod	_	_
+8	_	_	PART	temprt	_	7	advmod	_	_
 9	_	_	PART	focprt	_	7	advmod	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -4697,7 +4695,7 @@
 13	_	_	PART	illocprt	_	12	amod	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 17	_	_	PART	focprt	_	16	advmod	_	_
 18	_	_	PART	aspprt	_	16	advmod	_	_
 19	_	_	NOUN	n	_	16	nsubj	_	_
@@ -4708,7 +4706,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	30	punct	_	_
 7	_	_	NOUN	n	Number[psor]=Sing	30	dislocated	_	_
@@ -4734,11 +4732,11 @@
 27	_	_	PART	aspprt	_	25	advmod	_	_
 28	_	_	SCONJ	rel	_	25	mark	_	_
 29	_	_	PUNCT	punct	_	25	punct	_	_
-30	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	4	parataxis:rep	_	_
+30	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 31	_	_	PART	illocprt	_	30	advmod	_	_
 32	xeryvy	yvy	NOUN	n	Number[psor]=Sing	30	nsubj	_	B1.SG-R-younger.brother
 33	_	_	PUNCT	punct	_	30	punct	_	_
-34	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	30	parataxis	_	_
+34	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	30	parataxis	_	_
 35	_	_	PART	focprt	_	34	advmod	_	_
 36	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -4759,7 +4757,7 @@
 
 # sent_id = 330
 # text =_ _ _ _ _ _ _ _ _ _
-1	_	_	ADV	aspprt	_	2	advmod	_	_
+1	_	_	PART	aspprt	_	2	advmod	_	_
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	_	_	PART	focprt	_	2	advmod	_	_
 4	_	_	PART	discprt	_	2	advmod	_	_
@@ -4818,7 +4816,7 @@
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	VERB	vpos	VerbForm=Post	5	compound:svc	_	_
-7	_	_	ADV	modprt	_	5	advmod	_	_
+7	_	_	PART	modprt	_	5	advmod	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
 9	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
@@ -4922,7 +4920,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	NOUN	n	_	6	compound	_	_
 8	_	_	PROPN	nprop	_	5	obl	_	_
@@ -4933,7 +4931,7 @@
 13	_	_	NOUN	n	Number[psor]=Sing	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 343
@@ -4942,18 +4940,18 @@
 2	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 344
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	4	punct	_	_
-2	_	_	ADV	temprt	_	4	advmod	_	_
+2	_	_	PART	temprt	_	4	advmod	_	_
 3	_	_	PART	aspprt	_	2	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 5	_	_	PART	temprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 345
@@ -4968,7 +4966,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	11	nsubj	_	_
 14	_	_	NOUN	n	_	13	compound	_	_
@@ -4990,7 +4988,7 @@
 10	_	_	PART	intprt	_	9	advmod	_	_
 11	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	13	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	say
+13	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	A3.say
 14	_	_	PROPN	nprop	_	13	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
@@ -5000,7 +4998,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	nsubj	_	_
 6	_	_	PROPN	nprop	_	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
@@ -5019,7 +5017,7 @@
 20	_	_	PART	focprt	_	19	amod	_	_
 21	_	_	PART	intprt	_	19	amod	_	_
 22	_	_	PUNCT	punct	_	19	punct	_	_
-23	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	36	advcl	_	_
+23	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	36	advcl	_	_
 24	_	_	PART	aspprt	_	23	advmod	_	_
 25	_	_	SCONJ	subordconn	_	23	mark	_	_
 26	_	_	PART	illocprt	_	23	advmod	_	_
@@ -5034,7 +5032,7 @@
 35	_	_	PUNCT	punct	_	31	punct	_	_
 36	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 37	_	_	PUNCT	punct	_	36	punct	_	_
-38	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	36	parataxis	_	_
+38	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	36	parataxis	_	_
 39	_	_	PART	illocprt	_	38	advmod	_	_
 40	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -5055,7 +5053,7 @@
 13	_	_	PART	discprt	_	12	advmod	_	_
 14	_	_	PART	temprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PART	illocprt	_	16	advmod	_	_
 18	_	_	PROPN	nprop	_	16	obl	_	_
 19	_	_	ADP	post	_	18	case	_	_
@@ -5078,7 +5076,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	NOUN	n	_	4	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	intprt	_	4	advmod	_	_
+5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 8	_	_	PUNCT	punct	_	4	punct	_	_
@@ -5093,7 +5091,7 @@
 6	_	_	PART	illocprt	_	4	amod	_	_
 7	_	_	NOUN	n	_	8	nsubj	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-9	_	_	ADV	temprt	_	8	advmod	_	_
+9	_	_	PART	temprt	_	8	advmod	_	_
 10	_	_	PART	focprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -5129,14 +5127,14 @@
 6	_	_	PART	focprt	_	5	amod	_	_
 7	_	_	PART	intprt	_	5	amod	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	advcl	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	advcl	_	_
 10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PROPN	nprop	_	16	nsubj	_	_
 13	_	_	PRON	pro	Person=3|PronType=Prs	12	appos	_	_
 14	_	_	ADV	mod	_	13	amod	_	_
 15	_	_	PART	illocprt	_	12	amod	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 18	_	_	PUNCT	punct	_	41	punct	_	_
 19	_	_	NOUN	n	_	41	nsubj	_	_
@@ -5161,10 +5159,10 @@
 38	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	41	parataxis:rep	_	_
 39	_	_	SCONJ	rel	_	38	mark	_	_
 40	_	_	PUNCT	punct	_	38	punct	_	_
-41	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis:rep	_	_
-42	_	_	ADV	aspprt	_	41	advmod	_	_
+41	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis:rep	_	_
+42	_	_	PART	aspprt	_	41	advmod	_	_
 43	_	_	PUNCT	punct	_	41	punct	_	_
-44	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	41	parataxis	_	say
+44	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	41	parataxis	_	A3.say
 45	_	_	PART	illocprt	_	44	advmod	_	_
 46	_	_	PUNCT	punct	_	16	punct	_	_
 
@@ -5226,8 +5224,6 @@
 2	_	_	PART	illocprt	_	1	advmod	_	_
 3	_	_	PUNCT	punct	_	1	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Omenda ramo rai va'e okyje va'e reko oĩa
 # sent_id = 360
 # text =_ _ _ _ ava _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -5238,7 +5234,7 @@
 6	_	_	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	acl	_	_
 7	_	_	SCONJ	rel	_	6	mark	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	acl	_	_
-9	_	_	ADV	temprt	_	8	advmod	_	_
+9	_	_	PART	temprt	_	8	advmod	_	_
 10	_	_	PART	intprt	_	8	advmod	_	_
 11	_	_	SCONJ	rel	_	8	mark	_	_
 12	_	_	PUNCT	punct	_	3	punct	_	_
@@ -5293,10 +5289,10 @@
 5	_	_	NUM	num	NumType=Card	6	nummod	_	_
 6	_	_	NOUN	n	_	8	obl	_	_
 7	_	_	NOUN	n	_	8	nsubj	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 10	_	_	PUNCT	punct	_	14	punct	_	_
-11	_	_	ADV	temprt	_	14	advmod	_	_
+11	_	_	PART	temprt	_	14	advmod	_	_
 12	_	_	PART	intprt	_	11	advmod	_	_
 13	_	_	PART	illocprt	_	11	advmod	_	_
 14	tereo	o	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	OPT-A2.SG-go
@@ -5309,7 +5305,7 @@
 3	_	_	NOUN	n	Number[psor]=Sing	2	obl	_	_
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 367
@@ -5333,7 +5329,7 @@
 17	_	_	PART	modprt	_	16	advmod	_	_
 18	_	_	PART	temprt	_	16	advmod	_	_
 19	_	_	PUNCT	punct	_	13	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = 368
@@ -5353,19 +5349,19 @@
 13	_	_	SCONJ	rel	_	12	mark	_	_
 14	_	_	PART	focprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 369
 # text =_ _ _ ta'vy _ _ _ _ _
 1	_	_	PUNCT	punct	_	5	punct	_	_
-2	_	_	ADV	temprt	_	5	advmod	_	_
+2	_	_	PART	temprt	_	5	advmod	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	ta'vy	tuha'vy	PART	illocprt	_	2	advmod	_	MIR-then
 5	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 370
@@ -5379,7 +5375,7 @@
 7	_	_	VERB	vd:a	Mood=Ind|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	10	parataxis:rep	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 371
@@ -5394,12 +5390,12 @@
 8	_	_	PART	focprt	_	7	amod	_	_
 9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 372
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	CCONJ	coordconn	_	9	cc	_	_
+1	_	_	CCONJ	subordconn	_	9	cc	_	_
 2	_	_	PART	illocprt	_	9	advmod	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	9	advcl	_	_
 4	_	_	VERB	vpos	Polarity=Neg|VerbForm=Post	3	compound:svc	_	_
@@ -5407,7 +5403,7 @@
 6	_	_	PART	discprt	_	3	advmod	_	_
 7	_	_	PART	illocprt	_	3	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
@@ -5417,7 +5413,7 @@
 16	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	14	compound:svc	_	_
 17	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	16	compound:svc	_	_
 18	_	_	PUNCT	punct	_	14	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 20	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 373
@@ -5433,7 +5429,7 @@
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	compound:svc	_	_
 10	_	_	SCONJ	subordconn	_	8	mark	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 374
@@ -5442,7 +5438,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	18	punct	_	_
@@ -5457,7 +5453,7 @@
 17	_	_	PART	focprt	_	16	amod	_	_
 18	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	18	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	18	parataxis	_	_
 21	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 375
@@ -5485,7 +5481,7 @@
 10	oma'ẽmba	ma'ẽ	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	4	compound:svc	_	A3-look-COMPL
 11	_	_	SCONJ	subordconn	_	4	mark	_	_
 12	_	_	PART	illocprt	_	4	advmod	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PRON	pro	PronType=Prs	13	obl	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
 16	_	_	PUNCT	punct	_	18	punct	_	_
@@ -5493,7 +5489,7 @@
 18	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 19	_	_	PART	aspprt	_	18	advmod	_	_
 20	_	_	PUNCT	punct	_	18	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	18	parataxis	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	18	parataxis	_	_
 22	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 377
@@ -5506,7 +5502,7 @@
 6	_	_	NOUN	n	_	3	conj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PRON	pro	PronType=Prs	9	obl	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -5516,7 +5512,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	SCONJ	rel	_	6	mark	_	_
 8	_	_	NOUN	n	_	5	obl	_	_
@@ -5527,7 +5523,7 @@
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	PART	discprt	_	12	advmod	_	_
 15	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
-16	_	_	ADV	det	_	17	advmod	_	_
+16	_	_	ADV	dem	_	17	advmod	_	_
 17	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
 
@@ -5537,10 +5533,10 @@
 2	_	_	CCONJ	coordconn	_	6	cc	_	_
 3	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 4	_	_	PART	discprt	_	3	amod	_	_
-5	_	_	ADV	det	_	6	advmod	_	_
+5	_	_	ADV	dem	_	6	advmod	_	_
 6	_	_	VERB	vi	Mood=Des|Person[subj]=1|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 380
@@ -5548,7 +5544,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -5564,7 +5560,7 @@
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 18	_	_	PART	temprt	_	17	advmod	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 381
@@ -5582,7 +5578,7 @@
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PART	focprt	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 382
@@ -5591,7 +5587,7 @@
 2	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 383
@@ -5639,7 +5635,7 @@
 12	_	_	PART	discprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	6	parataxis:rep	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 16	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 386
@@ -5649,13 +5645,13 @@
 3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 13	_	_	VERB	vpos	VerbForm=Post	12	compound:svc	_	_
 14	_	_	NOUN	n	_	12	nsubj	_	_
 15	_	_	PUNCT	punct	_	6	punct	_	_
@@ -5786,7 +5782,7 @@
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 397
@@ -5795,20 +5791,18 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	aipoe'i	aipoe'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	ATN-say
+5	aipoe'i	aipoe'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	ATN-A3.say
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	11	punct	_	_
 8	_	_	NOUN	n	_	11	obj	_	_
 9	_	_	PART	modprt	_	8	amod	_	_
 10	_	_	PART	discprt	_	8	amod	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
-12	_	_	ADV	temprt	_	11	advmod	_	_
+12	_	_	PART	temprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Juky neĩ kavõ ndoikuaai rã guare
 # sent_id = 398
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -5827,7 +5821,7 @@
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	_	_	PRON	interpron	PronType=Int	5	det	_	_
 5	_	_	NOUN	n	_	3	ccomp	_	_
-6	_	_	PART	illocprt	_	5	discourse:q	_	_
+6	_	_	PART	qprt	_	5	discourse:q	_	_
 7	_	_	NOUN	n	_	5	nsubj	_	_
 8	_	_	PUNCT	punct	_	3	punct	_	_
 9	_	_	PART	focprt	_	10	amod	_	_
@@ -5906,7 +5900,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -5918,7 +5912,7 @@
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	9	conj	_	_
 15	_	_	PUNCT	punct	_	9	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 406
@@ -5984,7 +5978,7 @@
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	advcl	_	_
 14	e'ỹ	e'ỹ	PART	negprt	_	13	advmod	_	NEG
 15	_	_	SCONJ	subordconn	_	13	mark	_	_
@@ -6003,7 +5997,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -6015,7 +6009,7 @@
 14	_	_	PUNCT	punct	_	15	punct	_	_
 15	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	10	conj	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 413
@@ -6030,7 +6024,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	2	conj	_	_
 10	_	_	PUNCT	punct	_	2	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PART	focprt	_	11	advmod	_	_
 13	_	_	NOUN	n	_	11	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
@@ -6048,7 +6042,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	acl	_	say
+11	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	acl	_	A3.say
 12	_	_	SCONJ	nmlzer	_	11	mark	_	_
 13	_	_	PART	discprt	_	11	advmod	_	_
 14	_	_	PRON	pro	Person=3|PronType=Prs	15	det	_	_
@@ -6058,11 +6052,9 @@
 18	_	_	PART	illocprt	_	17	advmod	_	_
 19	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	obl	_	_
 20	_	_	PUNCT	punct	_	17	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Tuja'i nda'ijapyxakavei va'e reko oĩa
 # sent_id = 415
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -6224,7 +6216,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
@@ -6237,7 +6229,7 @@
 14	_	_	PART	focprt	_	12	advmod	_	_
 15	_	_	VERB	vd:a	Mood=Ind|Person[subj]=1|Subcat=IntInd|VerbForm=Fin	10	compound:svc	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 18	_	_	PART	illocprt	_	17	advmod	_	_
 19	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	17	compound:svc	_	_
 20	_	_	PRON	pro	Person=3|PronType=Prs	17	obl	_	_
@@ -6249,7 +6241,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	je	je	PART	illocprt	_	1	advmod	_	HSY
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -6259,12 +6251,12 @@
 12	_	_	SCONJ	subordconn	_	10	mark	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	16	advcl	_	_
 14	_	_	SCONJ	subordconn	_	13	mark	_	_
-15	_	_	PART	illocprt	_	13	discourse:q	_	_
+15	_	_	PART	qprt	_	13	discourse:q	_	_
 16	_	_	NOUN	n	Number[psor]=Sing	5	parataxis:rep	_	_
 17	_	_	PART	discprt	_	16	amod	_	_
-18	_	_	PART	illocprt	_	16	discourse:q	_	_
+18	_	_	PART	qprt	_	16	discourse:q	_	_
 19	_	_	PUNCT	punct	_	16	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 21	_	_	PART	illocprt	_	20	advmod	_	_
 22	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	20	compound:svc	_	_
 23	_	_	PUNCT	punct	_	20	punct	_	_
@@ -6282,7 +6274,7 @@
 9	_	_	ADV	mod	_	12	advmod	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PART	illocprt	_	9	advmod	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	NOUN	n	_	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
@@ -6291,7 +6283,7 @@
 18	_	_	PART	illocprt	_	17	amod	_	_
 19	_	_	VERB	vt	Mood=Ind|Person[obj]=2|Person[subj]=1|Subcat=Tran|VerbForm=Fin	12	parataxis:rep	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	19	parataxis	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	19	parataxis	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 432
@@ -6328,7 +6320,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	10	punct	_	_
 7	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
@@ -6345,7 +6337,7 @@
 18	_	_	PART	illocprt	_	17	fixed	_	_
 19	_	_	PART	illocprt	_	16	advmod	_	_
 20	_	_	PUNCT	punct	_	16	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 22	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 435
@@ -6375,7 +6367,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
@@ -6390,7 +6382,7 @@
 3	_	_	PART	aspprt	_	2	advmod	_	_
 4	_	_	PART	aspprt	_	2	advmod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PART	illocprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
@@ -6418,8 +6410,6 @@
 20	_	_	ADP	post	_	17	case	_	_
 21	_	_	PUNCT	punct	_	16	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Hamymino overa va'e reko oĩa
 # sent_id = 439
 # text =_ _ _ _ _ ete _ _ _ _ _
 1	_	_	ADV	vi:i	_	8	advmod	_	_
@@ -6446,7 +6436,7 @@
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	compound:svc	_	_
 3	_	_	SCONJ	subordconn	_	1	advcl	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -6455,9 +6445,9 @@
 11	_	_	NOUN	n	_	13	obj	_	_
 12	_	_	PART	illocprt	_	11	amod	_	_
 13	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
-14	_	_	ADV	negprt	Polarity=Neg	13	advmod	_	_
+14	_	_	PART	negprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 442
@@ -6482,12 +6472,12 @@
 1	_	_	PUNCT	punct	_	6	punct	_	_
 2	_	_	PRON	interpron	PronType=Int	6	obl	_	_
 3	_	_	ADP	post	_	2	case	_	_
-4	_	_	PART	illocprt	_	2	discourse:q	_	_
+4	_	_	PART	qprt	_	2	discourse:q	_	_
 5	_	_	NOUN	n	Number[psor]=Sing	6	nsubj	_	_
 6	_	_	PRON	dem	PronType=Dem	9	parataxis:rep	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 445
@@ -6610,7 +6600,7 @@
 23	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
 24	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	16	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	24	parataxis	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	24	parataxis	_	_
 27	_	_	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = 453
@@ -6625,7 +6615,7 @@
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 454
@@ -6637,7 +6627,7 @@
 5	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	8	parataxis:rep	_	_
 6	_	_	VERB	vt	Mood=Des|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	compound:svc	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	NOUN	n	_	8	nsubj	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -6744,7 +6734,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	ADV	mod	_	10	advmod	_	_
@@ -6753,7 +6743,7 @@
 11	_	_	PART	temprt	_	10	advmod	_	_
 12	_	_	ADV	mod	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 464
@@ -6764,7 +6754,7 @@
 4	_	_	NOUN	n	_	2	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 465
@@ -6783,7 +6773,7 @@
 12	_	_	PART	illocprt	_	13	advmod	_	_
 13	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	conj	_	_
 14	_	_	PUNCT	punct	_	6	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 16	_	_	PART	illocprt	_	15	advmod	_	_
 17	_	_	NOUN	n	_	15	nsubj	_	_
 18	_	_	PUNCT	punct	_	15	punct	_	_
@@ -6915,7 +6905,7 @@
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	ADV	intermod	_	11	obl	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	NOUN	n	_	11	obj	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	ccomp	_	_
 12	_	_	PART	temprt	_	11	advmod	_	_
@@ -6941,7 +6931,7 @@
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
@@ -6953,7 +6943,7 @@
 16	_	_	SCONJ	nmlzer	_	15	mark	_	_
 17	_	_	NOUN	n	_	10	obj	_	_
 18	_	_	PUNCT	punct	_	10	punct	_	_
-19	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	say
+19	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	A3.say
 20	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 482
@@ -6985,7 +6975,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
@@ -6995,7 +6985,7 @@
 12	_	_	VERB	vs	Mood=Ind|VerbForm=Ser	11	compound:svc	_	_
 13	_	_	SCONJ	nmlzer	_	11	mark	_	_
 14	_	_	PUNCT	punct	_	8	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 485
@@ -7030,14 +7020,14 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 10	_	_	NOUN	n	Number[psor]=Sing	9	obj	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 13	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 489
@@ -7065,13 +7055,13 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 9	_	_	NOUN	n	Number[psor]=Sing	8	obj	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 492
@@ -7196,7 +7186,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
@@ -7222,7 +7212,7 @@
 13	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	16	parataxis:rep	_	_
 14	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	13	compound:svc	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 502
@@ -7303,7 +7293,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	13	punct	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	11	parataxis	_	_
 14	_	_	NOUN	n	_	11	obl	_	_
@@ -7316,7 +7306,7 @@
 21	_	_	ADV	mod	_	20	advmod	_	_
 22	_	_	ADV	dem	_	20	advmod	_	_
 23	_	_	PUNCT	punct	_	20	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	20	parataxis	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	20	parataxis	_	_
 25	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 510
@@ -7327,9 +7317,9 @@
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	parataxis:rep	_	_
 5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 10	_	_	NOUN	n	_	7	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
@@ -7351,7 +7341,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	iobj	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
 9	_	_	PRON	dem	PronType=Dem	16	obl	_	_
@@ -7363,19 +7353,19 @@
 15	_	_	NOUN	n	_	16	obj	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 513
 # text =_ _ _ _ _ _ _ _ _
-1	_	_	CCONJ	coordconn	_	8	cc	_	_
+1	_	_	CCONJ	subordconn	_	8	cc	_	_
 2	_	_	PART	illocprt	_	8	advmod	_	_
 3	_	_	NOUN	n	_	8	nsubj	_	_
 4	_	_	PUNCT	punct	_	5	punct	_	_
 5	_	_	VERB	prov	VerbForm=Prov	8	parataxis:rep	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 514
@@ -7389,7 +7379,7 @@
 7	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	6	compound:svc	_	_
 8	_	_	PART	focprt	_	6	advmod	_	_
 9	_	_	PART	illocprt	_	6	advmod	_	_
-10	_	_	ADV	aspprt	_	11	advmod	_	_
+10	_	_	PART	aspprt	_	11	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	6	advcl	_	_
 12	_	_	PART	intprt	_	11	advmod	_	_
 13	_	_	PART	intprt	_	11	advmod	_	_
@@ -7401,7 +7391,7 @@
 
 # sent_id = 515
 # text =_ _ _ _ ouvy _
-1	_	_	ADV	aspprt	_	2	advmod	_	_
+1	_	_	PART	aspprt	_	2	advmod	_	_
 2	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 3	_	_	PART	focprt	_	2	advmod	_	_
 4	_	_	PART	aspprt	_	2	advmod	_	_
@@ -7461,7 +7451,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	intprt	_	6	advmod	_	_
 5	_	_	ADJ	vi	_	4	amod	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
 9	_	_	ADP	post	_	7	case	_	_
@@ -7478,7 +7468,7 @@
 20	_	_	ADP	post	_	17	case	_	_
 21	_	_	PART	intprt	_	17	advmod	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
-23	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+23	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 24	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 522
@@ -7496,7 +7486,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	obl	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
@@ -7518,9 +7508,9 @@
 25	_	_	SCONJ	rel	_	24	mark	_	_
 26	_	_	PART	negprt	_	24	advmod	_	_
 27	_	_	SCONJ	subordconn	_	24	mark	_	_
-28	_	_	ADV	discprt	_	24	advmod	_	_
+28	_	_	PART	discprt	_	24	advmod	_	_
 29	_	_	PUNCT	punct	_	13	punct	_	_
-30	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+30	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 31	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 524
@@ -7588,7 +7578,7 @@
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 7	_	_	PART	temprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	9	compound:svc	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -7640,7 +7630,7 @@
 25	_	_	NOUN	n	_	26	obj	_	_
 26	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	20	compound:svc	_	_
 27	_	_	PUNCT	punct	_	20	punct	_	_
-28	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	20	parataxis	_	_
+28	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	20	parataxis	_	_
 29	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 532
@@ -7673,7 +7663,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
@@ -7682,7 +7672,7 @@
 10	_	_	SCONJ	rel	_	9	mark	_	_
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 14	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 535
@@ -7695,7 +7685,7 @@
 6	_	_	NOUN	n	_	4	obj	_	_
 7	_	_	SCONJ	subordconn	_	4	mark	_	_
 8	_	_	PART	illocprt	_	4	advmod	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	19	punct	_	_
 12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
@@ -7707,7 +7697,7 @@
 18	_	_	PART	temprt	_	14	advmod	_	_
 19	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	28	advcl	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	28	advcl	_	_
 22	_	_	SCONJ	subordconn	_	21	mark	_	_
 23	_	_	PART	illocprt	_	21	advmod	_	_
 24	_	_	NOUN	n	_	28	obl	_	_
@@ -7748,7 +7738,7 @@
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	SCONJ	subordconn	_	6	mark	_	_
 10	_	_	PART	illocprt	_	6	advmod	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	22	advcl	_	_
@@ -7761,7 +7751,7 @@
 21	_	_	NOUN	n	_	22	obj	_	_
 22	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	parataxis:rep	_	_
 23	_	_	PUNCT	punct	_	22	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	22	parataxis	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	22	parataxis	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
 
 # sent_id = 538
@@ -7771,7 +7761,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	Tereo	o	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	OPT-A2.SG-go
@@ -7787,7 +7777,7 @@
 19	_	_	NOUN	n	Number[psor]=Plur	20	obj	_	_
 20	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	conj	_	_
 21	_	_	PUNCT	punct	_	9	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 23	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 539
@@ -7798,7 +7788,7 @@
 4	_	_	NOUN	n	_	7	nsubj	_	_
 5	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	4	acl	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -7819,7 +7809,7 @@
 3	_	_	NOUN	n	Clusivity=In	4	obj	_	_
 4	_	_	VERB	vt	Mood=Des|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 541
@@ -7863,7 +7853,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -7875,7 +7865,7 @@
 13	_	_	NOUN	n	Clusivity=In	14	obj	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 545
@@ -7989,7 +7979,7 @@
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	intprt	_	6	advmod	_	_
+7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 555
@@ -8051,7 +8041,7 @@
 11	_	_	NOUN	n	_	13	nsubj	_	_
 12	_	_	SCONJ	rel	_	11	mark	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-14	_	_	ADV	intprt	_	13	advmod	_	_
+14	_	_	PART	intprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 560
@@ -8081,7 +8071,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	13	punct	_	_
 9	_	_	NOUN	n	_	13	obl	_	_
@@ -8094,7 +8084,7 @@
 16	_	_	ADP	post	_	14	mark	_	_
 17	_	_	VERB	vi	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	13	compound:svc	_	_
 18	,”	,”	PUNCT	punct	_	13	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 20	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 562
@@ -8104,7 +8094,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	4	nsubj	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	nsubj	_	_
 7	_	_	SCONJ	nmlzer	_	6	mark	_	_
 8	_	_	SCONJ	subordconn	_	4	mark	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
@@ -8138,7 +8128,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	9	punct	_	_
 2	_	_	PRON	interpron	PronType=Int	9	nsubj	_	_
-3	_	_	PART	illocprt	_	2	discourse:q	_	_
+3	_	_	PART	qprt	_	2	discourse:q	_	_
 4	_	_	PRON	dem	PronType=Dem	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	2	acl	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
@@ -8146,7 +8136,7 @@
 8	_	_	SCONJ	rel	_	5	mark	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 566
@@ -8159,7 +8149,7 @@
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	ri	ri	PART	discprt	_	6	advmod	_	DM
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	16	punct	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[obj]=3|Subcat=Tran|VerbForm=Fin	16	nsubj	_	_
@@ -8168,7 +8158,7 @@
 15	_	_	PART	discprt	_	12	advmod	_	_
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 567
@@ -8232,7 +8222,7 @@
 15	_	_	SCONJ	subordconn	_	12	mark	_	_
 16	_	_	PART	illocprt	_	12	advmod	_	_
 17	_	_	NOUN	n	_	18	nsubj	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
 20	_	_	PUNCT	punct	_	25	punct	_	_
 21	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
@@ -8248,7 +8238,7 @@
 31	_	_	VERB	vd	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Ditran|VerbForm=Fin	25	parataxis	_	_
 32	_	_	SCONJ	rel	_	31	mark	_	_
 33	_	_	PUNCT	punct	_	25	punct	_	_
-34	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	25	parataxis	_	_
+34	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	25	parataxis	_	_
 35	_	_	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 572
@@ -8292,7 +8282,7 @@
 16	_	_	NOUN	n	_	15	obj	_	_
 17	_	_	ADJ	vi:i	_	16	amod	_	_
 18	_	_	PUNCT	punct	_	12	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = 575
@@ -8333,7 +8323,7 @@
 3	_	_	NOUN	n	_	2	obj	_	_
 4	_	_	ADJ	vi:i	_	3	amod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 579
@@ -8346,7 +8336,7 @@
 6	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	9	parataxis:rep	_	_
 7	_	_	PART	temprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 580
@@ -8405,7 +8395,7 @@
 
 # sent_id = 584
 # text =_ _ _ _ _ _ _ ju _
-1	_	_	CCONJ	coordconn	_	7	cc	_	_
+1	_	_	CCONJ	subordconn	_	7	cc	_	_
 2	_	_	PART	illocprt	_	7	advmod	_	_
 3	_	_	NOUN	n	_	4	nmod	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
@@ -8447,7 +8437,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	aspprt	_	4	advmod	_	_
+5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 588
@@ -8456,7 +8446,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	8	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
@@ -8474,7 +8464,7 @@
 20	_	_	VERB	vi	Mood=Des|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	conj	_	_
 21	_	_	ADV	dem	_	20	advmod	_	_
 22	_	_	PUNCT	punct	_	12	punct	_	_
-23	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	say
+23	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	A3.say
 24	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 589
@@ -8506,7 +8496,7 @@
 4	_	_	NUM	num	NumType=Card	5	nummod	_	_
 5	_	_	NOUN	n	_	7	obl	_	_
 6	_	_	NOUN	n	_	7	nsubj	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
@@ -8516,10 +8506,10 @@
 14	_	_	NOUN	n	Number[psor]=Sing	12	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
 16	_	_	PART	discprt	_	12	advmod	_	_
-17	_	_	ADV	discprt	_	12	advmod	_	_
+17	_	_	PART	discprt	_	12	advmod	_	_
 18	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	12	compound:svc	_	_
 19	_	_	PUNCT	punct	_	12	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 592
@@ -8740,8 +8730,6 @@
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 2	_	_	PUNCT	punct	_	1	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Taguato ngovaja jeruxi reve ka'aguy re ooague
 # sent_id = 606
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -8767,12 +8755,12 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	ADV	temprt	_	9	advmod	_	_
+4	_	_	PART	temprt	_	9	advmod	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	SCONJ	subordconn	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	NOUN	n	_	10	appos	_	_
 12	_	_	ADP	post	_	10	case	_	_
@@ -8789,7 +8777,7 @@
 23	tovaja	ovaja	NOUN	n	_	19	vocative	_	3-brother.in.law
 24	_	_	NOUN	n	_	23	appos	_	_
 25	_	_	PUNCT	punct	_	19	punct	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	19	parataxis	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	19	parataxis	_	_
 27	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 609
@@ -8821,7 +8809,7 @@
 11	_	_	PART	discprt	_	6	advmod	_	_
 12	_	_	PART	illocprt	_	6	advmod	_	_
 13	_	_	NOUN	n	_	14	nsubj	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 15	_	_	NOUN	n	_	14	obl	_	_
 16	_	_	NOUN	n	_	15	appos	_	_
 17	_	_	ADP	post	_	15	case	_	_
@@ -8830,16 +8818,16 @@
 20	_	_	ADV	mod	_	24	advmod	_	_
 21	_	_	PART	discprt	_	20	advmod	_	_
 22	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	24	nsubj	_	_
-23	_	_	ADV	det	_	24	advmod	_	_
+23	_	_	ADV	dem	_	24	advmod	_	_
 24	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	14	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	29	punct	_	_
 26	_	_	CCONJ	coordconn	_	29	cc	_	_
 27	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
 28	_	_	PART	discprt	_	27	amod	_	_
 29	_	_	VERB	vi	Mood=Des|Person[subj]=1|Subcat=Int|VerbForm=Fin	24	conj	_	_
-30	_	_	ADV	det	_	29	advmod	_	_
+30	_	_	ADV	dem	_	29	advmod	_	_
 31	_	_	PUNCT	punct	_	24	punct	_	_
-32	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	24	parataxis	_	_
+32	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	24	parataxis	_	_
 33	_	_	NOUN	n	_	32	nsubj	_	_
 34	_	_	NOUN	n	_	33	appos	_	_
 35	jeruxi	jeruxi	NOUN	n	_	32	obl	_	dove
@@ -8884,13 +8872,11 @@
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	INTJ	onom	_	9	conj	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PART	aspprt	_	13	advmod	_	_
 15	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	13	compound:svc	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ka'i ovava va'e reko oĩa
 # sent_id = 613
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -8934,7 +8920,7 @@
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	SCONJ	subordconn	_	4	mark	_	_
 11	_	_	PART	illocprt	_	4	advmod	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	_	_	PUNCT	punct	_	17	punct	_	_
 15	_	_	ADV	mod	_	17	advcl	_	_
@@ -8944,7 +8930,7 @@
 19	_	_	PART	aspprt	_	17	advmod	_	_
 20	_	_	PART	aspprt	_	17	advmod	_	_
 21	_	_	PUNCT	punct	_	17	punct	_	_
-22	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 23	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 617
@@ -8987,8 +8973,6 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Aka'ẽ ha'e taguato reko oĩa
 # sent_id = 620
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -9051,8 +9035,6 @@
 11	_	_	PART	intprt	_	10	amod	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Xupĩ ha'e avia reko oĩa
 # sent_id = 625
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -9114,8 +9096,6 @@
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	4	conj	_	_
 14	_	_	PUNCT	punct	_	4	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Tapixi ojou va'e rei ho'u va'e reko oĩa
 # sent_id = 629
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -9176,8 +9156,6 @@
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Kuaray, jaxy ha'e anha reko oĩa
 # sent_id = 633
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -9225,7 +9203,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	PROPN	nprop	_	6	appos	_	_
 8	_	_	ADP	post	_	6	case	_	_
@@ -9238,7 +9216,7 @@
 15	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	13	advcl	_	_
 16	_	_	SCONJ	subordconn	_	15	mark	_	_
 17	_	_	PUNCT	punct	_	13	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 637
@@ -9343,7 +9321,7 @@
 5	_	_	PART	discprt	_	1	advmod	_	_
 6	_	_	PART	illocprt	_	1	advmod	_	_
 7	_	_	PROPN	nprop	_	8	nsubj	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	NOUN	n	_	8	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
@@ -9355,7 +9333,7 @@
 17	_	_	VERB	vi	Mood=Des|Person[subj]=1|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 18	_	_	VERB	vt	Mood=Des|Person[subj]=1|Subcat=Tran|VerbForm=Fin	17	compound:svc	_	_
 19	”	”	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 645
@@ -9366,7 +9344,7 @@
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PROPN	nprop	_	5	appos	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	PROPN	nprop	_	8	appos	_	_
 10	_	_	ADP	post	_	8	case	_	_
@@ -9379,7 +9357,7 @@
 17	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 18	_	_	NOUN	n	_	17	obj	_	_
 19	_	_	PUNCT	punct	_	17	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 21	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 646
@@ -9387,10 +9365,10 @@
 1	_	_	PUNCT	punct	_	2	punct	_	_
 2	_	_	PRON	pro	Person=3|PronType=Prs	7	parataxis:rep	_	_
 3	_	_	ADP	post	_	2	case	_	_
-4	_	_	ADV	negprt	Polarity=Neg	2	advmod	_	_
+4	_	_	PART	negprt	_	2	advmod	_	_
 5	_	_	PART	illocprt	_	2	advmod	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -9468,7 +9446,7 @@
 16	_	_	PUNCT	punct	_	17	punct	_	_
 17	_	_	INTJ	interj	_	15	conj	_	_
 18	_	_	PUNCT	punct	_	13	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = 652
@@ -9541,7 +9519,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	7	nsubj	_	_
 5	porayvu	ayvu	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	7	advcl	_	GEN.OBJ-R-love
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	VERB	vi	Mood=Ind|Polarity=Neg|Subcat=Int|VerbForm=Inf	0	root	_	_
 8	_	_	PART	intprt	_	7	advmod	_	_
 9	_	_	PART	intprt	_	7	advmod	_	_
@@ -9555,7 +9533,7 @@
 2	_	_	SCONJ	subordconn	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -9567,15 +9545,13 @@
 14	_	_	PART	intprt	_	13	advmod	_	_
 15	_	_	SCONJ	subordconn	_	13	mark	_	_
 16	_	_	PUNCT	punct	_	10	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 18	_	_	PART	illocprt	_	17	advmod	_	_
 19	_	_	NOUN	n	_	20	nsubj	_	_
 20	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	17	advcl	_	_
 21	_	_	SCONJ	subordconn	_	20	mark	_	_
 22	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Gigante reko oĩa
 # sent_id = 658
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -9627,14 +9603,14 @@
 7	_	_	PART	intprt	_	5	advmod	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-10	_	_	ADV	aspprt	_	9	advmod	_	_
+10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 662
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	ADV	aspprt	_	1	advmod	_	_
+3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	PRON	pro	Person=3|PronType=Prs	8	det	_	_
@@ -9670,7 +9646,7 @@
 # text =_ va'ekue _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obj	_	_
 2	va'ekue	va'e	SCONJ	rel	_	1	mark	_	REL-PAST
-3	_	_	ADV	intprt	_	1	advmod	_	_
+3	_	_	PART	intprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NUM	num	NumType=Card	1	nummod	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -9691,7 +9667,7 @@
 6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	SCONJ	subordconn	_	5	mark	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
@@ -9713,7 +9689,7 @@
 5	_	_	PUNCT	punct	_	6	punct	_	_
 6	_	_	VERB	prov	VerbForm=Prov	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 668
@@ -9741,7 +9717,7 @@
 # text =_ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	ADV	aspprt	_	1	advmod	_	_
+3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
@@ -9761,7 +9737,7 @@
 11	_	_	PART	illocprt	_	8	advmod	_	_
 12	_	_	NOUN	n	_	13	obj	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-14	_	_	ADV	aspprt	_	13	advmod	_	_
+14	_	_	PART	aspprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	18	punct	_	_
 16	_	_	PRON	pro	Person=3|PronType=Prs	18	nsubj	_	_
 17	_	_	PART	focprt	_	16	amod	_	_
@@ -9775,7 +9751,7 @@
 # text =_ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	ADV	aspprt	_	1	advmod	_	_
+3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -9799,7 +9775,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	nsubj	_	_
 2	_	_	PART	discprt	_	1	amod	_	_
 3	_	_	PART	illocprt	_	1	amod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	6	nmod	_	_
 6	_	_	NOUN	n	_	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
@@ -9815,10 +9791,10 @@
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	21	nsubj	_	_
 18	_	_	VERB	vpos	VerbForm=Post	17	compound:svc	_	_
 19	_	_	SCONJ	rel	_	17	mark	_	_
-20	_	_	PART	illocprt	_	17	discourse:q	_	_
+20	_	_	PART	qprt	_	17	discourse:q	_	_
 21	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	23	parataxis:rep	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
-23	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	29	advcl	_	_
+23	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	29	advcl	_	_
 24	_	_	SCONJ	subordconn	_	23	mark	_	_
 25	_	_	PART	illocprt	_	23	advmod	_	_
 26	_	_	PUNCT	punct	_	27	punct	_	_
@@ -9826,7 +9802,7 @@
 28	_	_	PUNCT	punct	_	27	punct	_	_
 29	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 30	_	_	PUNCT	punct	_	29	punct	_	_
-31	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	29	parataxis	_	_
+31	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	29	parataxis	_	_
 32	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 674
@@ -9871,7 +9847,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
 6	_	_	PART	aspprt	_	4	advmod	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -9881,10 +9857,10 @@
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	15	nsubj	_	_
 12	_	_	VERB	vpos	VerbForm=Post	11	compound:svc	_	_
 13	_	_	SCONJ	rel	_	11	mark	_	_
-14	_	_	PART	illocprt	_	11	discourse:q	_	_
+14	_	_	PART	qprt	_	11	discourse:q	_	_
 15	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 18	_	_	PART	focprt	_	17	advmod	_	_
 19	_	_	PART	aspprt	_	17	advmod	_	_
 20	_	_	NOUN	n	_	17	obl	_	_
@@ -9897,7 +9873,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
@@ -9908,7 +9884,7 @@
 13	_	_	VERB	vpos	VerbForm=Post	12	compound:svc	_	_
 14	_	_	SCONJ	rel	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	8	punct	_	_
-16	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	say
+16	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	A3.say
 17	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 679
@@ -9942,8 +9918,6 @@
 13	_	_	ADV	mod	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Guaiguĩ'i oporaei va'e reko oĩa
 # sent_id = 681
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -9963,7 +9937,7 @@
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-8	_	_	ADV	aspprt	_	7	advmod	_	_
+8	_	_	PART	aspprt	_	7	advmod	_	_
 9	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 683
@@ -9983,18 +9957,18 @@
 13	_	_	NOUN	n	Number[psor]=Sing	14	nmod	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	18	punct	_	_
-16	_	_	ADV	negprt	Polarity=Neg	18	advmod	_	_
+16	_	_	PART	negprt	_	18	advmod	_	_
 17	_	_	PART	illocprt	_	16	advmod	_	_
 18	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	14	punct	_	_
-20	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 21	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 684
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	ADV	aspprt	_	1	advmod	_	_
+3	_	_	PART	aspprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	7	det	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
@@ -10023,11 +9997,11 @@
 4	_	_	NOUN	n	Number[psor]=Sing	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	11	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	9	punct	_	_
-7	_	_	ADV	negprt	Polarity=Neg	9	advmod	_	_
+7	_	_	PART	negprt	_	9	advmod	_	_
 8	_	_	PART	illocprt	_	7	advmod	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	NOUN	n	_	14	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	11	advcl	_	_
@@ -10079,7 +10053,7 @@
 9	_	_	PART	intprt	_	8	advmod	_	_
 10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	14	punct	_	_
-12	_	_	ADV	negprt	Polarity=Neg	14	advmod	_	_
+12	_	_	PART	negprt	_	14	advmod	_	_
 13	_	_	PART	illocprt	_	12	advmod	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	8	parataxis	_	_
 15	_	_	PUNCT	punct	_	19	punct	_	_
@@ -10088,12 +10062,12 @@
 18	_	_	PART	illocprt	_	16	amod	_	_
 19	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	14	parataxis	_	_
 20	_	_	PUNCT	punct	_	8	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
 
 # sent_id = 690
 # text =_ _ _ je _ _ _ _ _
-1	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	5	advcl	_	_
+1	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	5	advcl	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	je	je	PART	illocprt	_	1	advmod	_	HSY
@@ -10153,8 +10127,6 @@
 11	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	10	compound:svc	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Peru Rima padre ombotavyague
 # sent_id = 694
 # text =_ _ _ peteĩ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -10192,7 +10164,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	NOUN	n	_	4	nsubj	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PROPN	nprop	_	4	obl	_	_
 6	_	_	PROPN	nprop	_	5	flat	_	_
 7	_	_	ADP	post	_	5	case	_	_
@@ -10202,7 +10174,7 @@
 11	_	_	PART	focprt	_	10	amod	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 698
@@ -10212,7 +10184,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	6	nsubj	_	_
 5	_	_	PROPN	nprop	_	4	flat	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -10227,7 +10199,7 @@
 18	_	_	NOUN	n	_	19	nmod	_	_
 19	_	_	NOUN	n	_	17	obj	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	13	parataxis	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
 22	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 699
@@ -10236,7 +10208,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PROPN	nprop	_	5	obl	_	_
 7	_	_	PROPN	nprop	_	6	flat	_	_
 8	_	_	ADP	post	_	6	case	_	_
@@ -10261,7 +10233,7 @@
 5	_	_	NOUN	n	Number[psor]=Sing	6	nmod	_	_
 6	_	_	NOUN	n	_	3	obj	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 701
@@ -10270,13 +10242,13 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PROPN	nprop	_	5	nsubj	_	_
 4	_	_	PROPN	nprop	_	3	flat	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 9	_	_	PART	temprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 12	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 702
@@ -10339,7 +10311,7 @@
 4	_	_	PART	illocprt	_	1	amod	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	aspprt	_	6	advmod	_	_
+7	_	_	PART	aspprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	9	obj	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 10	_	_	SCONJ	subordconn	_	9	mark	_	_
@@ -10348,8 +10320,6 @@
 13	_	_	PART	intprt	_	12	fixed	_	_
 14	.	.	PUNCT	punct	_	9	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ava iporiaukue reko oĩa
 # sent_id = 707
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -10418,7 +10388,7 @@
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	obj	_	_
 9	va'erã	va'e	SCONJ	rel	_	8	mark	_	REL-FUT
 10	_	_	PUNCT	punct	_	7	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 713
@@ -10446,7 +10416,7 @@
 
 # sent_id = 715
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+1	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	_	_	NOUN	n	_	1	obl	_	_
 3	_	_	ADP	post	_	2	case	_	_
 4	_	_	PUNCT	punct	_	1	punct	_	_
@@ -10457,7 +10427,7 @@
 9	_	_	ADV	dem	_	7	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 13	_	_	NOUN	n	_	12	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	1	punct	_	_
@@ -10472,7 +10442,7 @@
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	NOUN	n	_	5	obj	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	PART	quantprt	_	10	clf	_	_
 12	_	_	ADP	post	_	10	case	_	_
@@ -10522,7 +10492,7 @@
 4	_	_	SCONJ	rel	_	3	mark	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NOUN	n	_	7	obl	_	_
 9	_	_	ADV	vi:i	_	8	advmod	_	_
 10	_	_	SCONJ	rel	_	8	mark	_	_
@@ -10530,10 +10500,10 @@
 12	_	_	PUNCT	punct	_	7	punct	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
-15	_	_	PART	illocprt	_	14	discourse:q	_	_
+15	_	_	PART	qprt	_	14	discourse:q	_	_
 16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 721
@@ -10547,7 +10517,7 @@
 7	_	_	NOUN	n	_	6	acl	_	_
 8	_	_	ADV	vi:i	_	7	advmod	_	_
 9	_	_	SCONJ	rel	_	7	mark	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 12	_	_	PUNCT	punct	_	16	punct	_	_
 13	_	_	NOUN	n	_	14	obj	_	_
@@ -10556,7 +10526,7 @@
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	10	parataxis:rep	_	_
 17	_	_	PART	temprt	_	16	advmod	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 20	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 722
@@ -10620,7 +10590,7 @@
 4	_	_	NUM	num	NumType=Card	5	nummod	_	_
 5	_	_	NOUN	n	_	6	obl	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	temprt	_	6	advmod	_	_
+7	_	_	PART	temprt	_	6	advmod	_	_
 8	_	_	PART	focprt	_	6	advmod	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
 
@@ -10649,7 +10619,7 @@
 9	_	_	ADV	intermod	_	10	advmod	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 729
@@ -10660,14 +10630,14 @@
 4	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	7	parataxis:rep	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	he'i	he'i	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	say
+14	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	A3.say
 15	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 730
@@ -10679,7 +10649,7 @@
 5	_	_	AUX	v	_	6	aux	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	3	parataxis	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 731
@@ -10696,7 +10666,7 @@
 10	_	_	NOUN	n	_	8	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 732
@@ -10707,10 +10677,10 @@
 4	_	_	SCONJ	rel	_	3	mark	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	14	punct	_	_
-10	_	_	ADV	temprt	_	11	advmod	_	_
+10	_	_	PART	temprt	_	11	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	14	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
 13	_	_	PART	illocprt	_	11	advmod	_	_
@@ -10718,7 +10688,7 @@
 15	_	_	PART	illocprt	_	14	advmod	_	_
 16	_	_	VERB	vs	Mood=Imp|Person=2|VerbForm=Ser	14	compound:svc	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 19	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 733
@@ -10732,7 +10702,7 @@
 7	ke	ke	PART	illocprt	_	2	advmod	_	IMP
 8	_	_	VERB	vi	Mood=Des|Person[subj]=2|Subcat=Int|VerbForm=Fin	10	parataxis:rep	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 734
@@ -10747,7 +10717,7 @@
 8	_	_	NOUN	n	_	5	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 735
@@ -10762,7 +10732,7 @@
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	11	parataxis:rep	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 736
@@ -10773,7 +10743,7 @@
 4	_	_	PART	illocprt	_	2	advmod	_	_
 5	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 737
@@ -10790,7 +10760,7 @@
 10	_	_	PART	negprt	_	9	advmod	_	_
 11	_	_	SCONJ	rel	_	9	mark	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 738
@@ -10801,7 +10771,7 @@
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 739
@@ -10851,7 +10821,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	4	obl	_	_
 7	_	_	VERB	vi:a	Mood=Ind|Subcat=Int|VerbForm=Inf	6	compound	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	6	acl	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	acl	_	_
 9	_	_	SCONJ	nmlzer	_	8	mark	_	_
 10	_	_	ADP	post	_	6	case	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
@@ -10876,7 +10846,7 @@
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	7	nmod	_	_
 7	_	_	NOUN	n	_	4	obl	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	acl	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	acl	_	_
 9	_	_	SCONJ	nmlzer	_	8	mark	_	_
 10	_	_	ADP	post	_	7	case	_	_
 11	_	_	PUNCT	punct	_	4	punct	_	_
@@ -10900,7 +10870,7 @@
 5	_	_	NOUN	n	_	6	obj	_	_
 6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	3	parataxis	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PART	illocprt	_	8	advmod	_	_
 10	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	8	compound:svc	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
@@ -10941,7 +10911,7 @@
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	15	punct	_	_
 12	_	_	NOUN	n	_	15	vocative	_	_
@@ -10950,7 +10920,7 @@
 15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 16	_	_	PART	aspprt	_	15	advmod	_	_
 17	_	_	PUNCT	punct	_	15	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 750
@@ -11023,7 +10993,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	ADV	temprt	_	9	advmod	_	_
+4	_	_	PART	temprt	_	9	advmod	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	SCONJ	subordconn	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
@@ -11048,7 +11018,7 @@
 13	rei	rei	PART	intprt	_	12	advmod	_	INT
 14	_	_	SCONJ	subordconn	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	8	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 756
@@ -11058,7 +11028,7 @@
 3	_	_	SCONJ	rel	_	2	mark	_	_
 4	_	_	PART	discprt	_	2	advmod	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 757
@@ -11066,7 +11036,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	17	punct	_	_
@@ -11081,7 +11051,7 @@
 16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 20	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 758
@@ -11093,7 +11063,7 @@
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 6	_	_	NOUN	n	_	5	nsubj	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 759
@@ -11106,7 +11076,7 @@
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 7	_	_	NOUN	n	_	6	obj	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 760
@@ -11121,7 +11091,7 @@
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	7	compound:svc	_	_
 10	_	_	PUNCT	punct	_	7	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
 
@@ -11133,7 +11103,7 @@
 4	_	_	PART	discprt	_	3	amod	_	_
 5	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 762
@@ -11146,7 +11116,7 @@
 6	_	_	NOUN	n	Clusivity=In	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	4	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 763
@@ -11167,7 +11137,7 @@
 14	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	17	parataxis:rep	_	_
 15	_	_	NOUN	n	Clusivity=In	14	obj	_	_
 16	_	_	PUNCT	punct	_	14	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
 
 # sent_id = 764
@@ -11177,7 +11147,7 @@
 3	_	_	NOUN	n	Clusivity=In	6	parataxis:rep	_	_
 4	_	_	PART	focprt	_	3	amod	_	_
 5	_	_	PUNCT	punct	_	3	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 765
@@ -11187,7 +11157,7 @@
 3	_	_	PART	intprt	_	2	amod	_	_
 4	_	_	SCONJ	rel	_	2	mark	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 766
@@ -11199,7 +11169,7 @@
 5	_	_	PART	temprt	_	2	advmod	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 767
@@ -11246,7 +11216,7 @@
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	PART	quantprt	_	7	clf	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	15	punct	_	_
 12	_	_	NOUN	n	_	15	vocative	_	_
@@ -11255,7 +11225,7 @@
 15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis:rep	_	_
 16	_	_	PART	aspprt	_	15	advmod	_	_
 17	_	_	PUNCT	punct	_	15	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 771
@@ -11282,13 +11252,13 @@
 4	_	_	PART	aspprt	_	3	advmod	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
 6	_	_	PART	illocprt	_	3	advmod	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
-11	_	_	ADV	negprt	Polarity=Neg	10	advmod	_	_
+11	_	_	PART	negprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 14	_	_	NOUN	n	_	13	obl	_	_
 15	_	_	PART	quantprt	_	14	clf	_	_
 16	_	_	ADP	post	_	14	case	_	_
@@ -11401,7 +11371,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	2	nsubj	_	_
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
-3	_	_	ADV	intprt	_	2	advmod	_	_
+3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	PART	intprt	_	3	advmod	_	_
 5	_	_	SCONJ	subordconn	_	2	mark	_	_
 6	_	_	VERB	vd	Mood=Ind|Person[subj]=3|Subcat=Ditran|VerbForm=Fin	0	root	_	_
@@ -11413,8 +11383,6 @@
 12	_	_	ADP	post	_	10	case	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Guyra'i ajuka kuaa ypy'iague
 # sent_id = 783
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	8	advmod	_	_
@@ -11640,14 +11608,12 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	xee	xee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Jurua ayvu ndaikuaaiague
 # sent_id = 803
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	7	advmod	_	_
@@ -11700,11 +11666,11 @@
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
 8	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
-9	_	_	PART	illocprt	_	8	discourse:q	_	_
+9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 11	avei	avei	PART	focprt	_	10	advmod	_	also
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 807
@@ -11735,15 +11701,15 @@
 5	_	_	ADP	post	_	6	obj	_	_
 6	_	_	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	8	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
-8	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PART	focprt	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 11	_	_	PUNCT	punct	_	14	punct	_	_
 12	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-13	_	_	PART	illocprt	_	12	discourse:q	_	_
+13	_	_	PART	qprt	_	12	discourse:q	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	8	parataxis:rep	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 17	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 809
@@ -11752,7 +11718,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
@@ -11846,7 +11812,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -11896,7 +11862,7 @@
 7	_	_	PART	aspprt	_	5	advmod	_	_
 8	_	_	PART	discprt	_	5	advmod	_	_
 9	_	_	PART	illocprt	_	8	fixed	_	_
-10	_	_	ADV	temprt	_	5	advmod	_	_
+10	_	_	PART	temprt	_	5	advmod	_	_
 11	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 822
@@ -11911,7 +11877,7 @@
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PART	aspprt	_	8	advmod	_	_
-11	_	_	ADV	temprt	_	8	advmod	_	_
+11	_	_	PART	temprt	_	8	advmod	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 823
@@ -11929,8 +11895,6 @@
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ka'aguy re aa ague
 # sent_id = 824
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12049,8 +12013,6 @@
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Tape rupi aa vy anhemondyiague
 # sent_id = 835
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -12080,7 +12042,7 @@
 3	_	_	PUNCT	punct	_	4	punct	_	_
 4	_	_	INTJ	onom	_	2	parataxis	_	_
 5	_	_	PUNCT	punct	_	2	punct	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	VERB	vpos	VerbForm=Post	6	compound:svc	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
@@ -12169,7 +12131,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	17	obl:sentcon	_	_
 2	gui	gui	ADP	post	_	1	case	_	from
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	advcl	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	advcl	_	_
 5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
@@ -12179,7 +12141,7 @@
 11	_	_	VERB	vt	Mood=Ind|Person[obj]=2|Subcat=Tran|VerbForm=Fin	10	acl	_	_
 12	_	_	SCONJ	rel	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 15	_	_	SCONJ	subordconn	_	4	mark	_	_
 16	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -12189,8 +12151,6 @@
 21	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	17	compound:svc	_	_
 22	_	_	PUNCT	punct	_	17	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Xemamãe ambotavyague
 # sent_id = 844
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12312,7 +12272,7 @@
 2	_	_	SCONJ	subordconn	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
@@ -12321,7 +12281,7 @@
 11	_	_	PUNCT	punct	_	12	punct	_	_
 12	_	_	VERB	vt	Mood=Des|Person[subj]=1|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 853
@@ -12339,7 +12299,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 5	_	_	SCONJ	subordconn	_	4	mark	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
 9	_	_	ADV	intermod	_	11	obl	_	_
@@ -12347,7 +12307,7 @@
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 855
@@ -12356,7 +12316,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	xee	xee	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	1.SG
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	12	punct	_	_
@@ -12364,7 +12324,7 @@
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PART	discprt	_	9	advmod	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
-13	_	_	ADV	temprt	_	12	advmod	_	_
+13	_	_	PART	temprt	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
 15	_	_	PRON	pro	Person=3|PronType=Prs	12	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
@@ -12375,7 +12335,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	12	punct	_	_
@@ -12385,7 +12345,7 @@
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 13	_	_	PART	illocprt	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	12	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 857
@@ -12394,14 +12354,14 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
 9	_	_	ADV	mod	_	11	advmod	_	_
 10	_	_	PART	discprt	_	9	advmod	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
-12	_	_	ADV	temprt	_	11	advmod	_	_
+12	_	_	PART	temprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
 14	_	_	PRON	pro	Person=3|PronType=Prs	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
@@ -12412,7 +12372,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	“	“	PUNCT	punct	_	14	punct	_	_
 8	_	_	ADV	mod	_	9	advmod	_	_
@@ -12424,7 +12384,7 @@
 14	_	_	NOUN	n	_	5	parataxis:rep	_	_
 15	_	_	PART	aspprt	_	14	amod	_	_
 16	_	_	PUNCT	punct	_	14	punct	_	_
-17	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	14	parataxis	_	_
+17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	parataxis	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 859
@@ -12437,8 +12397,6 @@
 6	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	5	compound:svc	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ipoxogue va'e aexa ague
 # sent_id = 860
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -12469,7 +12427,7 @@
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	intprt	_	4	advmod	_	_
+5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	parataxis	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -12539,7 +12497,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	intprt	_	4	advmod	_	_
+5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -12584,14 +12542,14 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
-9	_	_	ADV	negprt	Polarity=Neg	8	advmod	_	_
+9	_	_	PART	negprt	_	8	advmod	_	_
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	PUNCT	punct	_	8	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	advcl	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	advcl	_	_
 13	_	_	SCONJ	subordconn	_	12	mark	_	_
 14	_	_	PART	illocprt	_	12	advmod	_	_
 15	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -12629,15 +12587,15 @@
 4	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	3	compound:svc	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
 6	_	_	PART	illocprt	_	3	advmod	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 9	_	_	PUNCT	punct	_	11	punct	_	_
 10	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	7	parataxis:rep	_	_
 12	_	_	ADV	vi:i	_	11	advmod	_	_
-13	_	_	PART	illocprt	_	11	discourse:q	_	_
+13	_	_	PART	qprt	_	11	discourse:q	_	_
 14	_	_	PUNCT	punct	_	11	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 16	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 877
@@ -12647,16 +12605,14 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
-6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	prov	VerbForm=Prov	6	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	6	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Aexa ra'uague
 # sent_id = 878
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	2	advmod	_	_
@@ -12664,7 +12620,7 @@
 3	_	_	SCONJ	subordconn	_	2	mark	_	_
 4	_	_	ADV	mod	_	5	advmod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	modprt	_	5	advmod	_	_
+6	_	_	PART	modprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 879
@@ -12678,7 +12634,7 @@
 7	_	_	PART	aspprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PART	aspprt	_	8	advmod	_	_
-10	_	_	ADV	aspprt	_	8	advmod	_	_
+10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	8	compound:svc	_	_
 12	_	_	NOUN	n	Number[psor]=Sing	8	obl	_	_
 13	rupi	upi	ADP	post	_	12	case	_	R-through
@@ -12690,14 +12646,14 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-5	_	_	ADV	modprt	_	4	advmod	_	_
+5	_	_	PART	modprt	_	4	advmod	_	_
 6	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	4	compound:svc	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 881
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
-2	_	_	ADV	modprt	_	1	advmod	_	_
+2	_	_	PART	modprt	_	1	advmod	_	_
 3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
@@ -12737,7 +12693,7 @@
 10	_	_	PART	illocprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 884
@@ -12763,7 +12719,7 @@
 9	_	_	PUNCT	punct	_	8	punct	_	_
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	8	parataxis:rep	_	_
-12	_	_	ADV	negprt	Polarity=Neg	11	advmod	_	_
+12	_	_	PART	negprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	NOUN	n	_	11	vocative	_	_
 15	_	_	PUNCT	punct	_	11	punct	_	_
@@ -12807,8 +12763,6 @@
 15	_	_	SCONJ	subordconn	_	14	mark	_	_
 16	.	.	PUNCT	punct	_	12	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Xeapu reiague
 # sent_id = 888
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12817,7 +12771,7 @@
 4	_	_	PART	discprt	_	2	advmod	_	_
 5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
-7	_	_	ADV	intprt	_	6	advmod	_	_
+7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	PART	intprt	_	6	advmod	_	_
 9	_	_	SCONJ	rel	_	6	mark	_	_
 10	_	_	PUNCT	punct	_	6	punct	_	_
@@ -12875,7 +12829,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	aipoa'e	aipoa'e	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	ATN-say
+5	aipoa'e	aipoa'e	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	ATN-A1.SG.say
 6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
@@ -12909,7 +12863,7 @@
 2	_	_	ADV	intermod	_	5	parataxis:rep	_	_
 3	_	_	PART	illocprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 896
@@ -12955,14 +12909,14 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 9	_	_	ADV	mod	_	8	advmod	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	parataxis	_	_
 12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -13027,8 +12981,6 @@
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Jurua kuery reve ka'aguy re aa ague
 # sent_id = 905
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -13227,8 +13179,6 @@
 7	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Xerapa aikovyague
 # sent_id = 921
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	7	advmod	_	_
@@ -13248,7 +13198,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	3	obl:sentcon	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
 3	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
-4	_	_	ADV	aspprt	_	3	advmod	_	_
+4	_	_	PART	aspprt	_	3	advmod	_	_
 5	_	_	PUNCT	punct	_	6	punct	_	_
 6	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	3	parataxis	_	_
 7	_	_	NOUN	n	_	8	obj	_	_
@@ -13291,7 +13241,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
@@ -13300,7 +13250,7 @@
 11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	advcl	_	_
 12	_	_	SCONJ	subordconn	_	11	mark	_	_
 13	_	_	PUNCT	punct	_	9	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 926
@@ -13470,7 +13420,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	“	“	PUNCT	punct	_	10	punct	_	_
@@ -13478,7 +13428,7 @@
 9	_	_	PART	illocprt	_	8	amod	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	10	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 942
@@ -13490,7 +13440,7 @@
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	VERB	vpos	Polarity=Neg|VerbForm=Post	5	compound:svc	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	advcl	_	_
-8	_	_	ADV	intprt	_	7	advmod	_	_
+8	_	_	PART	intprt	_	7	advmod	_	_
 9	_	_	SCONJ	subordconn	_	7	mark	_	_
 10	_	_	SCONJ	subordconn	_	7	mark	_	_
 11	_	_	PUNCT	punct	_	5	punct	_	_
@@ -13502,7 +13452,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 944
@@ -13521,8 +13471,6 @@
 12	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	8	compound:svc	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Kavaju arygua aexa ague
 # sent_id = 945
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -13556,7 +13504,7 @@
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
-3	_	_	ADV	discprt	_	1	advmod	_	_
+3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -13620,7 +13568,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	ADV	modprt	_	4	advmod	_	_
+6	_	_	PART	modprt	_	4	advmod	_	_
 7	_	_	ADV	mod	_	4	advmod	_	_
 8	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 9	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13736,7 +13684,7 @@
 9	_	_	PRON	dem	PronType=Dem	7	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 13	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -13766,8 +13714,6 @@
 12	_	_	PART	intprt	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Itongo aexa ague
 # sent_id = 963
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -13811,20 +13757,20 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	PronType=Prs	5	nsubj	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PRON	pro	Person=3|PronType=Prs	5	obl	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 8	_	_	PUNCT	punct	_	16	punct	_	_
 9	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
 10	_	_	PRON	interpron	PronType=Int	16	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
-12	_	_	PART	illocprt	_	10	discourse:q	_	_
+12	_	_	PART	qprt	_	10	discourse:q	_	_
 13	_	_	PRON	dem	PronType=Dem	16	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PART	intprt	_	13	advmod	_	_
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	parataxis	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
 19	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 967
@@ -13832,7 +13778,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	4	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13844,7 +13790,7 @@
 13	_	_	PART	intprt	_	11	advmod	_	_
 14	_	_	PART	focprt	_	11	advmod	_	_
 15	_	_	PUNCT	punct	_	11	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	11	parataxis	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 17	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 968
@@ -13852,7 +13798,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13862,7 +13808,7 @@
 11	_	_	NOUN	n	_	9	obj	_	_
 12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
 13	_	_	PUNCT	punct	_	9	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 969
@@ -13871,7 +13817,7 @@
 2	_	_	VERB	vd	Mood=Des|Person[subj]=1|Subcat=Ditran|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	PRON	pro	Number=Plur|Person=2|PronType=Prs	2	obl	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 970
@@ -13879,12 +13825,12 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PRON	pro	PronType=Prs	4	nsubj	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	VERB	vi	Mood=Ind|Polarity=Neg|Subcat=Int|VerbForm=Inf	4	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 971
@@ -13893,7 +13839,7 @@
 2	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	PART	temprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 972
@@ -13906,7 +13852,7 @@
 6	_	_	SCONJ	rel	_	7	mark	_	_
 7	_	_	PRON	pro	PronType=Prs	4	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 973
@@ -13915,7 +13861,7 @@
 2	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 974
@@ -13924,7 +13870,7 @@
 2	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Polarity=Neg|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 3	_	_	ADV	mod	Polarity=Neg	2	advmod	_	_
 4	_	_	PUNCT	punct	_	2	punct	_	_
-5	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 975
@@ -13943,7 +13889,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
-4	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13951,7 +13897,7 @@
 9	_	_	VERB	vt	Mood=Des|Person[subj]=1|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	PUNCT	punct	_	9	punct	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 13	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 977
@@ -14033,23 +13979,23 @@
 9	_	_	PART	intprt	_	6	advmod	_	_
 10	_	_	PART	aspprt	_	6	advmod	_	_
 11	_	_	NOUN	n	_	12	nsubj	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PRON	pro	Person=3|PronType=Prs	12	obl	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
 15	_	_	PUNCT	punct	_	16	punct	_	_
 16	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	12	parataxis:rep	_	_
-17	_	_	PART	illocprt	_	16	discourse:q	_	_
+17	_	_	PART	qprt	_	16	discourse:q	_	_
 18	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 984
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	2	punct	_	_
-2	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	7	parataxis:rep	_	_
+2	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 3	_	_	ADV	vi:i	_	2	advmod	_	_
 4	_	_	PART	aspprt	_	2	advmod	_	_
 5	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	2	obl	_	_
 6	_	_	PUNCT	punct	_	2	punct	_	_
-7	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 985
@@ -14063,7 +14009,7 @@
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
-10	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 11	_	_	PUNCT	punct	_	10	punct	_	_
 12	_	_	PUNCT	punct	_	21	punct	_	_
 13	_	_	VERB	vd	Mood=Ind|Person[subj]=1|Subcat=Ditran|VerbForm=Fin	21	advcl	_	_
@@ -14077,7 +14023,7 @@
 21	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	10	parataxis:rep	_	_
 22	_	_	PART	intprt	_	21	advmod	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	21	parataxis	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	21	parataxis	_	_
 25	_	_	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 986
@@ -14097,7 +14043,7 @@
 13	_	_	PART	aspprt	_	12	advmod	_	_
 14	_	_	SCONJ	rel	_	12	mark	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
-16	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 987
@@ -14111,8 +14057,6 @@
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Mboka opẽague
 # sent_id = 988
 # text =_ _ _ _ _ , _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -14133,7 +14077,7 @@
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	_	_	NOUN	n	_	3	obj	_	_
 5	_	_	NOUN	n	_	4	acl	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	SCONJ	rel	_	5	mark	_	_
 8	_	_	PUNCT	punct	_	3	punct	_	_
 
@@ -14343,8 +14287,6 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Hy'a ombovoague
 # sent_id = 1007
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -14385,7 +14327,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	3	nsubj	_	_
-5	_	_	ADV	temprt	_	4	advmod	_	_
+5	_	_	PART	temprt	_	4	advmod	_	_
 6	_	_	SCONJ	rel	_	4	mark	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
 
@@ -14430,7 +14372,7 @@
 6	_	_	NOUN	n	_	5	obj	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	SCONJ	subordconn	_	5	mark	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 11	_	_	PUNCT	punct	_	13	punct	_	_
 12	_	_	ADV	dem	_	13	advmod	_	_
@@ -14442,19 +14384,19 @@
 18	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	nsubj	_	_
 19	_	_	SCONJ	rel	_	18	mark	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
-21	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	26	advcl	_	_
+21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	26	advcl	_	_
 22	_	_	SCONJ	subordconn	_	21	mark	_	_
 23	_	_	NOUN	n	_	24	nsubj	_	_
 24	_	_	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	26	advcl	_	_
 25	_	_	SCONJ	subordconn	_	24	mark	_	_
-26	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	9	parataxis	_	_
+26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 27	_	_	PUNCT	punct	_	26	punct	_	_
 28	_	_	PUNCT	punct	_	29	punct	_	_
 29	Ha'e'ỹ	ha'ee'ỹ	PRON	pro	Person=3|Polarity=Neg|PronType=Prs	26	parataxis:rep	_	3-NEG
 30	_	_	PART	intprt	_	29	amod	_	_
 31	_	_	PART	illocprt	_	29	amod	_	_
 32	_	_	PUNCT	punct	_	29	punct	_	_
-33	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	35	advcl	_	_
+33	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	35	advcl	_	_
 34	_	_	SCONJ	subordconn	_	33	mark	_	_
 35	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	26	parataxis	_	_
 36	_	_	PART	focprt	_	35	advmod	_	_
@@ -14476,7 +14418,7 @@
 12	_	_	NOUN	n	_	13	nmod	_	_
 13	_	_	NOUN	n	_	15	nsubj	_	_
 14	_	_	SCONJ	rel	_	13	mark	_	_
-15	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 16	_	_	PUNCT	punct	_	15	punct	_	_
 17	_	_	PUNCT	punct	_	18	punct	_	_
 18	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	15	parataxis:rep	_	_
@@ -14484,7 +14426,7 @@
 20	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	18	parataxis	_	_
 21	_	_	PART	illocprt	_	20	advmod	_	_
 22	_	_	PUNCT	punct	_	18	punct	_	_
-23	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	27	advcl	_	_
+23	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	27	advcl	_	_
 24	_	_	SCONJ	subordconn	_	23	mark	_	_
 25	_	_	PRON	pro	Person=3|PronType=Prs	27	nsubj	_	_
 26	_	_	SCONJ	rel	_	25	mark	_	_
@@ -14529,7 +14471,7 @@
 3	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
 4	_	_	PART	quantprt	_	3	clf	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	ADV	intprt	_	5	advmod	_	_
+6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -14548,18 +14490,18 @@
 11	_	_	VERB	vi:i	Mood=Ind|Polarity=Neg|Subcat=Int|VerbForm=Inf	10	compound	_	_
 12	_	_	ADP	post	_	10	case	_	_
 13	_	_	SCONJ	subordconn	_	7	mark	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 15	_	_	PUNCT	punct	_	14	punct	_	_
 16	_	_	PUNCT	punct	_	17	punct	_	_
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	14	parataxis:rep	_	_
 18	_	_	PUNCT	punct	_	17	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	17	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	parataxis	_	_
 20	_	_	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 1020
 # text =_ _ _ _ _ _ _ _ _ _ oro'e _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	14	punct	_	_
-2	_	_	ADV	temprt	_	14	advmod	_	_
+2	_	_	PART	temprt	_	14	advmod	_	_
 3	_	_	NOUN	n	_	4	nmod	_	_
 4	_	_	NOUN	n	_	2	obl	_	_
 5	_	_	SCONJ	subordconn	_	4	case	_	_
@@ -14575,7 +14517,7 @@
 15	_	_	PART	aspprt	_	14	advmod	_	_
 16	_	_	PART	temprt	_	14	advmod	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 19	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	18	compound:svc	_	_
 20	_	_	PUNCT	punct	_	18	punct	_	_
 
@@ -14598,13 +14540,13 @@
 15	_	_	SCONJ	subordconn	_	12	mark	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	18	advcl	_	_
 17	_	_	SCONJ	subordconn	_	16	mark	_	_
-18	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 19	_	_	PUNCT	punct	_	18	punct	_	_
 20	_	_	PUNCT	punct	_	21	punct	_	_
 21	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	18	parataxis:rep	_	_
-22	_	_	ADV	negprt	Polarity=Neg	21	advmod	_	_
+22	_	_	PART	negprt	_	21	advmod	_	_
 23	_	_	PUNCT	punct	_	21	punct	_	_
-24	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	26	advcl	_	_
+24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	26	advcl	_	_
 25	_	_	SCONJ	subordconn	_	24	mark	_	_
 26	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	18	parataxis	_	_
 27	_	_	PUNCT	punct	_	18	punct	_	_
@@ -14622,14 +14564,14 @@
 9	_	_	NOUN	n	_	10	nsubj	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	12	advcl	_	_
 11	_	_	SCONJ	subordconn	_	10	mark	_	_
-12	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	"	"	PUNCT	punct	_	15	punct	_	_
 15	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	12	parataxis:rep	_	_
 16	_	_	VERB	vi	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	15	advcl	_	_
 17	_	_	SCONJ	subordconn	_	16	mark	_	_
 18	_	_	PUNCT	punct	_	15	punct	_	_
-19	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	15	parataxis	_	_
+19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	parataxis	_	_
 20	_	_	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 1023
@@ -14672,8 +14614,8 @@
 1	_	_	NUM	num	NumType=Card	3	nsubj	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-4	_	_	ADV	discprt	_	3	advmod	_	_
-5	_	_	ADV	temprt	_	3	advmod	_	_
+4	_	_	PART	discprt	_	3	advmod	_	_
+5	_	_	PART	temprt	_	3	advmod	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 1027
@@ -14691,7 +14633,7 @@
 11	_	_	INTJ	onom	_	10	flat	_	_
 12	toko	toko	INTJ	onom	_	10	flat	_	owl.noise
 13	_	_	PUNCT	punct	_	10	punct	_	_
-14	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	16	obj	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	obj	_	_
 15	_	_	SCONJ	rel	_	14	mark	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	ADV	mod	_	16	advmod	_	_
@@ -14711,7 +14653,7 @@
 10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 12	_	_	PUNCT	punct	_	11	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	NOUN	n	_	13	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
@@ -14726,7 +14668,7 @@
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	9	parataxis:rep	_	_
 7	_	_	PART	illocprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 1030
@@ -14781,8 +14723,6 @@
 16	_	_	PART	illocprt	_	14	advmod	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Aguara'i reõ reve okaxa ague
 # sent_id = 1034
 # text =_ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	3	nsubj	_	_
@@ -14798,7 +14738,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	3	nsubj	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
-3	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+3	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	_	_	NOUN	n	_	3	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
@@ -14828,7 +14768,7 @@
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	11	parataxis:rep	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
-11	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	NOUN	n	_	11	nsubj	_	_
 13	_	_	NOUN	n	_	11	obl	_	_
 14	_	_	ADP	post	_	13	case	_	_
@@ -14843,12 +14783,12 @@
 5	_	_	ADV	mod	_	4	amod	_	_
 6	_	_	PART	discprt	_	4	amod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	10	advcl	_	_
-8	_	_	ADV	temprt	_	7	advmod	_	_
+8	_	_	PART	temprt	_	7	advmod	_	_
 9	_	_	SCONJ	subordconn	_	7	mark	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 11	_	_	PART	temprt	_	10	advmod	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
-13	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 1038
@@ -14871,7 +14811,7 @@
 6	_	_	PART	illocprt	_	5	fixed	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	parataxis:rep	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
-9	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	0	root	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	NOUN	n	_	9	nsubj	_	_
 11	_	_	NOUN	n	_	9	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
@@ -14894,8 +14834,6 @@
 2	_	_	PART	illocprt	_	1	advmod	_	_
 3	_	_	PUNCT	punct	_	1	punct	_	_
 
-# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ka'aguy rupigua ndovy'aiague
 # sent_id = 1042
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	4	nsubj	_	_
@@ -14904,7 +14842,7 @@
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	advcl	_	_
 6	_	_	ADJ	mod	_	5	amod	_	_
-7	_	_	ADV	intprt	_	6	advmod	_	_
+7	_	_	PART	intprt	_	6	advmod	_	_
 8	_	_	SCONJ	subordconn	_	5	mark	_	_
 9	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -14968,7 +14906,7 @@
 8	_	_	CCONJ	coordconn	_	9	cc	_	_
 9	_	_	NOUN	n	_	6	advcl	_	_
 10	_	_	ADJ	vi	_	9	amod	_	_
-11	_	_	ADV	intprt	_	10	advmod	_	_
+11	_	_	PART	intprt	_	10	advmod	_	_
 12	_	_	PART	intprt	_	10	advmod	_	_
 13	_	_	SCONJ	subordconn	_	9	mark	_	_
 14	_	_	PUNCT	punct	_	6	punct	_	_
