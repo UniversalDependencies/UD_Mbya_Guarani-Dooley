@@ -33,7 +33,10 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 
 # Changelog
 
-* 2019-06-07 v2.4
+* 2019-06-07 v2.4 (dev branch)
+  * Corrected many typos. Checked for bug with udapi.
+
+* 2019-06-07 v2.4 (dev branch)
   * Corrected dependencies in GUN001R030I001 (sent 988-1006)
   * Updated annotation guidelines on [gpythomas.com/Mbya_Treebank_Guidelines.pdf](https://www.gpythomas.com/Mbya_Treebank_Guidelines.pdf)
   * Revised xpos annotation of adjectives and adverbs (see revised annotation guidelines)
