@@ -1,7 +1,7 @@
 # document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
-# document_title = Ka'aguy rupigua ndovy'aiague
-# document_authorship = Nelson Florentino; January 1990, Coronel Vivida, Course for Training Bilingual Instructors
-# document_reference = GUN001R033I001
+# document_title = Ava poapẽ kunha rami ojekuaa ague
+# document_authorship = Nelson Florentino ; May 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R001I001
 # sent_id = 1
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -105,7 +105,7 @@
 # sent_id = 8
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -196,7 +196,7 @@
 8	_	_	ADP	post	_	6	case	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
 10	rã	rã	SCONJ	subordconn	_	9	mark	_	DS
-11	_	_	PART	illocprt	_	5	advmod	_	_
+11	_	_	PART	illocprt	_	9	advmod	_	_
 12	_	_	NOUN	n	_	13	nsubj	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	parataxis	_	_
 14	_	_	PUNCT	punct	_	5	punct	_	_
@@ -254,7 +254,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nmod	_	_
-6	_	_	NOUN	n	_	8	obj	_	_
+6	_	_	NOUN	n	_	8	obl	_	_
 7	_	_	PART	focprt	_	6	amod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
@@ -505,6 +505,10 @@
 11	_	_	NOUN	n	_	8	obl	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ava poxy xi'y ruguai re omoatãague
+# document_authorship = Nelson Florentino; May 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R002I001
 # sent_id = 40
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -661,7 +665,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	14	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
-3	_	_	PART	illocprt	_	4	advmod	_	_
+3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	advcl	_	_
 5	_	_	PART	intprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	4	obl	_	_
@@ -674,7 +678,7 @@
 13	_	_	PRON	pro	Person=3|PronType=Prs	14	nsubj	_	_
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
 15	_	_	VERB	vpos	Polarity=Neg|VerbForm=Post	14	compound:svc	_	_
-16	_	_	PRON	pro	Person=3|PronType=Prs	17	det	_	_
+16	_	_	PRON	pro	Person=3|PronType=Prs	17	nmod	_	_
 17	_	_	NOUN	n	_	14	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	PUNCT	punct	_	14	punct	_	_
@@ -877,7 +881,7 @@
 5	_	_	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	advcl	_	_
-8	_	_	ADP	post	_	7	mark	_	_
+8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 11	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	10	compound:svc	_	_
@@ -922,6 +926,10 @@
 19	_	_	ADP	post	_	18	case	_	_
 20	_	_	PUNCT	punct	_	13	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Pyxaĩ couve oarõ rã guare
+# document_authorship = Nelson Florentino; February 1977
+# document_reference = GUN001R003I001
 # sent_id = 69
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -934,23 +942,23 @@
 # sent_id = 70
 # text =_ _ _ _ _ _ _ _
 1	_	_	NUM	num	NumType=Card	2	nummod	_	_
-2	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	6	nsubj	_	_
+2	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	6	dislocated	_	_
 3	_	_	SCONJ	rel	_	2	mark	_	_
 4	_	_	PART	discprt	_	2	advmod	_	_
 5	_	_	PART	illocprt	_	2	advmod	_	_
 6	_	_	NOUN	n	_	0	root	_	_
-7	_	_	PROPN	nprop	_	6	obj	_	_
+7	_	_	PROPN	nprop	_	6	nsubj	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 71
 # text =_ _ _ _ _ _ _ _
-1	_	_	NOUN	n	_	6	nsubj	_	_
+1	_	_	NOUN	n	_	6	dislocated	_	_
 2	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	1	acl	_	_
 3	_	_	SCONJ	rel	_	2	mark	_	_
 4	_	_	PART	discprt	_	1	amod	_	_
 5	_	_	PART	illocprt	_	1	amod	_	_
 6	_	_	NOUN	n	_	0	root	_	_
-7	_	_	PROPN	nprop	_	6	obj	_	_
+7	_	_	PROPN	nprop	_	6	nsubj	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 72
@@ -967,11 +975,11 @@
 
 # sent_id = 73
 # text =_ _ ma _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	4	nsubj	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	4	dislocated	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	ma	ma	PART	discprt	_	1	advmod	_	BDY
 4	_	_	NOUN	n	_	0	root	_	_
-5	_	_	PROPN	nprop	_	4	obj	_	_
+5	_	_	PROPN	nprop	_	4	nsubj	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 74
@@ -1009,7 +1017,7 @@
 
 # sent_id = 77
 # text =_ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
+1	_	_	CCONJ	coordconn	_	5	cc	_	_
 2	_	_	NOUN	n	_	5	nsubj	_	_
 3	_	_	PART	discprt	_	2	amod	_	_
 4	_	_	PART	illocprt	_	2	amod	_	_
@@ -1125,7 +1133,7 @@
 # sent_id = 84
 # text =_ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -1202,7 +1210,7 @@
 # sent_id = 91
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	15	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	ADV	mod	_	5	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	advcl	_	_
@@ -1216,7 +1224,7 @@
 13	_	_	PART	discprt	_	12	amod	_	_
 14	_	_	PART	intprt	_	13	fixed	_	_
 15	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
-16	_	_	NOUN	n	_	12	acl	_	_
+16	_	_	NOUN	n	_	15	dislocated	_	_
 17	_	_	SCONJ	rel	_	16	mark	_	_
 18	_	_	PUNCT	punct	_	15	punct	_	_
 
@@ -1254,7 +1262,7 @@
 # sent_id = 94
 # text =_ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	PART	focprt	_	4	amod	_	_
@@ -1287,7 +1295,7 @@
 # sent_id = 96
 # text =_ _ je _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	je	je	PART	illocprt	_	1	advmod	_	HSY
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	nsubj	_	_
 5	_	_	PART	focprt	_	4	amod	_	_
@@ -1349,7 +1357,7 @@
 # sent_id = 102
 # text =_ _ _ _ _ _ _ _ couve _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	ADV	mod	_	6	advmod	_	_
@@ -1476,7 +1484,7 @@
 # sent_id = 109
 # text =_ _ je _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	je	je	PART	illocprt	_	1	advmod	_	HSY
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
@@ -1604,7 +1612,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nmod	_	_
 5	_	_	NOUN	n	_	11	obl	_	_
-6	jave	jave	SCONJ	subordconn	_	5	case	_	during
+6	jave	jave	ADP	post	_	5	case	_	during
 7	_	_	PART	discprt	_	5	advmod	_	_
 8	_	_	PART	illocprt	_	5	advmod	_	_
 9	_	_	NOUN	n	_	11	obl	_	_
@@ -1626,7 +1634,7 @@
 
 # sent_id = 120
 # text =_ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
 3	_	_	NOUN	n	_	6	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	3	acl	_	_
@@ -1721,7 +1729,7 @@
 # sent_id = 126
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[obj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -1732,11 +1740,11 @@
 # sent_id = 127
 # text =Ha'e _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	12	obl:sentcon	_	3
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	12	advcl	_	_
+4	_	_	NOUN	n	_	12	obl	_	_
 5	_	_	PART	intprt	_	4	amod	_	_
-6	_	_	SCONJ	subordconn	_	4	mark	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	aspprt	_	4	advmod	_	_
 8	_	_	PART	discprt	_	7	fixed	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
@@ -1869,7 +1877,7 @@
 # sent_id = 137
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	ADV	mod	_	6	advmod	_	_
@@ -2046,7 +2054,7 @@
 4	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	parataxis:rep	_	_
 5	_	_	NOUN	n	Number[psor]=Sing	4	obj	_	_
 6	_	_	NOUN	n	_	7	nmod	_	_
-7	_	_	NOUN	n	_	5	nmod	_	_
+7	_	_	NOUN	n	_	5	compound	_	_
 8	ikuai	kuai	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	acl	_	B3-be.PL
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
@@ -2056,7 +2064,7 @@
 # sent_id = 150
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	3	punct	_	_
-2	_	_	PRON	pro	Person=3|PronType=Prs	3	obl:sentcon	_	_
+2	_	_	CCONJ	coordconn	_	3	cc	_	_
 3	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 4	_	_	PART	illocprt	_	3	advmod	_	_
 5	_	_	NOUN	n	_	3	obj	_	_
@@ -2086,7 +2094,7 @@
 5	_	_	NOUN	n	_	7	nsubj	_	_
 6	_	_	PART	quantprt	_	5	clf	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	3	advcl	_	_
-8	_	_	SCONJ	nmlzer	_	7	case	_	_
+8	_	_	SCONJ	nmlzer	_	7	mark	_	_
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	PUNCT	punct	_	3	punct	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -2109,7 +2117,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	6	obl	_	_
+4	_	_	NOUN	n	_	6	discourse	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	Pyxaĩ	Pyxaĩ	PROPN	nprop	_	8	nmod	_	Joãozinho
@@ -2129,7 +2137,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	ADV	mod	_	5	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	PART	discprt	_	5	advmod	_	_
+6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	PROPN	nprop	_	5	nsubj	_	_
 8	_	_	NOUN	n	_	10	nmod	_	_
 9	_	_	PART	quantprt	_	8	clf	_	_
@@ -2451,12 +2459,12 @@
 
 # sent_id = 177
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	3	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	13	advcl	_	_
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
 5	_	_	PART	illocprt	_	3	advmod	_	_
-6	_	_	PRON	pro	Person=3|PronType=Prs	3	obl	_	_
+6	_	_	PRON	pro	Person=3|PronType=Prs	13	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	NOUN	n	_	13	nsubj	_	_
 9	_	_	PART	focprt	_	8	amod	_	_
@@ -2538,19 +2546,19 @@
 6	_	_	PART	illocprt	_	3	advmod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NUM	num	NumType=Card	9	nummod	_	_
-9	_	_	NOUN	n	_	7	obj	_	_
+9	_	_	NOUN	n	_	13	nsubj	_	_
 10	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	9	acl	_	_
 11	_	_	SCONJ	rel	_	10	mark	_	_
-12	_	_	PART	illocprt	_	7	advmod	_	_
-13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	compound:svc	_	_
+12	_	_	PART	illocprt	_	9	amod	_	_
+13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	ccomp	_	_
 14	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 183
 # text =_ _ a _ _ _
 1	_	_	NOUN	n	_	2	nsubj	_	_
 2	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
-3	a	a	SCONJ	nmlzer	_	2	case	_	NMLZ
-4	_	_	ADP	post	_	2	mark	_	_
+3	a	a	SCONJ	nmlzer	_	2	mark	_	NMLZ
+4	_	_	ADP	post	_	2	case	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -2654,8 +2662,8 @@
 # sent_id = 192
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	10	punct	_	_
-2	_	_	PART	temprt	_	4	advmod	_	_
-3	_	_	SCONJ	subordconn	_	2	mark	_	_
+2	_	_	ADV	intermod	_	4	advmod	_	_
+3	_	_	PART	quantprt	_	2	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 5	_	_	ADV	vi:i	_	4	advmod	_	_
 6	_	_	SCONJ	nmlzer	_	4	mark	_	_
@@ -2715,7 +2723,7 @@
 4	_	_	PUNCT	punct	_	5	punct	_	_
 5	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	2	conj	_	_
 6	_	_	NOUN	n	_	5	obj	_	_
-7	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+7	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
 8	_	_	PUNCT	punct	_	2	punct	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
@@ -2750,7 +2758,7 @@
 # sent_id = 199
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	ADV	mod	_	9	advmod	_	_
 5	_	_	PART	discprt	_	4	advmod	_	_
@@ -2771,7 +2779,7 @@
 5	_	_	PART	illocprt	_	1	advmod	_	_
 6	_	_	PROPN	nprop	_	7	nsubj	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-8	_	_	PART	discprt	_	7	advmod	_	_
+8	_	_	PART	aspprt	_	7	advmod	_	_
 9	_	_	NOUN	n	_	7	obl	_	_
 10	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	acl	_	_
 11	_	_	SCONJ	rel	_	10	mark	_	_
@@ -2837,10 +2845,10 @@
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	NOUN	n	_	3	conj	_	_
 8	_	_	PUNCT	punct	_	10	punct	_	_
-9	_	_	PRON	pro	Person=3|PronType=Prs	10	det	_	_
+9	_	_	PRON	pro	Person=3|PronType=Prs	10	nmod	_	_
 10	_	_	NOUN	n	_	3	conj	_	_
 11	_	_	PART	intprt	_	10	amod	_	_
-12	_	_	PART	illocprt	_	3	amod	_	_
+12	_	_	PART	illocprt	_	10	amod	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 14	_	_	PUNCT	punct	_	13	punct	_	_
 
@@ -2853,7 +2861,7 @@
 5	_	_	PROPN	nprop	_	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 7	_	_	PART	intprt	_	6	advmod	_	_
-8	_	_	PART	discprt	_	6	advmod	_	_
+8	_	_	PART	aspprt	_	6	advmod	_	_
 9	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	6	compound:svc	_	_
 10	_	_	PUNCT	punct	_	6	punct	_	_
 
@@ -2877,7 +2885,7 @@
 2	vy	vy	SCONJ	subordconn	_	1	mark	_	SS
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-5	_	_	PART	discprt	_	4	advmod	_	_
+5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	4	obj	_	_
 7	_	_	PART	quantprt	_	6	clf	_	_
 8	_	_	PUNCT	punct	_	4	punct	_	_
@@ -2897,7 +2905,7 @@
 
 # sent_id = 210
 # text =_ _ _ _ _ _ _ _ _
-1	_	_	ADV	mod	_	3	advmod	_	_
+1	_	_	NOUN	mod	_	3	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	advcl	_	_
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
@@ -2924,8 +2932,8 @@
 13	_	_	NOUN	n	_	14	nmod	_	_
 14	_	_	NOUN	n	_	17	obl	_	_
 15	_	_	ADP	post	_	14	case	_	_
-16	_	_	NOUN	n	_	9	obj	_	_
-17	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	16	acl	_	_
+16	_	_	NOUN	n	_	17	nsubj	_	_
+17	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	obj	_	_
 18	_	_	SCONJ	rel	_	17	mark	_	_
 19	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -2943,7 +2951,7 @@
 # sent_id = 213
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	ADV	mod	_	6	advmod	_	_
 4	_	_	PART	discprt	_	3	advmod	_	_
 5	_	_	PART	illocprt	_	3	advmod	_	_
@@ -3007,7 +3015,7 @@
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	focprt	_	5	advmod	_	_
-8	_	_	PART	discprt	_	5	advmod	_	_
+8	_	_	PART	aspprt	_	5	advmod	_	_
 9	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -3111,7 +3119,7 @@
 # sent_id = 225
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	PROPN	nprop	_	6	nsubj	_	_
@@ -3126,7 +3134,7 @@
 # sent_id = 226
 # text =_ _ _ tyke'y _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	tyke'y	yke'y	NOUN	n	_	6	nsubj	_	3-older.brother
 5	_	_	PART	quantprt	_	4	clf	_	_
@@ -3163,7 +3171,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	advcl	_	_
-5	_	_	PART	discprt	_	4	advmod	_	_
+5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	PRON	pro	Person=3|PronType=Prs	9	nsubj	_	_
@@ -3174,7 +3182,7 @@
 # sent_id = 229
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	8	nsubj	_	_
 5	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	4	acl	_	_
@@ -3222,7 +3230,7 @@
 
 # sent_id = 233
 # text =_ _ _ _ _ _ _ _ _
-1	_	_	ADV	mod	_	3	obl	_	_
+1	_	_	NOUN	mod	_	3	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	advcl	_	_
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
@@ -3235,7 +3243,7 @@
 # sent_id = 234
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	16	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	16	advcl	_	_
@@ -3246,8 +3254,8 @@
 10	_	_	NOUN	n	_	11	nmod	_	_
 11	_	_	NOUN	n	_	14	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
-13	_	_	NOUN	n	_	16	obj	_	_
-14	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	acl	_	_
+13	_	_	NOUN	n	_	14	nsubj	_	_
+14	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	16	obj	_	_
 15	_	_	SCONJ	rel	_	14	mark	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
@@ -3259,10 +3267,10 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	NOUN	n	_	15	nsubj	_	_
-7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	acl	_	_
+6	_	_	NOUN	n	_	7	nsubj	_	_
+7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	15	nsubj	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
-9	_	_	PART	illocprt	_	6	amod	_	_
+9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	PROPN	nprop	_	15	obj	_	_
 11	_	_	NOUN	n	_	15	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
@@ -3283,7 +3291,7 @@
 # sent_id = 237
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	PART	quantprt	_	4	clf	_	_
@@ -3319,7 +3327,7 @@
 9	_	_	PART	illocprt	_	8	amod	_	_
 10	_	_	PART	illocprt	_	8	amod	_	_
 11	_	_	NOUN	n	Number[psor]=Sing	13	obl	_	_
-12	_	_	ADP	post	_	11	mark	_	_
+12	_	_	ADP	post	_	11	case	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 14	_	_	PART	illocprt	_	13	advmod	_	_
 15	_	_	PUNCT	punct	_	13	punct	_	_
@@ -3339,8 +3347,8 @@
 9	_	_	NOUN	n	_	11	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	14	advcl	_	_
-12	_	_	ADP	post	_	11	case	_	_
-13	_	_	PART	aspprt	_	11	advmod	_	_
+12	_	_	SCONJ	subordconn	_	11	case	_	_
+13	_	_	PART	discprt	_	11	advmod	_	_
 14	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	4	parataxis:rep	_	_
 15	_	_	PART	temprt	_	14	advmod	_	_
 16	_	_	NOUN	n	_	17	nmod	_	_
@@ -3360,7 +3368,7 @@
 # sent_id = 241
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	8	obl	_	_
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	NOUN	n	_	8	nsubj	_	_
@@ -3417,7 +3425,7 @@
 # sent_id = 245
 # text =_ _ _
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
-2	_	_	PART	discprt	_	1	advmod	_	_
+2	_	_	PART	aspprt	_	1	advmod	_	_
 3	_	_	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 246
@@ -3606,7 +3614,7 @@
 4	_	_	NOUN	n	_	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PART	focprt	_	4	advmod	_	_
-7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	advcl	_	_
+7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	18	advcl	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	NOUN	n	_	11	nmod	_	_
@@ -3633,7 +3641,7 @@
 # sent_id = 259
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
@@ -3707,7 +3715,7 @@
 # sent_id = 263
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	ADJ	vi:i	_	4	amod	_	_
@@ -3716,7 +3724,7 @@
 8	_	_	PART	aspprt	_	6	advmod	_	_
 9	_	_	PRON	pro	Person=3|PronType=Prs	11	det	_	_
 10	_	_	SCONJ	rel	_	9	mark	_	_
-11	_	_	ADV	mod	_	12	advmod	_	_
+11	_	_	NOUN	n	_	12	obl	_	_
 12	_	_	NOUN	n	_	6	ccomp	_	_
 13	_	_	SCONJ	rel	_	12	mark	_	_
 14	_	_	SCONJ	subordconn	_	12	mark	_	_
@@ -3821,7 +3829,7 @@
 19	_	_	PART	aspprt	_	17	advmod	_	_
 20	_	_	NOUN	n	Number[psor]=Sing	24	advcl	_	_
 21	_	_	VERB	vpos	VerbForm=Post	20	compound:svc	_	_
-22	_	_	PART	negprt	_	20	amod	_	_
+22	_	_	PART	negprt	_	20	advmod	_	_
 23	_	_	SCONJ	subordconn	_	20	mark	_	_
 24	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	parataxis:rep	_	_
 25	_	_	PUNCT	punct	_	24	punct	_	_
@@ -3862,11 +3870,11 @@
 # sent_id = 274
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	ADV	mod	_	8	advmod	_	_
-5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	SCONJ	subordconn	_	4	case	_	_
+4	_	_	NOUN	n	_	8	obl	_	_
+5	_	_	PART	aspprt	_	4	amod	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PART	focprt	_	8	advmod	_	_
@@ -3889,7 +3897,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	PART	discprt	_	5	advmod	_	_
+6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	5	obj	_	_
 9	_	_	SCONJ	rel	_	8	mark	_	_
@@ -3927,7 +3935,7 @@
 # sent_id = 278
 # text =_ _ _ _ _ _ _ _ vy _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	mark	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	10	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -3936,7 +3944,7 @@
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	advcl	_	_
 9	vy	vy	SCONJ	subordconn	_	8	mark	_	SS
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-11	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	14	nmod	_	_
+11	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	10	obl	_	_
 12	_	_	SCONJ	rel	_	11	mark	_	_
 13	_	_	ADP	post	_	11	case	_	_
 14	_	_	NOUN	n	_	10	obl	_	_
@@ -3986,7 +3994,7 @@
 # sent_id = 282
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	ADV	mod	_	7	advmod	_	_
 4	_	_	PART	illocprt	_	3	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
@@ -4027,8 +4035,8 @@
 10	_	_	PUNCT	punct	_	17	punct	_	_
 11	_	_	NUM	num	NumType=Card	13	nummod	_	_
 12	_	_	NUM	num	NumType=Card	11	goeswith	_	_
-13	_	_	NOUN	n	_	17	obj	_	_
-14	_	_	NOUN	n	_	13	nmod	_	_
+13	_	_	NOUN	n	_	14	nmod	_	_
+14	_	_	NOUN	n	_	17	obj	_	_
 15	_	_	NOUN	n	_	17	obl	_	_
 16	_	_	ADP	post	_	15	case	_	_
 17	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	20	parataxis:rep	_	_
@@ -4080,7 +4088,7 @@
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 8	_	_	PART	focprt	_	7	advmod	_	_
-9	_	_	PART	discprt	_	7	advmod	_	_
+9	_	_	PART	aspprt	_	7	advmod	_	_
 10	_	_	PROPN	nprop	_	7	nsubj	_	_
 11	_	_	ADJ	vi:i	_	10	amod	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
@@ -4089,7 +4097,7 @@
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	discprt	_	1	advmod	_	_
 5	_	_	PART	illocprt	_	1	advmod	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -4135,8 +4143,8 @@
 17	_	_	PART	intprt	_	15	amod	_	_
 18	_	_	NUM	num	NumType=Card	20	nummod	_	_
 19	_	_	NUM	num	NumType=Card	18	goeswith	_	_
-20	_	_	NOUN	n	_	24	obj	_	_
-21	_	_	NOUN	n	_	20	nmod	_	_
+20	_	_	NOUN	n	_	21	nmod	_	_
+21	_	_	NOUN	n	_	24	obj	_	_
 22	_	_	NOUN	n	_	24	obl	_	_
 23	_	_	ADP	post	_	22	case	_	_
 24	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	27	parataxis:rep	_	_
@@ -4202,7 +4210,7 @@
 # sent_id = 294
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -4220,7 +4228,7 @@
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	discprt	_	1	advmod	_	_
 5	_	_	PART	illocprt	_	1	advmod	_	_
 6	_	_	NOUN	n	_	7	nsubj	_	_
@@ -4435,7 +4443,7 @@
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	ojae'o	jae'o	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-weep
 9	_	_	PART	focprt	_	8	advmod	_	_
-10	_	_	PART	discprt	_	8	advmod	_	_
+10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	8	compound:svc	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -4481,8 +4489,8 @@
 11	_	_	PART	aspprt	_	8	amod	_	_
 12	_	_	PRON	dem	PronType=Dem	16	obl	_	_
 13	_	_	ADP	post	_	12	fixed	_	_
-14	_	_	SCONJ	subordconn	_	12	case	_	_
-15	_	_	ADP	post	_	12	case	_	_
+14	_	_	SCONJ	subordconn	_	12	mark	_	_
+15	_	_	ADP	post	_	14	fixed	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 17	_	_	PUNCT	punct	_	16	punct	_	_
 18	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	parataxis	_	_
@@ -4562,7 +4570,7 @@
 # sent_id = 319
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -4573,9 +4581,9 @@
 
 # sent_id = 320
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	ADV	mod	_	20	advmod	_	_
-2	_	_	PART	discprt	_	1	advmod	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+1	_	_	NOUN	n	_	20	obl	_	_
+2	_	_	PART	aspprt	_	1	amod	_	_
+3	_	_	ADP	post	_	1	case	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	PROPN	nprop	_	8	obj	_	_
 6	_	_	NOUN	n	_	8	obl	_	_
@@ -4590,7 +4598,7 @@
 15	_	_	PART	illocprt	_	13	advmod	_	_
 16	_	_	PRON	pro	Person=3|PronType=Prs	20	obl	_	_
 17	_	_	ADP	post	_	16	case	_	_
-18	_	_	PART	aspprt	_	19	amod	_	_
+18	_	_	PART	discprt	_	16	advmod	_	_
 19	_	_	NOUN	n	_	20	nsubj	_	_
 20	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
@@ -4617,7 +4625,7 @@
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	Ereru	ru	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	13	parataxis:rep	_	A2.SG-COM-come
-10	_	_	PART	discprt	_	9	advmod	_	_
+10	_	_	PART	aspprt	_	9	advmod	_	_
 11	_	_	PART	qprt	_	9	discourse:q	_	_
 12	_	_	PUNCT	punct	_	9	punct	_	_
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -4680,7 +4688,7 @@
 
 # sent_id = 327
 # text =_ tyke'y _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
+1	_	_	CCONJ	coordconn	_	7	cc	_	_
 2	tyke'y	yke'y	NOUN	n	_	3	nsubj	_	3-older.brother
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	advcl	_	_
 4	_	_	SCONJ	subordconn	_	3	mark	_	_
@@ -4716,7 +4724,7 @@
 11	_	_	PUNCT	punct	_	25	punct	_	_
 12	_	_	NUM	num	NumType=Card	14	nummod	_	_
 13	_	_	NUM	num	NumType=Card	12	goeswith	_	_
-14	_	_	NOUN	n	_	16	obl	_	_
+14	_	_	NOUN	n	_	15	nmod	_	_
 15	_	_	NOUN	n	_	19	obl	_	_
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	15	acl	_	_
 17	_	_	SCONJ	rel	_	16	mark	_	_
@@ -4805,7 +4813,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-5	_	_	PART	discprt	_	4	advmod	_	_
+5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 334
@@ -4872,7 +4880,7 @@
 7	_	_	PART	illocprt	_	5	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PART	intprt	_	8	advmod	_	_
-10	_	_	PART	discprt	_	8	advmod	_	_
+10	_	_	PART	aspprt	_	8	advmod	_	_
 11	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	8	compound:svc	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
@@ -4947,7 +4955,7 @@
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	4	punct	_	_
 2	_	_	PART	temprt	_	4	advmod	_	_
-3	_	_	PART	aspprt	_	2	advmod	_	_
+3	_	_	PART	discprt	_	2	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 5	_	_	PART	temprt	_	4	advmod	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
@@ -4961,7 +4969,7 @@
 3	_	_	PART	discprt	_	2	advmod	_	_
 4	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	6	parataxis:rep	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
-6	_	_	PRON	pro	Person=3|PronType=Prs	9	advcl	_	_
+6	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	9	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vd:a	Mood=Imp|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	11	parataxis:rep	_	_
@@ -4977,11 +4985,11 @@
 # sent_id = 346
 # text =_ _ _ _ _ _ _ _ _ _ _ _ he'i _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	ADV	mod	_	13	advmod	_	_
-5	_	_	PART	discprt	_	4	advmod	_	_
-6	_	_	SCONJ	subordconn	_	4	case	_	_
+4	_	_	NOUN	n	_	13	obl	_	_
+5	_	_	PART	aspprt	_	4	amod	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
 9	_	_	ADV	mod	_	11	advmod	_	_
@@ -5005,7 +5013,7 @@
 8	_	_	PUNCT	punct	_	4	punct	_	_
 9	_	_	PUNCT	punct	_	36	punct	_	_
 10	_	_	ADV	mod	_	36	advmod	_	_
-11	_	_	PART	aspprt	_	10	advmod	_	_
+11	_	_	PART	discprt	_	10	advmod	_	_
 12	_	_	NOUN	n	Number[psor]=Sing	15	nsubj	_	_
 13	_	_	PART	quantprt	_	12	clf	_	_
 14	_	_	ADV	mod	_	15	advmod	_	_
@@ -5048,9 +5056,9 @@
 8	_	_	PRON	pro	Person=3|PronType=Prs	12	obl	_	_
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	SCONJ	subordconn	_	8	mark	_	_
-11	_	_	PART	aspprt	_	8	advmod	_	_
+11	_	_	PART	discprt	_	8	advmod	_	_
 12	_	_	VERB	vd	Mood=Ind|Person[obj]=2|Subcat=Ditran|VerbForm=Fin	16	parataxis:rep	_	_
-13	_	_	PART	discprt	_	12	advmod	_	_
+13	_	_	PART	aspprt	_	12	advmod	_	_
 14	_	_	PART	temprt	_	12	advmod	_	_
 15	_	_	PUNCT	punct	_	12	punct	_	_
 16	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -5062,7 +5070,7 @@
 # sent_id = 349
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
@@ -5102,7 +5110,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	PART	discprt	_	5	advmod	_	_
+6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	NOUN	n	_	5	obj	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
@@ -5110,10 +5118,10 @@
 # sent_id = 353
 # text =Ha'e _ _ _ _ _ _
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	3
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	4	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-5	_	_	PART	discprt	_	4	advmod	_	_
+5	_	_	PART	aspprt	_	4	advmod	_	_
 6	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 7	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -5129,7 +5137,7 @@
 8	_	_	PUNCT	punct	_	5	punct	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	16	advcl	_	_
 10	_	_	PART	aspprt	_	9	advmod	_	_
-11	_	_	ADP	post	_	9	case	_	_
+11	_	_	ADP	post	_	9	obl	_	_
 12	_	_	PROPN	nprop	_	16	nsubj	_	_
 13	_	_	PRON	pro	Person=3|PronType=Prs	12	appos	_	_
 14	_	_	ADV	mod	_	13	amod	_	_
@@ -5143,9 +5151,9 @@
 22	_	_	PUNCT	punct	_	38	punct	_	_
 23	_	_	NUM	num	NumType=Card	25	nummod	_	_
 24	_	_	NUM	num	NumType=Card	23	goeswith	_	_
-25	_	_	NOUN	n	_	29	nmod	_	_
-26	_	_	NOUN	n	_	25	nmod	_	_
-27	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	25	acl	_	_
+25	_	_	NOUN	n	_	26	nmod	_	_
+26	_	_	NOUN	n	_	29	nmod	_	_
+27	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	26	acl	_	_
 28	_	_	SCONJ	rel	_	27	mark	_	_
 29	_	_	NOUN	n	_	31	obl	_	_
 30	_	_	ADP	post	_	29	case	_	_
@@ -5177,8 +5185,8 @@
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	NUM	num	NumType=Card	10	nummod	_	_
 9	_	_	NUM	num	NumType=Card	8	goeswith	_	_
-10	_	_	NOUN	n	_	7	obj	_	_
-11	_	_	NOUN	n	_	10	nmod	_	_
+10	_	_	NOUN	n	_	11	nmod	_	_
+11	_	_	NOUN	n	_	7	obj	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 356
@@ -5224,6 +5232,10 @@
 2	_	_	PART	illocprt	_	1	advmod	_	_
 3	_	_	PUNCT	punct	_	1	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Omenda ramo rai va'e okyje va'e reko oĩa
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R004I001
 # sent_id = 360
 # text =_ _ _ _ ava _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -5261,7 +5273,7 @@
 
 # sent_id = 363
 # text =_ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	3	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	3	nsubj	_	_
 2	_	_	PART	illocprt	_	1	amod	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 4	_	_	PART	aspprt	_	3	advmod	_	_
@@ -5321,14 +5333,14 @@
 9	_	_	SCONJ	subordconn	_	6	mark	_	_
 10	_	_	PART	illocprt	_	6	advmod	_	_
 11	_	_	NOUN	n	_	20	nsubj	_	_
-12	_	_	PUNCT	punct	_	13	punct	_	_
-13	_	_	VERB	v	Mood=Ind|VerbForm=Inf	20	parataxis:rep	_	_
-14	_	_	PRON	dem	PronType=Dem	15	det	_	_
+12	_	_	PUNCT	punct	_	16	punct	_	_
+13	_	_	AUX	v	_	16	aux	_	_
+14	_	_	DET	dem	PronType=Dem	15	det	_	_
 15	_	_	NOUN	n	_	16	obl	_	_
-16	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	13	ccomp	_	_
+16	_	_	VERB	vi	Mood=Ind|Person[subj]=2|Subcat=Int|VerbForm=Fin	20	parataxis:rep	_	_
 17	_	_	PART	modprt	_	16	advmod	_	_
 18	_	_	PART	temprt	_	16	advmod	_	_
-19	_	_	PUNCT	punct	_	13	punct	_	_
+19	_	_	PUNCT	punct	_	16	punct	_	_
 20	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 21	_	_	PUNCT	punct	_	20	punct	_	_
 
@@ -5369,7 +5381,7 @@
 1	_	_	PUNCT	punct	_	7	punct	_	_
 2	_	_	NOUN	n	_	7	obl	_	_
 3	_	_	PUNCT	punct	_	5	punct	_	_
-4	_	_	PRON	pro	Person=3|PronType=Prs	5	det	_	_
+4	_	_	PRON	pro	Person=3|PronType=Prs	5	nmod	_	_
 5	_	_	NOUN	n	_	2	conj	_	_
 6	_	_	ADP	post	_	2	case	_	_
 7	_	_	VERB	vd:a	Mood=Ind|Person[subj]=2|Subcat=IntInd|VerbForm=Fin	10	parataxis:rep	_	_
@@ -5459,7 +5471,7 @@
 # sent_id = 375
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	0	root	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
@@ -5519,7 +5531,7 @@
 9	_	_	ADP	post	_	8	case	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
 11	_	_	PUNCT	punct	_	17	punct	_	_
-12	_	_	ADV	dem	_	17	obl	_	_
+12	_	_	PRON	dem	PronType=Dem	17	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	PART	discprt	_	12	advmod	_	_
 15	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
@@ -5593,7 +5605,7 @@
 # sent_id = 383
 # text =_ _ _ _ _ _ _ je _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	9	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -5730,7 +5742,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	PART	discprt	_	5	advmod	_	_
+6	_	_	PART	aspprt	_	5	advmod	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	obj	_	_
 8	_	_	VERB	vpos	VerbForm=Post	7	compound:svc	_	_
 9	_	_	SCONJ	rel	_	7	mark	_	_
@@ -5763,8 +5775,8 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	PART	discprt	_	5	advmod	_	_
-7	_	_	NOUN	n	_	5	nsubj	_	_
+6	_	_	PART	aspprt	_	5	advmod	_	_
+7	_	_	NOUN	n	_	5	obj	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 396
@@ -5803,6 +5815,10 @@
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Juky neĩ kavõ ndoikuaai rã guare
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R005I001
 # sent_id = 398
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -5819,7 +5835,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	3	nsubj	_	_
 2	_	_	PART	quantprt	_	1	clf	_	_
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
-4	_	_	PRON	interpron	PronType=Int	5	det	_	_
+4	_	_	PRON	interpron	PronType=Int	5	nmod	_	_
 5	_	_	NOUN	n	_	3	ccomp	_	_
 6	_	_	PART	qprt	_	5	discourse:q	_	_
 7	_	_	NOUN	n	_	5	nsubj	_	_
@@ -5907,7 +5923,7 @@
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
-11	_	_	PRON	dem	PronType=Dem	12	det	_	_
+11	_	_	DET	dem	PronType=Dem	12	det	_	_
 12	_	_	NOUN	n	_	9	obj	_	_
 13	_	_	PUNCT	punct	_	14	punct	_	_
 14	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	9	conj	_	_
@@ -6004,7 +6020,7 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 11	_	_	PART	illocprt	_	10	advmod	_	_
-12	_	_	PRON	dem	PronType=Dem	13	det	_	_
+12	_	_	PRON	dem	PronType=Dem	13	nmod	_	_
 13	_	_	NOUN	n	_	10	obj	_	_
 14	_	_	PUNCT	punct	_	15	punct	_	_
 15	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	10	conj	_	_
@@ -6045,7 +6061,7 @@
 11	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	15	acl	_	A3.say
 12	_	_	SCONJ	nmlzer	_	11	mark	_	_
 13	_	_	PART	discprt	_	11	advmod	_	_
-14	_	_	PRON	pro	Person=3|PronType=Prs	15	det	_	_
+14	_	_	PRON	pro	Person=3|PronType=Prs	15	nmod	_	_
 15	_	_	NOUN	n	_	17	obj	_	_
 16	_	_	PART	focprt	_	15	amod	_	_
 17	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	21	parataxis:rep	_	_
@@ -6055,6 +6071,10 @@
 21	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 22	_	_	PUNCT	punct	_	21	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Tuja'i nda'ijapyxakavei va'e reko oĩa
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R006I001
 # sent_id = 415
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -6075,7 +6095,7 @@
 
 # sent_id = 417
 # text =_ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	2	det	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	2	nmod	_	_
 2	_	_	NOUN	n	_	8	obl	_	_
 3	_	_	PART	modprt	_	2	amod	_	_
 4	_	_	PART	intprt	_	2	amod	_	_
@@ -6104,14 +6124,14 @@
 1	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 2	_	_	NOUN	n	_	1	obj	_	_
 3	_	_	PUNCT	punct	_	5	punct	_	_
-4	_	_	PRON	pro	Person=3|PronType=Prs	5	det	_	_
+4	_	_	PRON	pro	Person=3|PronType=Prs	5	nmod	_	_
 5	_	_	NOUN	n	_	2	conj	_	_
 6	_	_	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 421
 # text =_ _ _ je _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	je	je	PART	illocprt	_	1	advmod	_	HSY
 5	_	_	ADV	mod	_	6	advmod	_	_
@@ -6410,6 +6430,10 @@
 20	_	_	ADP	post	_	17	case	_	_
 21	_	_	PUNCT	punct	_	16	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Hamymino overa va'e reko oĩa
+# document_authorship = Nelson Florentino; January 1976, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R007I001
 # sent_id = 439
 # text =_ _ _ _ _ ete _ _ _ _ _
 1	_	_	ADV	vi:i	_	8	advmod	_	_
@@ -6434,7 +6458,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	1	compound:svc	_	_
-3	_	_	SCONJ	subordconn	_	1	advcl	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	NOUN	n	_	5	obl	_	_
@@ -6459,7 +6483,7 @@
 # sent_id = 443
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	5	advmod	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -6545,7 +6569,7 @@
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	NOUN	n	_	10	nmod	_	_
-10	_	_	NOUN	n	_	11	obj	_	_
+10	_	_	NOUN	n	_	11	nsubj	_	_
 11	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 12	_	_	PRON	pro	Person=3|PronType=Prs	11	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
@@ -6658,10 +6682,10 @@
 # sent_id = 457
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ aguã _
 1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
-3	_	_	ADV	mod	_	13	advmod	_	_
-4	_	_	PART	aspprt	_	3	advmod	_	_
-5	_	_	SCONJ	subordconn	_	3	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
+3	_	_	NOUN	n	_	13	obl	_	_
+4	_	_	PART	aspprt	_	3	amod	_	_
+5	_	_	ADP	post	_	3	case	_	_
 6	_	_	PART	illocprt	_	3	advmod	_	_
 7	_	_	NOUN	n	_	9	nsubj	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
@@ -6904,7 +6928,7 @@
 5	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 6	_	_	SCONJ	subordconn	_	4	mark	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	0	root	_	_
-8	_	_	ADV	intermod	_	11	obl	_	_
+8	_	_	ADV	intermod	_	11	advmod	_	_
 9	_	_	PART	qprt	_	8	discourse:q	_	_
 10	_	_	NOUN	n	_	11	obj	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	ccomp	_	_
@@ -6936,12 +6960,12 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
 11	_	_	PART	aspprt	_	10	advmod	_	_
-12	_	_	PRON	dem	PronType=Dem	17	obl	_	_
+12	_	_	PRON	dem	PronType=Dem	15	obl	_	_
 13	_	_	ADP	post	_	12	case	_	_
 14	_	_	NOUN	n	_	15	obj	_	_
-15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	17	acl	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	ccomp	_	_
 16	_	_	SCONJ	nmlzer	_	15	mark	_	_
-17	_	_	NOUN	n	_	10	obj	_	_
+17	_	_	NOUN	n	_	15	obl	_	_
 18	_	_	PUNCT	punct	_	10	punct	_	_
 19	he'i	he'i	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	10	parataxis	_	A3.say
 20	_	_	PUNCT	punct	_	7	punct	_	_
@@ -6960,7 +6984,7 @@
 # sent_id = 483
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -6991,7 +7015,7 @@
 # sent_id = 485
 # text =_ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	4	obj	_	_
@@ -7079,7 +7103,7 @@
 # sent_id = 493
 # text =_ rire _ _ _
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	advcl	_	_
-2	rire	rire	SCONJ	subordconn	_	1	case	_	after
+2	rire	rire	SCONJ	subordconn	_	1	mark	_	after
 3	_	_	NOUN	n	_	4	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
@@ -7087,7 +7111,7 @@
 # sent_id = 494
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	mark	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	PART	aspprt	_	4	amod	_	_
@@ -7104,7 +7128,7 @@
 # sent_id = 495
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	14	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	14	obl	_	_
 5	_	_	PUNCT	punct	_	7	punct	_	_
@@ -7126,9 +7150,9 @@
 2	_	_	VERB	vd	Mood=Ind|Person[subj]=3|Subcat=Ditran|VerbForm=Fin	0	root	_	_
 3	_	_	ADV	mod	_	5	advmod	_	_
 4	_	_	ADP	post	_	3	case	_	_
-5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	acl	_	_
+5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	nsubj	_	_
 6	_	_	SCONJ	rel	_	5	mark	_	_
-7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
+7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	2	advcl	_	_
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PUNCT	punct	_	15	punct	_	_
 10	_	_	NOUN	n	Number=Plur	15	nsubj	_	_
@@ -7143,7 +7167,7 @@
 # sent_id = 497
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	13	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	advcl	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
@@ -7152,7 +7176,7 @@
 8	_	_	SCONJ	subordconn	_	4	mark	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
 10	_	_	NOUN	n	Number=Plur	13	nsubj	_	_
-11	_	_	ADV	mod	_	13	obl	_	_
+11	_	_	NOUN	n	_	13	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
 13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 14	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	13	compound:svc	_	_
@@ -7218,7 +7242,7 @@
 # sent_id = 502
 # text =_ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	compound:svc	_	_
@@ -7286,7 +7310,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	11	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PART	intprt	_	5	amod	_	_
+4	_	_	NOUN	n	_	5	nmod	_	_
 5	_	_	NOUN	n	_	9	nsubj	_	_
 6	_	_	ADV	vi:i	_	7	advmod	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	acl	_	_
@@ -7320,7 +7344,7 @@
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
-10	_	_	NOUN	n	_	7	obl	_	_
+10	_	_	NOUN	n	_	9	obl	_	_
 11	_	_	ADP	post	_	10	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
 
@@ -7339,7 +7363,7 @@
 1	Ha'e	ha'e	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	3
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	6	iobj	_	_
+4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
@@ -7371,7 +7395,7 @@
 # sent_id = 514
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
@@ -7433,7 +7457,7 @@
 # sent_id = 520
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	Number=Plur	7	nsubj	_	_
 5	_	_	NOUN	n	_	7	obl	_	_
@@ -7449,7 +7473,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	PART	intprt	_	6	advmod	_	_
+4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	ADJ	vi	_	4	amod	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	NOUN	n	_	6	obl	_	_
@@ -7482,7 +7506,7 @@
 # sent_id = 523
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi:i	Mood=Ind|Subcat=Int|VerbForm=Inf	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
@@ -7497,7 +7521,7 @@
 14	_	_	PRON	pro	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 15	_	_	PART	focprt	_	14	amod	_	_
 16	_	_	PUNCT	punct	_	17	punct	_	_
-17	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	13	compound:svc	_	_
+17	_	_	VERB	vi	Mood=Imp|Person[subj]=2|Subcat=Int|VerbForm=Fin	13	conj	_	_
 18	_	_	NOUN	n	_	17	obl	_	_
 19	_	_	ADP	post	_	18	case	_	_
 20	_	_	PUNCT	punct	_	24	punct	_	_
@@ -7536,7 +7560,7 @@
 # sent_id = 526
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	Number=Plur	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -7549,7 +7573,7 @@
 # sent_id = 527
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	14	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	obj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	14	advcl	_	_
@@ -7595,7 +7619,7 @@
 # sent_id = 530
 # text =_ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
@@ -7628,7 +7652,7 @@
 23	_	_	SCONJ	rel	_	22	mark	_	_
 24	_	_	ADP	post	_	22	case	_	_
 25	_	_	NOUN	n	_	26	obj	_	_
-26	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	20	compound:svc	_	_
+26	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	20	conj	_	_
 27	_	_	PUNCT	punct	_	20	punct	_	_
 28	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	20	parataxis	_	_
 29	_	_	PUNCT	punct	_	14	punct	_	_
@@ -7648,7 +7672,7 @@
 # sent_id = 533
 # text =_ _ je _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	je	je	PART	illocprt	_	1	advmod	_	HSY
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
@@ -7775,7 +7799,7 @@
 17	_	_	NOUN	n	_	16	obl	_	_
 18	_	_	ADP	post	_	17	case	_	_
 19	_	_	NOUN	n	Number[psor]=Plur	20	obj	_	_
-20	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	11	conj	_	_
+20	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	9	conj	_	_
 21	_	_	PUNCT	punct	_	9	punct	_	_
 22	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 23	_	_	PUNCT	punct	_	6	punct	_	_
@@ -7794,7 +7818,7 @@
 10	_	_	PUNCT	punct	_	7	punct	_	_
 11	_	_	PUNCT	punct	_	17	punct	_	_
 12	_	_	PRON	pro	Person=3|PronType=Prs	15	obl	_	_
-13	_	_	ADP	post	_	12	mark	_	_
+13	_	_	ADP	post	_	12	case	_	_
 14	_	_	NOUN	n	Number[psor]=Sing	15	nsubj	_	_
 15	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	17	advcl	_	_
 16	_	_	SCONJ	subordconn	_	15	mark	_	_
@@ -7871,7 +7895,7 @@
 # sent_id = 545
 # text =_ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
@@ -7903,7 +7927,7 @@
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	3	advcl	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
-4	_	_	ADV	vi:i	_	3	obl	_	_
+4	_	_	NOUN	vi:i	_	3	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	3	punct	_	_
 
@@ -7954,7 +7978,7 @@
 8	_	_	NOUN	n	_	9	nsubj	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	conj	_	_
 10	_	_	PUNCT	punct	_	11	punct	_	_
-11	_	_	NOUN	n	_	8	conj	_	_
+11	_	_	NOUN	n	_	6	conj	_	_
 12	_	_	CCONJ	coordconn	_	11	cc	_	_
 13	.	.	PUNCT	punct	_	6	punct	_	_
 
@@ -7991,7 +8015,7 @@
 5	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	4	compound:svc	_	_
 6	_	_	PRON	pro	Person=3|PronType=Prs	4	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
-8	_	_	PART	discprt	_	4	advmod	_	_
+8	_	_	PART	aspprt	_	4	advmod	_	_
 9	_	_	PART	illocprt	_	4	advmod	_	_
 10	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -8047,7 +8071,7 @@
 # sent_id = 560
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	9	obl	_	_
 5	_	_	SCONJ	nmlzer	_	4	mark	_	_
@@ -8081,7 +8105,7 @@
 13	_	_	VERB	vi	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	6	parataxis:rep	_	_
 14	_	_	NOUN	n	_	13	obl	_	_
 15	_	_	SCONJ	nmlzer	_	14	mark	_	_
-16	_	_	ADP	post	_	14	mark	_	_
+16	_	_	ADP	post	_	14	case	_	_
 17	_	_	VERB	vi	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	13	compound:svc	_	_
 18	,”	,”	PUNCT	punct	_	13	punct	_	_
 19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	13	parataxis	_	_
@@ -8090,7 +8114,7 @@
 # sent_id = 562
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	advcl	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
@@ -8129,7 +8153,7 @@
 1	_	_	PUNCT	punct	_	9	punct	_	_
 2	_	_	PRON	interpron	PronType=Int	9	nsubj	_	_
 3	_	_	PART	qprt	_	2	discourse:q	_	_
-4	_	_	PRON	dem	PronType=Dem	5	nsubj	_	_
+4	_	_	PRON	dem	PronType=Dem	5	obl	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	2	acl	_	_
 6	_	_	PART	intprt	_	5	advmod	_	_
 7	_	_	PART	intprt	_	5	advmod	_	_
@@ -8183,7 +8207,7 @@
 
 # sent_id = 569
 # text =_ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	9	nsubj	_	_
+1	_	_	CCONJ	coordconn	_	9	cc	_	_
 2	_	_	NOUN	n	_	6	nsubj	_	_
 3	_	_	PART	illocprt	_	2	amod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
@@ -8226,7 +8250,7 @@
 19	_	_	PUNCT	punct	_	18	punct	_	_
 20	_	_	PUNCT	punct	_	25	punct	_	_
 21	_	_	PRON	pro	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
-22	_	_	PRON	dem	PronType=Dem	23	det	_	_
+22	_	_	PRON	dem	PronType=Dem	23	nmod	_	_
 23	_	_	NOUN	n	_	25	obl	_	_
 24	_	_	ADP	post	_	23	case	_	_
 25	_	_	VERB	vi	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Int|VerbForm=Fin	18	parataxis:rep	_	_
@@ -8244,7 +8268,7 @@
 # sent_id = 572
 # text =_ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 5	_	_	PART	illocprt	_	4	advmod	_	_
@@ -8264,24 +8288,24 @@
 
 # sent_id = 574
 # text =_ _ _ _ _ _ _ _ namigua _ _ _ _ _ _ _ _ _ _ _
-1	_	_	PUNCT	punct	_	12	punct	_	_
-2	_	_	VERB	vt	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	12	advcl	_	_
+1	_	_	PUNCT	punct	_	6	punct	_	_
+2	_	_	VERB	vt	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	6	advcl	_	_
 3	_	_	PART	negprt	_	2	advmod	_	_
 4	_	_	SCONJ	subordconn	_	2	mark	_	_
-5	_	_	PART	discprt	_	6	advmod	_	_
-6	_	_	VERB	vd	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Ditran|VerbForm=Fin	2	obj	_	_
+5	_	_	PART	discprt	_	2	advmod	_	_
+6	_	_	VERB	vd	Clusivity[obj]=Ex|Mood=Ind|Person[obj]=1|Subcat=Ditran|VerbForm=Fin	19	parataxis:rep	_	_
 7	_	_	SCONJ	rel	_	6	mark	_	_
-8	_	_	PART	discprt	_	2	advmod	_	_
+8	_	_	PART	discprt	_	6	amod	_	_
 9	namigua	namigua	NOUN	n	_	12	obl	_	thus-NMLZ
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PART	intprt	_	9	advmod	_	_
-12	_	_	VERB	vt	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	19	parataxis:rep	_	_
+12	_	_	VERB	vt	Clusivity[subj]=Ex|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis	_	_
 13	_	_	PART	aspprt	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	15	punct	_	_
-15	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	12	conj	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	parataxis	_	_
 16	_	_	NOUN	n	_	15	obj	_	_
 17	_	_	ADJ	vi:i	_	16	amod	_	_
-18	_	_	PUNCT	punct	_	12	punct	_	_
+18	_	_	PUNCT	punct	_	15	punct	_	_
 19	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 20	_	_	PUNCT	punct	_	19	punct	_	_
 
@@ -8342,7 +8366,7 @@
 # sent_id = 580
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
@@ -8353,7 +8377,7 @@
 # sent_id = 581
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
 5	_	_	SCONJ	nmlzer	_	4	mark	_	_
@@ -8389,7 +8413,7 @@
 10	_	_	PART	intprt	_	9	amod	_	_
 11	_	_	CCONJ	coordconn	_	9	cc	_	_
 12	_	_	NOUN	n	_	13	obl	_	_
-13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	acl	_	_
+13	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	9	advcl	_	_
 14	_	_	SCONJ	rel	_	13	mark	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
 
@@ -8407,14 +8431,14 @@
 
 # sent_id = 585
 # text =_ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
+1	_	_	CCONJ	coordconn	_	9	obl:sentcon	_	_
 2	_	_	NOUN	n	_	3	nmod	_	_
 3	_	_	NOUN	n	_	4	nmod	_	_
 4	_	_	NOUN	n	_	9	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PART	illocprt	_	4	advmod	_	_
 7	_	_	DET	quant	PronType=Tot	8	det	_	_
-8	_	_	PRON	pro	Polarity=Neg|PronType=Prs	9	nsubj	_	_
+8	_	_	NOUN	n	_	9	nsubj	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 10	_	_	PUNCT	punct	_	9	punct	_	_
 
@@ -8447,7 +8471,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	NOUN	n	_	8	obl	_	_
+6	_	_	NOUN	n	_	5	obl	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
@@ -8470,7 +8494,7 @@
 # sent_id = 589
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
@@ -8483,7 +8507,7 @@
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 2	_	_	PRON	pro	Person=3|PronType=Prs	1	obl	_	_
 3	_	_	ADP	post	_	2	case	_	_
-4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	parataxis	_	_
+4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	1	compound:svc	_	_
 5	_	_	NOUN	n	_	1	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	PUNCT	punct	_	1	punct	_	_
@@ -8491,7 +8515,7 @@
 # sent_id = 591
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NUM	num	NumType=Card	5	nummod	_	_
 5	_	_	NOUN	n	_	7	obl	_	_
@@ -8556,9 +8580,9 @@
 
 # sent_id = 595
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	16	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	16	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	nsubj	_	_
+3	_	_	NOUN	n	_	4	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	advcl	_	_
 5	_	_	SCONJ	nmlzer	_	4	mark	_	_
 6	_	_	ADP	post	_	4	case	_	_
@@ -8566,7 +8590,7 @@
 8	_	_	SCONJ	subordconn	_	7	mark	_	_
 9	_	_	PART	illocprt	_	7	advmod	_	_
 10	_	_	NOUN	n	_	11	nmod	_	_
-11	_	_	NOUN	n	_	16	obj	_	_
+11	_	_	NOUN	n	_	16	obl	_	_
 12	_	_	ADP	post	_	11	case	_	_
 13	_	_	PART	illocprt	_	11	advmod	_	_
 14	_	_	NOUN	n	_	16	nsubj	_	_
@@ -8645,7 +8669,7 @@
 # sent_id = 600
 # text =_ _ _ _ _ _ ojapyxaka _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -8666,7 +8690,7 @@
 5	_	_	PART	illocprt	_	1	advmod	_	_
 6	_	_	NOUN	n	_	12	nsubj	_	_
 7	_	_	PUNCT	punct	_	9	punct	_	_
-8	_	_	PRON	pro	Person=3|PronType=Prs	9	det	_	_
+8	_	_	PRON	pro	Person=3|PronType=Prs	9	nmod	_	_
 9	_	_	NOUN	n	_	6	conj	_	_
 10	_	_	PUNCT	punct	_	11	punct	_	_
 11	_	_	NOUN	n	_	6	conj	_	_
@@ -8730,6 +8754,10 @@
 1	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 2	_	_	PUNCT	punct	_	1	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Taguato ngovaja jeruxi reve ka'aguy re ooague
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R008I001
 # sent_id = 606
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -8757,7 +8785,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	temprt	_	9	advmod	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	SCONJ	subordconn	_	4	case	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -8783,10 +8811,10 @@
 # sent_id = 609
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
-5	_	_	ADV	mod	_	7	advmod	_	_
+5	_	_	NOUN	n	_	7	obl	_	_
 6	_	_	ADP	post	_	5	case	_	_
 7	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	0	root	_	_
 8	_	_	PART	aspprt	_	7	advmod	_	_
@@ -8797,7 +8825,7 @@
 # sent_id = 610
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ jeruxi _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	14	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -8839,7 +8867,7 @@
 # sent_id = 611
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	14	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	6	nsubj	_	_
 5	_	_	NOUN	n	_	6	obj	_	_
@@ -8877,6 +8905,10 @@
 15	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	13	compound:svc	_	_
 16	_	_	PUNCT	punct	_	13	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ka'i ovava va'e reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R009I001
 # sent_id = 613
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -8900,7 +8932,7 @@
 
 # sent_id = 615
 # text =_ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	intprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
@@ -8910,7 +8942,7 @@
 # sent_id = 616
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	12	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	advcl	_	_
 5	_	_	PART	focprt	_	4	advmod	_	_
@@ -8923,7 +8955,7 @@
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 13	_	_	PUNCT	punct	_	12	punct	_	_
 14	_	_	PUNCT	punct	_	17	punct	_	_
-15	_	_	ADV	mod	_	17	advcl	_	_
+15	_	_	ADV	mod	_	17	advmod	_	_
 16	_	_	PART	discprt	_	15	advmod	_	_
 17	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	12	parataxis:rep	_	_
 18	_	_	PART	focprt	_	17	advmod	_	_
@@ -8938,7 +8970,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	12	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	12	obl	_	_
+4	_	_	NOUN	n	_	12	discourse	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	advcl	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PART	aspprt	_	5	advmod	_	_
@@ -8973,6 +9005,10 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Aka'ẽ ha'e taguato reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R010I001
 # sent_id = 620
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -9035,6 +9071,10 @@
 11	_	_	PART	intprt	_	10	amod	_	_
 12	_	_	PUNCT	punct	_	8	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Xupĩ ha'e avia reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R011I001
 # sent_id = 625
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -9096,6 +9136,10 @@
 13	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Tran|VerbForm=Fin	4	conj	_	_
 14	_	_	PUNCT	punct	_	4	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Tapixi ojou va'e rei ho'u va'e reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R012I001
 # sent_id = 629
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -9156,6 +9200,10 @@
 9	_	_	SCONJ	rel	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	8	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Kuaray, jaxy ha'e anha reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R013I001
 # sent_id = 633
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -9222,12 +9270,12 @@
 # sent_id = 637
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	9	nsubj	_	_
 5	_	_	PART	illocprt	_	4	amod	_	_
-6	_	_	PRON	pro	Person=3|PronType=Prs	9	obl	_	_
-7	_	_	CCONJ	coordconn	_	6	case	_	_
+6	_	_	PRON	pro	Person=3|PronType=Prs	4	appos	_	_
+7	_	_	CCONJ	coordconn	_	6	cc	_	_
 8	_	_	PART	illocprt	_	6	advmod	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 10	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	9	compound:svc	_	_
@@ -9316,7 +9364,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ” _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
 2	_	_	PART	discprt	_	1	amod	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	intprt	_	1	advmod	_	_
 5	_	_	PART	discprt	_	1	advmod	_	_
 6	_	_	PART	illocprt	_	1	advmod	_	_
@@ -9339,7 +9387,7 @@
 # sent_id = 645
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	7	nsubj	_	_
@@ -9375,7 +9423,7 @@
 # sent_id = 647
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PROPN	nprop	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	10	advcl	_	_
@@ -9394,9 +9442,9 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	11	advcl	_	_
-6	aje'i'i	aje'i	ADV	mod	_	5	advmod	_	on.the.same.day-=DIM
+6	aje'i'i	aje'i	NOUN	n	_	5	obl	_	some.time-=DIM
 7	_	_	PART	aspprt	_	5	advmod	_	_
-8	_	_	SCONJ	subordconn	_	5	case	_	_
+8	_	_	SCONJ	subordconn	_	5	mark	_	_
 9	_	_	PART	illocprt	_	5	advmod	_	_
 10	_	_	NOUN	n	_	11	nsubj	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -9407,7 +9455,7 @@
 # sent_id = 649
 # text =_ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -9486,7 +9534,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	intprt	_	1	advmod	_	_
 5	_	_	PART	discprt	_	1	advmod	_	_
 6	_	_	PART	illocprt	_	1	advmod	_	_
@@ -9530,7 +9578,7 @@
 # sent_id = 657
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -9552,6 +9600,10 @@
 21	_	_	SCONJ	subordconn	_	20	mark	_	_
 22	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Gigante reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R014I001
 # sent_id = 658
 # text =_ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -9563,9 +9615,9 @@
 
 # sent_id = 659
 # text =_ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	7	nsubj	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
-3	_	_	PART	illocprt	_	1	advmod	_	_
+3	_	_	PART	illocprt	_	1	amod	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PART	illocprt	_	4	advmod	_	_
@@ -9576,7 +9628,7 @@
 
 # sent_id = 660
 # text =_ _ _ _ oo _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	3	det	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	_	_	NOUN	n	_	9	nsubj	_	_
 4	_	_	PART	illocprt	_	3	amod	_	_
@@ -9594,7 +9646,7 @@
 
 # sent_id = 661
 # text =_ _ _ _ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	3	nmod	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	_	_	NOUN	n	Number=Plur	9	obj	_	_
 4	_	_	PART	illocprt	_	3	amod	_	_
@@ -9759,7 +9811,7 @@
 
 # sent_id = 672
 # text =_ _ _ _ _ _ _ ha'e _ _
-1	_	_	ADV	subordconn	_	7	advmod:sentcon	_	_
+1	_	_	ADV	subordconn	_	7	advmod	_	_
 2	_	_	PART	illocprt	_	1	advmod	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	7	nsubj	_	_
@@ -9808,9 +9860,9 @@
 # sent_id = 674
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	6	obl	_	_
+4	_	_	NOUN	n	_	6	discourse	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 7	_	_	VERB	vpos	VerbForm=Post	6	compound:svc	_	_
@@ -9834,7 +9886,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	5	obl	_	_
+4	_	_	NOUN	n	_	5	discourse	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PART	focprt	_	5	advmod	_	_
 7	_	_	PART	aspprt	_	5	advmod	_	_
@@ -9890,14 +9942,14 @@
 # sent_id = 679
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	6	nsubj	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	8	punct	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	conj	_	_
-9	_	_	ADV	vi:i	_	8	obl	_	_
+9	_	_	NOUN	vi:i	_	8	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	6	punct	_	_
 
@@ -9918,6 +9970,10 @@
 13	_	_	ADV	mod	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Guaiguĩ'i oporaei va'e reko oĩa
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R015I001
 # sent_id = 681
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -10127,6 +10183,10 @@
 11	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	10	compound:svc	_	_
 12	_	_	PUNCT	punct	_	10	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Peru Rima padre ombotavyague
+# document_authorship = Nelson Florentino; January 1986, Posto Indígena Rio das Cobras (Paraná)
+# document_reference = GUN001R016I001
 # sent_id = 694
 # text =_ _ _ peteĩ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -10230,8 +10290,8 @@
 2	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	_	_	VERB	vd	Mood=Ind|Person[subj]=1|Subcat=Ditran|VerbForm=Fin	8	parataxis:rep	_	_
 4	_	_	SCONJ	rel	_	3	mark	_	_
-5	_	_	NOUN	n	Number[psor]=Sing	6	nmod	_	_
-6	_	_	NOUN	n	_	3	obj	_	_
+5	_	_	NOUN	n	Number[psor]=Sing	3	obj	_	_
+6	_	_	NOUN	n	_	5	compound	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
@@ -10320,6 +10380,10 @@
 13	_	_	PART	intprt	_	12	fixed	_	_
 14	.	.	PUNCT	punct	_	9	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ava iporiaukue reko oĩa
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R017I001
 # sent_id = 707
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -10349,7 +10413,7 @@
 6	_	_	NOUN	n	_	0	root	_	_
 7	_	_	ADV	vi:i	_	6	advmod	_	_
 8	_	_	ADV	vi:i	_	6	advmod	_	_
-9	_	_	PART	intprt	_	6	amod	_	_
+9	_	_	PART	intprt	_	6	advmod	_	_
 10	_	_	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 710
@@ -10382,7 +10446,7 @@
 2	_	_	NOUN	n	Number[psor]=Sing	7	advcl	_	_
 3	_	_	ADV	vi:i	_	2	advmod	_	_
 4	_	_	SCONJ	nmlzer	_	2	mark	_	_
-5	_	_	ADP	post	_	2	mark	_	_
+5	_	_	ADP	post	_	2	case	_	_
 6	_	_	PART	discprt	_	2	advmod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Polarity=Neg|Subcat=Tran|VerbForm=Fin	11	parataxis:rep	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	obj	_	_
@@ -10424,7 +10488,7 @@
 6	_	_	NOUN	n	Clusivity=In	7	nsubj	_	_
 7	_	_	VERB	vt	Clusivity[obj]=In|Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	1	parataxis:rep	_	_
 8	_	_	PART	aspprt	_	7	advmod	_	_
-9	_	_	ADV	dem	_	7	obl	_	_
+9	_	_	PRON	dem	PronType=Dem	7	obl	_	_
 10	_	_	ADP	post	_	9	case	_	_
 11	_	_	PUNCT	punct	_	7	punct	_	_
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	parataxis	_	_
@@ -10753,7 +10817,7 @@
 3	_	_	SCONJ	rel	_	2	mark	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
-6	_	_	PART	aspprt	_	4	advmod	_	_
+6	_	_	PART	discprt	_	4	advmod	_	_
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	13	parataxis:rep	_	_
 8	_	_	SCONJ	rel	_	7	mark	_	_
 9	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	7	nsubj	_	_
@@ -10766,7 +10830,7 @@
 # sent_id = 738
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	5	punct	_	_
-2	_	_	PRON	pro	Person=3|PronType=Prs	3	det	_	_
+2	_	_	PRON	pro	Person=3|PronType=Prs	3	nmod	_	_
 3	_	_	NOUN	n	_	5	obl	_	_
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
@@ -10777,7 +10841,7 @@
 # sent_id = 739
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	8	advcl	_	_
 5	_	_	PART	aspprt	_	4	amod	_	_
@@ -10867,7 +10931,7 @@
 2	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 3	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	8	parataxis:rep	_	_
 4	_	_	PUNCT	punct	_	6	punct	_	_
-5	_	_	NOUN	n	_	6	obj	_	_
+5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	_	_	VERB	vt	Mood=Ind|Subcat=Tran|VerbForm=Inf	3	parataxis	_	_
 7	_	_	PUNCT	punct	_	3	punct	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -10892,12 +10956,12 @@
 
 # sent_id = 748
 # text =_ _ nunga _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	3	det	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	3	nmod	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	nunga	nunga	NOUN	n	_	5	obj	_	kind.of.thing
 4	_	_	PART	illocprt	_	3	amod	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-6	_	_	NUM	num	NumType=Card	3	nummod	_	_
+6	_	_	NUM	num	NumType=Card	5	dislocated	_	_
 7	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -10995,7 +11059,7 @@
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PART	temprt	_	9	advmod	_	_
 5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	SCONJ	subordconn	_	4	case	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	NOUN	n	_	9	nsubj	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -11098,7 +11162,7 @@
 # sent_id = 761
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	5	punct	_	_
-2	_	_	PRON	pro	Person=3|PronType=Prs	3	det	_	_
+2	_	_	PRON	pro	Person=3|PronType=Prs	3	nmod	_	_
 3	_	_	NOUN	n	_	5	obj	_	_
 4	_	_	PART	discprt	_	3	amod	_	_
 5	_	_	VERB	vt	Clusivity[subj]=In|Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	7	parataxis:rep	_	_
@@ -11175,7 +11239,7 @@
 # sent_id = 767
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Person=3|PronType=Prs	6	nsubj	_	_
 5	_	_	SCONJ	rel	_	4	mark	_	_
@@ -11197,7 +11261,7 @@
 
 # sent_id = 769
 # text =_ _ _ _ _ _ _ _
-1	_	_	PRON	pro	Person=3|PronType=Prs	2	det	_	_
+1	_	_	PRON	pro	Person=3|PronType=Prs	2	nmod	_	_
 2	_	_	NOUN	n	_	4	obj	_	_
 3	_	_	PART	illocprt	_	2	amod	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -11342,9 +11406,9 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	12	obl:sentcon	_	_
 2	gui	gui	ADP	post	_	1	case	_	from
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	ADV	mod	_	12	advmod	_	_
-5	_	_	PART	aspprt	_	4	advmod	_	_
-6	_	_	SCONJ	subordconn	_	4	case	_	_
+4	_	_	NOUN	n	_	12	obl	_	_
+5	_	_	PART	aspprt	_	4	amod	_	_
+6	_	_	ADP	post	_	4	case	_	_
 7	_	_	PART	illocprt	_	4	advmod	_	_
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Polarity=Neg|Subcat=Int|VerbForm=Fin	12	advcl	_	_
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
@@ -11383,12 +11447,16 @@
 12	_	_	ADP	post	_	10	case	_	_
 13	_	_	PUNCT	punct	_	6	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Guyra'i ajuka kuaa ypy'iague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R018I001
 # sent_id = 783
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	8	advmod	_	_
 2	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	8	advcl	_	_
 3	_	_	SCONJ	subordconn	_	2	mark	_	_
-4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
 5	_	_	ADV	mod	_	8	advcl	_	_
 6	_	_	NOUN	n	_	8	obj	_	_
 7	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -11542,7 +11610,7 @@
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NUM	num	NumType=Card	6	nummod	_	_
-5	_	_	PART	discprt	_	1	advmod	_	_
+5	_	_	PART	discprt	_	4	advmod	_	_
 6	_	_	NOUN	n	_	7	obj	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 8	_	_	PUNCT	punct	_	7	punct	_	_
@@ -11584,7 +11652,7 @@
 # sent_id = 800
 # text =_ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -11614,6 +11682,10 @@
 9	_	_	SCONJ	subordconn	_	8	mark	_	_
 10	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Jurua ayvu ndaikuaaiague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R019I001
 # sent_id = 803
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	7	advmod	_	_
@@ -11698,7 +11770,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	8	nsubj	_	_
-5	_	_	ADP	post	_	6	obj	_	_
+5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	_	_	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	8	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -11790,7 +11862,7 @@
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
-6	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	acl	_	_
+6	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	5	advcl	_	_
 7	_	_	SCONJ	subordconn	_	6	mark	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -11869,7 +11941,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	ADP	post	_	1	case	_	_
 4	_	_	PART	discprt	_	1	advmod	_	_
 5	_	_	PART	illocprt	_	1	advmod	_	_
 6	_	_	ADV	mod	_	8	advmod	_	_
@@ -11895,6 +11967,10 @@
 11	_	_	ADP	post	_	9	case	_	_
 12	_	_	PUNCT	punct	_	7	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ka'aguy re aa ague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R020I001
 # sent_id = 824
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12013,6 +12089,10 @@
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	6	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Tape rupi aa vy anhemondyiague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R021I001
 # sent_id = 835
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -12026,7 +12106,7 @@
 # sent_id = 836
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	6	obl	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PRON	interpron	PronType=Int	6	nsubj	_	_
 4	_	_	PART	intprt	_	3	amod	_	_
 5	_	_	PART	quantprt	_	3	amod	_	_
@@ -12063,7 +12143,7 @@
 # sent_id = 839
 # text =_ _ _ _ _ aguã _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	4	nsubj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	4	advcl	_	_
@@ -12079,7 +12159,7 @@
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	17	advcl	_	_
 6	_	_	NOUN	n	_	7	nsubj	_	_
-7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	advcl	_	_
+7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	5	obl	_	_
 8	_	_	SCONJ	nmlzer	_	7	mark	_	_
 9	_	_	ADP	post	_	7	case	_	_
 10	_	_	SCONJ	subordconn	_	5	mark	_	_
@@ -12102,7 +12182,7 @@
 # sent_id = 841
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	7	nsubj	_	_
 5	_	_	NOUN	n	_	7	obl	_	_
@@ -12115,12 +12195,12 @@
 # sent_id = 842
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	advcl	_	_
 4	_	_	PART	focprt	_	3	advmod	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
-7	_	_	PART	discprt	_	6	advmod	_	_
+7	_	_	PART	aspprt	_	6	advmod	_	_
 8	_	_	NOUN	n	_	6	obj	_	_
 9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	8	acl	_	_
 10	_	_	SCONJ	rel	_	9	mark	_	_
@@ -12135,8 +12215,8 @@
 5	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
 6	_	_	PUNCT	punct	_	4	punct	_	_
 7	_	_	PUNCT	punct	_	10	punct	_	_
-8	_	_	ADV	dem	_	10	nsubj	_	_
-9	_	_	PART	discprt	_	8	advmod	_	_
+8	_	_	PRON	dem	PronType=Dem	10	nsubj	_	_
+9	_	_	PART	discprt	_	8	amod	_	_
 10	_	_	NOUN	n	_	4	parataxis:rep	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[obj]=2|Subcat=Tran|VerbForm=Fin	10	acl	_	_
 12	_	_	SCONJ	rel	_	11	mark	_	_
@@ -12151,6 +12231,10 @@
 21	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	17	compound:svc	_	_
 22	_	_	PUNCT	punct	_	17	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Xemamãe ambotavyague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R022I001
 # sent_id = 844
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12269,7 +12353,7 @@
 # sent_id = 852
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -12302,7 +12386,7 @@
 6	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 7	_	_	PUNCT	punct	_	6	punct	_	_
 8	_	_	PUNCT	punct	_	11	punct	_	_
-9	_	_	ADV	intermod	_	11	obl	_	_
+9	_	_	ADV	intermod	_	11	advmod	_	_
 10	_	_	PART	illocprt	_	9	advmod	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=2|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 12	_	_	PART	illocprt	_	11	advmod	_	_
@@ -12326,7 +12410,7 @@
 12	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 13	_	_	PART	temprt	_	12	advmod	_	_
 14	_	_	PUNCT	punct	_	12	punct	_	_
-15	_	_	PRON	pro	Person=3|PronType=Prs	12	parataxis	_	_
+15	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	12	parataxis	_	_
 16	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 856
@@ -12363,7 +12447,7 @@
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis:rep	_	_
 12	_	_	PART	temprt	_	11	advmod	_	_
 13	_	_	PUNCT	punct	_	11	punct	_	_
-14	_	_	PRON	pro	Person=3|PronType=Prs	11	parataxis	_	_
+14	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	11	parataxis	_	_
 15	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 858
@@ -12397,6 +12481,10 @@
 6	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	5	compound:svc	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ipoxogue va'e aexa ague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R023I001
 # sent_id = 860
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	3	advmod	_	_
@@ -12613,6 +12701,10 @@
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	9	parataxis	_	_
 12	_	_	PUNCT	punct	_	6	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Aexa ra'uague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R024I001
 # sent_id = 878
 # text =_ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	2	advmod	_	_
@@ -12627,7 +12719,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _ rupi _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	8	advcl	_	_
 6	_	_	SCONJ	subordconn	_	5	mark	_	_
@@ -12665,7 +12757,7 @@
 # sent_id = 882
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	10	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	10	advcl	_	_
@@ -12682,7 +12774,7 @@
 # sent_id = 883
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
@@ -12737,7 +12829,7 @@
 6	_	_	ADJ	mod	_	5	amod	_	_
 7	_	_	NOUN	n	_	9	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
-9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	obl	_	_
+9	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	11	obj	_	_
 10	_	_	SCONJ	rel	_	9	mark	_	_
 11	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 12	_	_	NOUN	n	Number[psor]=Sing	11	obl	_	_
@@ -12763,6 +12855,10 @@
 15	_	_	SCONJ	subordconn	_	14	mark	_	_
 16	.	.	PUNCT	punct	_	12	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Xeapu reiague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R025I001
 # sent_id = 888
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	6	advmod	_	_
@@ -12778,7 +12874,7 @@
 
 # sent_id = 889
 # text =_ _ _ _ _
-1	_	_	NOUN	n	_	2	nsubj	_	_
+1	_	_	NOUN	n	_	2	obj	_	_
 2	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	SCONJ	rel	_	2	mark	_	_
@@ -12787,7 +12883,7 @@
 # sent_id = 890
 # text =_ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	4	punct	_	_
-2	_	_	PRON	pro	Person=3|PronType=Prs	3	det	_	_
+2	_	_	PRON	pro	Person=3|PronType=Prs	3	nmod	_	_
 3	_	_	NOUN	n	_	4	obj	_	_
 4	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	6	parataxis:rep	_	_
 5	_	_	PUNCT	punct	_	4	punct	_	_
@@ -12936,7 +13032,7 @@
 # sent_id = 901
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	PUNCT	punct	_	5	punct	_	_
-2	_	_	PRON	dem	PronType=Dem	3	det	_	_
+2	_	_	DET	dem	PronType=Dem	3	det	_	_
 3	_	_	NOUN	n	_	5	obl	_	_
 4	_	_	ADP	post	_	3	case	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	8	parataxis:rep	_	_
@@ -12981,6 +13077,10 @@
 8	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Polarity=Neg|Subcat=Int|VerbForm=Fin	0	root	_	_
 9	_	_	PUNCT	punct	_	8	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Jurua kuery reve ka'aguy re aa ague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R026I001
 # sent_id = 905
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -13023,7 +13123,7 @@
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	VERB	vd:a	Mood=Ind|Person[subj]=3|Subcat=IntInd|VerbForm=Fin	4	advcl	_	_
 11	_	_	SCONJ	subordconn	_	10	mark	_	_
-12	_	_	PRON	pro	PronType=Prs	13	nmod	_	_
+12	_	_	DET	pro	PronType=Prs	13	det	_	_
 13	pypo	pypo	NOUN	n	_	10	obl	_	track
 14	_	_	ADP	post	_	13	case	_	_
 15	_	_	PUNCT	punct	_	4	punct	_	_
@@ -13042,7 +13142,7 @@
 # sent_id = 910
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	0	root	_	_
@@ -13119,7 +13219,7 @@
 
 # sent_id = 916
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	ADV	mod	_	9	advmod	_	_
+1	_	_	NOUN	n	_	9	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	SCONJ	rel	_	1	mark	_	_
 4	_	_	NOUN	n	_	9	obl	_	_
@@ -13141,7 +13241,7 @@
 4	_	_	NOUN	n	_	11	advcl	_	_
 5	_	_	PART	intprt	_	4	amod	_	_
 6	_	_	PART	aspprt	_	4	amod	_	_
-7	_	_	SCONJ	subordconn	_	4	case	_	_
+7	_	_	ADP	post	_	4	case	_	_
 8	_	_	PART	discprt	_	4	advmod	_	_
 9	_	_	NOUN	n	_	11	obj	_	_
 10	_	_	VERB	vi:a	Mood=Ind|Subcat=Int|VerbForm=Inf	9	compound	_	_
@@ -13179,6 +13279,10 @@
 7	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	5	compound:svc	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Xerapa aikovyague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R027I001
 # sent_id = 921
 # text =_ _ _ _ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	7	advmod	_	_
@@ -13209,7 +13313,7 @@
 # sent_id = 923
 # text =_ _ _ _ _ _ _ _ _ _ _ re _
 1	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NUM	num	NumType=Card	4	nummod	_	_
 4	_	_	NOUN	n	_	7	obl	_	_
 5	_	_	PRON	pro	Person=3|PronType=Prs	7	nsubj	_	_
@@ -13217,15 +13321,15 @@
 7	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 8	_	_	PART	illocprt	_	7	advmod	_	_
 9	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
-10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	obl	_	_
-11	_	_	PART	negprt	_	10	advmod	_	_
-12	re	e	ADP	post	_	10	case	_	R-ABL
+10	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	7	advcl	_	_
+11	_	_	PART	negprt	_	10	mark	_	_
+12	re	e	ADP	post	_	11	fixed	_	R-ABL
 13	_	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 924
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	9	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	discprt	_	1	advmod	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	9	advcl	_	_
@@ -13404,7 +13508,7 @@
 # text =_ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	8	obl:sentcon	_	_
 2	_	_	ADP	post	_	1	case	_	_
-3	_	_	SCONJ	subordconn	_	1	case	_	_
+3	_	_	SCONJ	subordconn	_	1	mark	_	_
 4	_	_	PART	illocprt	_	1	advmod	_	_
 5	_	_	NOUN	n	_	8	nsubj	_	_
 6	_	_	PRON	pro	Person=3|PronType=Prs	8	obl	_	_
@@ -13471,13 +13575,17 @@
 12	_	_	VERB	vs	Mood=Ind|Person=1|VerbForm=Ser	8	compound:svc	_	_
 13	_	_	PUNCT	punct	_	8	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Kavaju arygua aexa ague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R028I001
 # sent_id = 945
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
 2	_	_	PART	discprt	_	1	advmod	_	_
 3	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 4	_	_	NUM	num	NumType=Card	5	nummod	_	_
-5	_	_	NOUN	n	_	3	obl	_	_
+5	_	_	NOUN	n	_	3	obj	_	_
 6	_	_	NOUN	n	_	5	nmod	_	_
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	3	punct	_	_
@@ -13668,7 +13776,7 @@
 14	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	5	parataxis	_	_
 15	_	_	PART	intprt	_	14	advmod	_	_
 16	_	_	VERB	vi	Mood=Ind|Person[subj]=1|Subcat=Int|VerbForm=Fin	14	advcl	_	_
-17	_	_	ADP	post	_	16	case	_	_
+17	_	_	SCONJ	subordconn	_	16	mark	_	_
 18	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 960
@@ -13693,7 +13801,7 @@
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	nsubj	_	_
 2	_	_	SCONJ	rel	_	1	mark	_	_
 3	_	_	PART	aspprt	_	1	advmod	_	_
-4	_	_	PART	discprt	_	1	advmod	_	_
+4	_	_	PART	discprt	_	3	fixed	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[obj]=1|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
 7	_	_	PUNCT	punct	_	5	punct	_	_
@@ -13714,6 +13822,10 @@
 12	_	_	PART	intprt	_	10	advmod	_	_
 13	_	_	PUNCT	punct	_	10	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Itongo aexa ague
+# document_authorship = Nelson Florentino; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R029I001
 # sent_id = 963
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -13804,7 +13916,7 @@
 7	_	_	PUNCT	punct	_	4	punct	_	_
 8	_	_	PUNCT	punct	_	9	punct	_	_
 9	_	_	VERB	vt	Mood=Imp|Person[subj]=2|Subcat=Tran|VerbForm=Fin	4	parataxis:rep	_	_
-10	peva'e	peva'e	PRON	dem	PronType=Dem	11	det	_	DEM-REL
+10	peva'e	peva'e	DET	dem	PronType=Dem	11	det	_	DEM-REL
 11	_	_	NOUN	n	_	9	obj	_	_
 12	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
 13	_	_	PUNCT	punct	_	9	punct	_	_
@@ -13913,12 +14025,12 @@
 # sent_id = 978
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	5	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 6	_	_	VERB	vs	Mood=Ind|Person=3|VerbForm=Ser	5	compound:svc	_	_
-7	_	_	ADV	vi:i	_	5	obl	_	_
+7	_	_	NOUN	vi:i	_	5	obl	_	_
 8	_	_	ADP	post	_	7	case	_	_
 9	_	_	PUNCT	punct	_	5	punct	_	_
 
@@ -13937,7 +14049,7 @@
 2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
 4	_	_	NOUN	n	_	8	nsubj	_	_
-5	_	_	ADP	post	_	6	obl	_	_
+5	_	_	PRON	pro	Person=3|PronType=Prs	6	obl	_	_
 6	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	4	acl	_	_
 7	_	_	SCONJ	rel	_	6	mark	_	_
 8	oi	i	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	A3-detach
@@ -13962,14 +14074,14 @@
 1	_	_	NOUN	n	_	5	obl	_	_
 2	_	_	ADP	post	_	1	case	_	_
 3	_	_	PART	illocprt	_	1	advmod	_	_
-4	_	_	NOUN	n	_	5	obj	_	_
+4	_	_	NOUN	n	_	5	nsubj	_	_
 5	_	_	VERB	vt	Mood=Ind|Person[subj]=3|Subcat=Tran|VerbForm=Fin	0	root	_	_
 6	_	_	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 983
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	NOUN	n	_	2	nsubj	_	_
-2	_	_	VERB	vi	Mood=Ind|Subcat=Int|VerbForm=Inf	12	advcl	_	_
+1	_	_	NOUN	n	_	2	nmod	_	_
+2	_	_	NOUN	vi	_	12	advcl	_	_
 3	_	_	PART	intprt	_	2	advmod	_	_
 4	_	_	SCONJ	subordconn	_	2	mark	_	_
 5	_	_	PART	illocprt	_	2	advmod	_	_
@@ -14057,6 +14169,10 @@
 7	_	_	ADP	post	_	6	case	_	_
 8	_	_	PUNCT	punct	_	5	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Mboka opẽague
+# document_authorship = Darci Pires de Lima; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R030I001
 # sent_id = 988
 # text =_ _ _ _ _ , _ _ _ _
 1	_	_	ADV	mod	_	3	advmod	_	_
@@ -14223,7 +14339,7 @@
 # sent_id = 1001
 # text =_ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	3	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	SCONJ	subordconn	_	1	mark	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	0	root	_	_
 4	_	_	NOUN	n	_	3	obl	_	_
 5	_	_	ADP	post	_	4	case	_	_
@@ -14287,6 +14403,10 @@
 7	_	_	PART	focprt	_	6	advmod	_	_
 8	_	_	PUNCT	punct	_	6	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Hy'a ombovoague
+# document_authorship = Darci Pires de Lima; April 1977, Brasília, 6th Seminar for the Production of Indigenous Literature
+# document_reference = GUN001R031I001
 # sent_id = 1007
 # text =_ _ _ _ _ _ _ _
 1	_	_	ADV	vi:i	_	4	advmod	_	_
@@ -14504,7 +14624,7 @@
 2	_	_	PART	temprt	_	14	advmod	_	_
 3	_	_	NOUN	n	_	4	nmod	_	_
 4	_	_	NOUN	n	_	2	obl	_	_
-5	_	_	SCONJ	subordconn	_	4	case	_	_
+5	_	_	ADP	post	_	4	case	_	_
 6	_	_	PUNCT	punct	_	7	punct	_	_
 7	_	_	NOUN	n	_	11	parataxis:rep	_	_
 8	_	_	INTJ	onom	_	7	flat	_	_
@@ -14524,7 +14644,7 @@
 # sent_id = 1021
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	18	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	12	advcl	_	_
 4	_	_	PART	focprt	_	3	advmod	_	_
 5	_	_	PART	aspprt	_	3	advmod	_	_
@@ -14577,7 +14697,7 @@
 # sent_id = 1023
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	6	obl:sentcon	_	_
-2	_	_	SCONJ	subordconn	_	1	case	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	6	advcl	_	_
 4	_	_	PART	intprt	_	3	amod	_	_
 5	_	_	SCONJ	subordconn	_	3	mark	_	_
@@ -14627,7 +14747,7 @@
 5	_	_	NOUN	n	_	6	nmod	_	_
 6	_	_	NOUN	n	_	16	obl	_	_
 7	_	_	ADJ	vi:a	_	6	amod	_	_
-8	_	_	SCONJ	subordconn	_	6	case	_	_
+8	_	_	ADP	post	_	6	case	_	_
 9	_	_	PUNCT	punct	_	10	punct	_	_
 10	_	_	NOUN	n	_	14	parataxis:rep	_	_
 11	_	_	INTJ	onom	_	10	flat	_	_
@@ -14723,6 +14843,10 @@
 16	_	_	PART	illocprt	_	14	advmod	_	_
 17	_	_	PUNCT	punct	_	14	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Aguara'i reõ reve okaxa ague
+# document_authorship = Nelson Florentino; January 1990, Coronel Vivida (Paraná), Course for Training Bilingual Instructors
+# document_reference = GUN001R032I001
 # sent_id = 1034
 # text =_ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	3	nsubj	_	_
@@ -14780,7 +14904,7 @@
 2	_	_	PRON	pro	Person=3|PronType=Prs	7	obl:sentcon	_	_
 3	_	_	SCONJ	subordconn	_	2	mark	_	_
 4	_	_	PRON	pro	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-5	_	_	ADV	mod	_	4	amod	_	_
+5	_	_	ADJ	mod	_	4	amod	_	_
 6	_	_	PART	discprt	_	4	amod	_	_
 7	_	_	VERB	vt	Mood=Ind|Person[subj]=1|Subcat=Tran|VerbForm=Fin	10	advcl	_	_
 8	_	_	PART	temprt	_	7	advmod	_	_
@@ -14834,6 +14958,10 @@
 2	_	_	PART	illocprt	_	1	advmod	_	_
 3	_	_	PUNCT	punct	_	1	punct	_	_
 
+# document_source = Dooley, Robert A.. "Mbyá Guaraní Collection of Robert Dooley" The Archive of the Indigenous Languages of Latin America: www.ailla.utexas.org. Media: text. Access: 100% restricted.
+# document_title = Ka'aguy rupigua ndovy'aiague
+# document_authorship = Nelson Florentino; January 1990, Coronel Vivida, Course for Training Bilingual Instructors
+# document_reference = GUN001R033I001
 # sent_id = 1042
 # text =_ _ _ _ _ _ _ _ _
 1	_	_	NOUN	n	_	4	nsubj	_	_
@@ -14897,7 +15025,7 @@
 # sent_id = 1046
 # text =_ _ _ _ _ _ _ _ _ _ _ _ _ _
 1	_	_	PRON	pro	Person=3|PronType=Prs	4	obl:sentcon	_	_
-2	_	_	ADP	post	_	1	mark	_	_
+2	_	_	ADP	post	_	1	case	_	_
 3	_	_	NOUN	n	_	4	obj	_	_
 4	_	_	VERB	vi	Mood=Ind|Person[subj]=3|Subcat=Int|VerbForm=Fin	6	advcl	_	_
 5	_	_	SCONJ	subordconn	_	4	mark	_	_
