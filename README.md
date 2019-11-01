@@ -33,6 +33,9 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 
 # Changelog
 
+* 2019-10-12 v2.4 (dev branch)
+  * Major modifications in preparation for v2.5 release. See updated annotation guidelines.
+
 * 2019-06-07 v2.4 (dev branch)
   * Corrected many typos. Checked for bug with udapi.
 
@@ -49,7 +52,7 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.4
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 4.0
 Includes text: no
 Genre: fiction
 Lemmas: automatic
