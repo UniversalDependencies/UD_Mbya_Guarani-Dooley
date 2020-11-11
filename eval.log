@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Mbya_Guarani-Dooley:
-commit 49190b0cd86ca20a1c3ef9b769fdf715be1d205f
+commit a3e913aa8a46507d4fa657cb61ecae165685533d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:29:18 2019 +0100
+Date:   Sun May 10 18:26:58 2020 +0200
 Size: counted 11771 of 11771 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.93127775886069.
 Size: maximum value 13.815511 is for 1000000 words or more.
