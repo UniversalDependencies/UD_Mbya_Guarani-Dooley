@@ -33,6 +33,9 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Subcat=Int,Ditran changed to Subcat=Intr,Ditr following the global UD documentation.
+
 * 2019-10-12 v2.4 (dev branch)
   * Major modifications in preparation for v2.5 release. See updated annotation guidelines.
 
