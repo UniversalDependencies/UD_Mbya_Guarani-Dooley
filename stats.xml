@@ -67,9 +67,9 @@
     <feat name="PronType" value="Neg" upos="PRON">1</feat><!-- _ -->
     <feat name="PronType" value="Prs" upos="PRON">1040</feat><!-- _, ha'e, xee, Ha'e'ỹ, ndere -->
     <feat name="PronType" value="Tot" upos="DET,PRON">11</feat><!-- _, Opa -->
-    <feat name="Subcat" value="Ditran" upos="VERB">57</feat><!-- _ -->
-    <feat name="Subcat" value="Int" upos="VERB">1084</feat><!-- _, tereo, aa, ereo, huũ, ikuai, nda'eveive, oi, ojae'o, ojapyxaka -->
-    <feat name="Subcat" value="IntInd" upos="VERB">70</feat><!-- _, oma'ẽ, ema'ẽ, oma'ẽmba -->
+    <feat name="Subcat" value="Ditr" upos="VERB">57</feat><!-- _ -->
+    <feat name="Subcat" value="Indir" upos="VERB">70</feat><!-- _, oma'ẽ, ema'ẽ, oma'ẽmba -->
+    <feat name="Subcat" value="Intr" upos="VERB">1084</feat><!-- _, tereo, aa, ereo, huũ, ikuai, nda'eveive, oi, ojae'o, ojapyxaka -->
     <feat name="Subcat" value="Tran" upos="VERB">952</feat><!-- _, he'i, Ereru, aipoa'e, aipoe'i, aity, ndaikuaavei, oguenoẽ'i, oguerovia, omondoropa -->
     <feat name="VerbForm" value="Fin" upos="VERB">1637</feat><!-- _, oma'ẽ, tereo, Ereru, aa, aity, ema'ẽ, ereo, huũ, ikuai -->
     <feat name="VerbForm" value="Inf" upos="VERB">462</feat><!-- _, he'i, aipoa'e, aipoe'i, nda'eveive, oro'e, porayvu, porã-porãve -->
