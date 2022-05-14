@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Mbya_Guarani-Dooley:
-commit 72a742b858285969def1b113ad6d0400801e2fc9
+commit a330b311684371e217e5e9afb901fc005c616ea0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:40:01 2021 +0200
+Date:   Wed Nov 3 16:45:10 2021 +0100
 Size: counted 11771 of 11771 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.93127775886069.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,8 +27,20 @@ Genres: found 1 out of 17 known.
 Availability: README does not say Includes text: yes
 Availability: '_' is the most frequent form.
 validate.py --lang gun --max-err=10 UD_Mbya_Guarani-Dooley/gun_dooley-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 4036 Sent 284 Node 11]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 4037 Sent 284 Node 12]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 4037 Sent 284 Node 12]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 4144 Sent 290 Node 18]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 4145 Sent 290 Node 19]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 4145 Sent 290 Node 19]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 4725 Sent 328 Node 12]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 4726 Sent 328 Node 13]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 4726 Sent 328 Node 13]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+...suppressing further errors regarding Morpho
+Morpho errors: 15
+*** FAILED *** with 15 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.27) = 0.0207692307692308
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -37,6 +49,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
 (weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.0810810810810811) = 0.00623700623700624
-(TOTAL score=0.456190888162326) * (availability=0.1) * (validity=1) = 0.0456190888162326
+(TOTAL score=0.456190888162326) * (availability=0.1) * (validity=0.01) = 0.000456190888162326
 STARS = 0
-UD_Mbya_Guarani-Dooley	0.0456190888162326	0
+UD_Mbya_Guarani-Dooley	0.000456190888162326	0
