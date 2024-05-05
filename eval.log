@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Mbya_Guarani-Dooley:
-commit d1766183d45abfbbb3a6412e1ddd33a2938aeb9c
+commit b20db11c9c2dc2226aa4d3995e5d676e1cd6ef34
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 11:31:13 2023 +0200
+Date:   Mon Nov 6 12:39:35 2023 +0100
 Size: counted 11771 of 11771 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.93127775886069.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -36,6 +36,7 @@ Availability: '_' is the most frequent form.
 [Line 4725 Sent 328 Node 12]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 4726 Sent 328 Node 13]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 [Line 4726 Sent 328 Node 13]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 5152 Sent 354 Node 23]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 ...suppressing further errors regarding Morpho
 Morpho errors: 15
 *** FAILED *** with 15 errors
