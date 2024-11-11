@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Mbya_Guarani-Dooley:
-commit b20db11c9c2dc2226aa4d3995e5d676e1cd6ef34
+commit 9c4d4170c83e146650c1441b8f2c8d3d1645214a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:39:35 2023 +0100
+Date:   Sun May 5 13:05:02 2024 +0200
 Size: counted 11771 of 11771 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.93127775886069.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,6 +27,11 @@ Genres: found 1 out of 17 known.
 Availability: README does not say Includes text: yes
 Availability: '_' is the most frequent form.
 /net/work/people/zeman/unidep/tools/validate.py --lang gun --max-err=10 UD_Mbya_Guarani-Dooley/gun_dooley-ud-test.conllu
+[Line 496 Sent 39 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 916 Sent 68 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:_:det --> 9:_:mark)
+[Line 1826 Sent 133 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 3197 Sent 230 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 3726 Sent 263 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:_:det --> 10:_:mark)
 [Line 4036 Sent 284 Node 11]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 4037 Sent 284 Node 12]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 [Line 4037 Sent 284 Node 12]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
@@ -38,7 +43,14 @@ Availability: '_' is the most frequent form.
 [Line 4726 Sent 328 Node 13]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 5152 Sent 354 Node 23]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 ...suppressing further errors regarding Morpho
+[Line 9239 Sent 635 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 9632 Sent 660 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 9669 Sent 662 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:_:det --> 7:_:mark)
+[Line 9780 Sent 670 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+[Line 10002 Sent 683 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:_:det --> 2:_:mark)
+...suppressing further errors regarding Warning
 Morpho errors: 15
+Warnings: 15
 *** FAILED *** with 15 errors
 Exit code: 1
 Validity: 0.01
