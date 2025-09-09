@@ -57,6 +57,7 @@ The development of the corpus was supported by a Connaught New Researcher Award 
 Data available since: UD v2.4
 License: CC BY-NC-SA 4.0
 Includes text: no
+Parallel: no
 Genre: fiction
 Lemmas: automatic
 UPOS: automatic with corrections
